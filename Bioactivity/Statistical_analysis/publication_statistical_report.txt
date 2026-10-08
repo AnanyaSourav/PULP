@@ -1,0 +1,111 @@
+==============================================================================
+SCRIPT 08 — PUBLICATION-GRADE STATISTICAL VALIDATION REPORT
+==============================================================================
+
+Generated: 2026-08-29T12:13:34.696785
+
+ANALYSIS PRINCIPLES
+------------------------------------------------------------------------------
+TRAIN used for screening and direction determination: YES
+TEST used for feature selection: NO
+TEST used for independent replication: YES
+Target-derived metadata excluded: YES
+Features removed by this script: NO
+Predictive model trained: NO
+
+CLASS DISTRIBUTION
+------------------------------------------------------------------------------
+TRAIN Active: 2,383
+TRAIN Inactive: 45,769
+TRAIN Active fraction: 0.049489
+
+TEST Active: 596
+TEST Inactive: 11,442
+TEST Active fraction: 0.049510
+
+PREDICTOR INVENTORY
+------------------------------------------------------------------------------
+Final handcrafted predictors: 182
+Molecular descriptors: 173
+3D descriptors: 9
+MoLFormer dimensions: 768
+
+STATISTICAL FRAMEWORK
+------------------------------------------------------------------------------
+Primary class comparison: Mann-Whitney U
+Multiple testing: Benjamini-Hochberg FDR
+FDR alpha: 0.05
+Effect size: Cliff's delta
+Discrimination: ROC-AUC
+Class-imbalance-sensitive metric: Average Precision / PR-AUC
+Distributional difference: Kolmogorov-Smirnov
+Bootstrap replicates: 1000
+Permutation replicates: 1000
+
+REPRESENTATION SUMMARY
+------------------------------------------------------------------------------
+representation  features  testable_train  train_fdr_significant  train_practically_meaningful  train_statistically_and_practically_relevant  test_fdr_significant  test_practically_meaningful  fully_replicated  median_train_oriented_auc  median_test_oriented_auc  median_train_ap  median_test_ap  max_train_abs_cliffs_delta  max_test_abs_cliffs_delta best_train_feature  best_train_feature_auc  best_train_feature_ap  best_train_feature_delta
+     molecular       173             173                    125                             5                                             5                    96                            2                 2                   0.514974                  0.516757         0.051818        0.052105                    0.265847                   0.202485       FractionCSP3                0.632923               0.099502                 -0.265847
+            3d         9               9                      9                             0                                             0                     8                            0                 0                   0.538039                  0.536177         0.059171        0.059792                    0.160828                   0.154460                PBF                0.580414               0.087033                 -0.160828
+     molformer       768             768                    620                            21                                            21                   418                            5                 5                   0.533768                  0.529246         0.056491        0.056787                    0.258152                   0.220109     molformer_0279                0.629076               0.080952                 -0.258152
+
+EFFECT STABILITY
+------------------------------------------------------------------------------
+representation  features  testable_effect_pairs  train_fdr_significant  test_fdr_significant  fdr_replicated  practical_train  practical_test  practical_replicated  fully_replicated  same_direction_fraction  median_abs_delta_train  median_abs_delta_test  median_abs_train_test_delta_difference  pearson_effect_r  pearson_effect_p  spearman_effect_rho  spearman_effect_p
+     molecular       173                    170                    125                    96              95                5               2                     2                 2                 0.878613                0.029947               0.033907                                0.007907          0.971338     9.441365e-107             0.953920       9.554578e-90
+            3d         9                      9                      9                     8               8                0               0                     0                 0                 1.000000                0.076078               0.072355                                0.020482          0.962408      3.268756e-05             0.866667       2.495398e-03
+     molformer       768                    768                    620                   418             410               21               5                     5                 5                 0.906250                0.067536               0.058793                                0.016862          0.959979      0.000000e+00             0.956658       0.000000e+00
+
+TRAIN-DERIVED SHORTLIST
+------------------------------------------------------------------------------
+representation              feature  oriented_auc  average_precision  cliffs_delta         fdr_q
+            3d                  PBF      0.580414           0.087033     -0.160828  3.677716e-39
+            3d      SpherocityIndex      0.572213           0.080970     -0.144426  4.992557e-32
+            3d                 PMI1      0.547964           0.060496     -0.095927  7.879324e-15
+            3d  InertialShapeFactor      0.544091           0.059171      0.088182  8.146637e-13
+            3d                 PMI2      0.538039           0.057447     -0.076078  6.445262e-10
+            3d                 NPR2      0.533916           0.060338     -0.067832  3.375993e-08
+            3d     RadiusOfGyration      0.529981           0.055887     -0.059961  9.903351e-07
+            3d         Eccentricity      0.517225           0.050926      0.034449  4.616690e-03
+            3d                 NPR1      0.517182           0.050900     -0.034363  4.616690e-03
+     molecular         FractionCSP3      0.632923           0.099502     -0.265847 3.124014e-104
+     molecular                  SPS      0.619791           0.079779     -0.239581  7.051774e-85
+     molecular NumAtomStereoCenters      0.614407           0.075172     -0.228815  2.659010e-78
+     molecular             SMR_VSA5      0.614385           0.088479     -0.228771  1.069688e-77
+     molecular         BCUT2D_MRLOW      0.606780           0.075951      0.213560  7.913856e-68
+     molecular         BCUT2D_CHGLO      0.595425           0.071590      0.190849  1.969914e-54
+     molecular          VSA_EState6      0.594222           0.067432      0.188444  1.238088e-58
+     molecular     NumAromaticRings      0.593399           0.061637      0.186798  1.813834e-59
+     molecular             SMR_VSA7      0.591470           0.062688      0.182940  2.264333e-50
+     molecular             fr_Al_OH      0.589524           0.062319     -0.179049  1.422218e-51
+     molformer       molformer_0279      0.629076           0.080952     -0.258152  1.335752e-97
+     molformer       molformer_0491      0.622149           0.079123      0.244297  1.318522e-87
+     molformer       molformer_0407      0.621648           0.079052     -0.243297  4.626973e-87
+     molformer       molformer_0047      0.620785           0.075007      0.241569  6.020480e-86
+     molformer       molformer_0230      0.617135           0.076161     -0.234270  6.613878e-81
+     molformer       molformer_0638      0.616790           0.083961      0.233580  1.656342e-80
+     molformer       molformer_0393      0.612843           0.085110     -0.225687  3.281785e-75
+     molformer       molformer_0129      0.611195           0.078699      0.222390  4.404698e-73
+     molformer       molformer_0659      0.610587           0.077862      0.221174  2.460018e-72
+     molformer       molformer_0747      0.609548           0.075506     -0.219096  5.002109e-71
+     molformer       molformer_0298      0.609391           0.077873     -0.218781  7.278739e-71
+     molformer       molformer_0742      0.608836           0.073225     -0.217671  3.477108e-70
+     molformer       molformer_0177      0.607767           0.064419     -0.215534  7.529334e-69
+     molformer       molformer_0119      0.606574           0.073452      0.213149  2.281178e-67
+     molformer       molformer_0400      0.606420           0.074722      0.212839  3.337646e-67
+     molformer       molformer_0367      0.605350           0.071801      0.210701  6.857551e-66
+     molformer       molformer_0485      0.603343           0.067581      0.206685  1.954608e-63
+     molformer       molformer_0536      0.602820           0.073909      0.205640  8.024005e-63
+     molformer       molformer_0418      0.602335           0.068761     -0.204669  2.955763e-62
+     molformer       molformer_0455      0.602032           0.073004      0.204064  6.525968e-62
+     molformer       molformer_0312      0.601389           0.076078      0.202777  3.704871e-61
+
+INTERPRETATION RULE
+------------------------------------------------------------------------------
+Statistical significance alone is not considered sufficient evidence
+of predictive relevance because the training sample contains >48,000
+molecules. Practical effect size, train/test directional stability,
+bootstrap uncertainty, permutation validation, and later multivariate
+predictive performance must be considered jointly.
+
+No features were removed and no predictive model was trained.

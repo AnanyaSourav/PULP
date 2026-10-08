@@ -1,0 +1,4 @@
+representation	representation_code	features	testable_features	median_auc	median_abs_auc_effect	maximum_abs_auc_effect	meaningful_auc_features	maximum_abs_cliffs_delta	meaningful_effect_features
+Molecular descriptors	molecular	218	213	0.4999804066337728	0.02037134297543941	0.5	6	1.0	6
+3D-QSAR descriptors	3d	15	15	0.4657614211284633	0.038281942456415474	0.5	1	1.0	1
+MoLFormer embeddings	molformer	768	768	0.5002401379284964	0.03376804811940043	0.129075865999969	21	0.258151731999938	21

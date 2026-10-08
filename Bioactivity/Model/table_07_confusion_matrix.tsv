@@ -1,0 +1,3 @@
+threshold_policy	threshold	true_inactive_pred_inactive	true_inactive_pred_active	true_active_pred_inactive	true_active_pred_active
+locked_youden	0.046126477738876355	8800	2642	181	415
+0.5	0.5	11403	39	557	39

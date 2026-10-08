@@ -1,0 +1,69 @@
+==============================================================================
+SCRIPT 07 — STATISTICAL FEATURE ANALYSIS REPORT
+==============================================================================
+
+Generated: 2026-08-27T17:41:14.455516
+
+STATISTICAL FRAMEWORK
+------------------------------------------------------------------------------
+Primary test: Mann-Whitney U
+Effect metric: ROC-AUC
+Effect size: Cliff's delta = 2*AUC - 1
+Distribution test: Kolmogorov-Smirnov
+Multiple testing: Benjamini-Hochberg FDR
+FDR alpha: 0.05
+TRAIN used for feature screening: YES
+TEST used for feature selection: NO
+
+REPRESENTATION SUMMARY
+------------------------------------------------------------------------------
+
+molecular_train
+  total_features: 218
+  testable_features: 213
+  fdr_significant: 161
+  meaningful_auc: 6
+  meaningful_effect: 6
+  statistically_and_practically_relevant: 6
+  median_auc: 0.4999804066337728
+  median_abs_auc_effect: 0.02037134297543941
+  maximum_abs_auc_effect: 0.5
+  maximum_abs_cliffs_delta: 1.0
+  best_feature: Activity_Status
+
+3d_train
+  total_features: 15
+  testable_features: 15
+  fdr_significant: 14
+  meaningful_auc: 1
+  meaningful_effect: 1
+  statistically_and_practically_relevant: 1
+  median_auc: 0.46576142112846336
+  median_abs_auc_effect: 0.038281942456415474
+  maximum_abs_auc_effect: 0.5
+  maximum_abs_cliffs_delta: 1.0
+  best_feature: Activity_Status
+
+molformer_train
+  total_features: 768
+  testable_features: 768
+  fdr_significant: 620
+  meaningful_auc: 21
+  meaningful_effect: 21
+  statistically_and_practically_relevant: 21
+  median_auc: 0.5002401379284964
+  median_abs_auc_effect: 0.03376804811940043
+  maximum_abs_auc_effect: 0.129075865999969
+  maximum_abs_cliffs_delta: 0.258151731999938
+  best_feature: molformer_0279
+
+
+IMPORTANT INTERPRETATION
+------------------------------------------------------------------------------
+Statistical significance alone is NOT sufficient for feature selection.
+With ~48,000 molecules, extremely small effects can produce very small
+p-values. Therefore AUC and Cliff's delta should be considered together
+with FDR-adjusted significance and independent TEST replication.
+
+No features were removed by this script.
+No predictive model was trained by this script.

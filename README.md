@@ -1,7 +1,7 @@
 # PULP — Phytochemical Uncertainty Lookup Portal: 
 A generalized hypothesis generating tool for phytochemicals.
 
-**A reproducible computational framework for phytochemical bioactivity prediction and similarity-supported target inference.**
+*A reproducible computational framework for phytochemical bioactivity prediction and similarity-supported target inference.*
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)

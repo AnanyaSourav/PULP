@@ -1,0 +1,14 @@
+Activity_Type	Activity_Relationship	Activity_Unit	Association_Record_Count	Unique_Molecule_Count	Unique_Target_Count	Unique_Reference_Count
+IC50	=	nM	12733	2341	987	6921
+Potency	=	nM	8387	1239	58	2049
+Ki	=	nM	4809	865	486	2187
+EC50	=	nM	2179	392	187	1227
+AC50	=	nM	572	213	25	256
+IC50	<	nM	139	69	64	69
+ED50	=	nM	25	12	11	18
+AC50	<	nM	10	10	3	10
+GI50	=	nM	9	3	5	3
+EC50	<	nM	3	3	2	3
+IC50	<=	nM	2	2	2	2
+Ki	<	nM	2	2	2	2
+Ki	<=	nM	1	1	1	1

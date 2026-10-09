@@ -1,0 +1,12 @@
+Check	Status	Details
+Molecule np_id unique	PASS	duplicates = 0
+Target_ID unique	PASS	duplicates = 0
+All association Ingredient_IDs mapped	PASS	unmapped = 0
+Unique pair count consistent	PASS	expected = 13,708; summary = 13,708
+Evidence count conserves raw records	PASS	evidence total = 28,871; raw records = 28,871
+Binary matrix contains only 0 and 1	PASS	values = [0, 1]
+Binary positive count consistent	PASS	binary positives = 13,708; unique pairs = 13,708
+Evidence matrix non-negative	PASS	All evidence counts >= 0
+Unmapped target investigation complete	PASS	investigated = 385; unmapped target IDs = 385
+Duplicate analysis completed	PASS	duplicate groups = 1,198; extra rows = 1,230
+No target-negative assumption introduced	PASS	Only observed molecule-target associations are represented

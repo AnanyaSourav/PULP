@@ -1,0 +1,10 @@
+stage	component	decision	statistical_basis	role_in_model_development
+1	Dataset definition	Use predefined TRAIN/TEST split	TRAIN n=48,152; TEST n=12,038; independent ID sets	Preserve independent final evaluation set
+2	Class distribution	Treat activity as strongly imbalanced binary classification	TRAIN active fraction ≈4.95%; TEST active fraction ≈4.95%	Accuracy alone should not be the primary evaluation metric
+3	Univariate feature testing	Mann-Whitney U	Non-parametric comparison of active vs inactive feature distributions	Characterise class-associated feature signal
+4	Discrimination effect	ROC-AUC and |AUC−0.50|	Quantifies univariate discrimination independently of prevalence	Distinguish statistically detectable effects from practically useful effects
+5	Effect size	Cliff's delta	Delta = 2×AUC−1	Quantify magnitude of active/inactive separation
+6	Multiple testing	Benjamini-Hochberg FDR	Controls false discovery rate across high-dimensional feature sets	Prevent interpretation based on raw p-values alone
+7	Independent replication	Repeat feature-level analysis on TEST	TEST remains independent of feature screening/model fitting	Identify signal that generalises beyond TRAIN
+8	Representation comparison	Compare molecular descriptors, 3D-QSAR descriptors and MoLFormer embeddings	Compare distributions of feature-level discrimination and replication	Inform candidate representation strategy
+9	Predictive modelling	Proceed to model development only after statistical characterisation	Statistical screening is descriptive/evidence-generating rather than final model selection	Build and compare predictive models using TRAIN only

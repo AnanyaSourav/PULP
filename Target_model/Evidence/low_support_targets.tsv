@@ -1,0 +1,688 @@
+Target_ID	Molecule_Count	Evidence_Record_Count	Mean_Evidence_Per_Molecule	Median_Evidence_Per_Molecule	Maximum_Evidence_Per_Molecule	Independent_Reference_Count	Gene_Symbol	Protein_Name	Uniprot_ID	ChEMBL_ID	TTD_ID	if_DTP	if_CYP	if_therapeutic_target	Target_Class_Level1	Target_Class_Level2	Target_Class_Level3	Target_Class_level_displayed	Target_type	Resolution_Status	Association_Record_Count	Support_Category
+NPT692	3	72	24.0	1.0	70	69	HDAC6	Histone deacetylase 6	Q9UBN7	CHEMBL1865	T22274	0	0	1	Epigenetic regulator	Eraser	Histone deacetylase	Histone deacetylase	Therapeutic Target	MAPPED	72	LOW_1_TO_3
+NPT3201	3	34	11.333333333333334	2.0	30	30	RARA	Retinoic acid receptor alpha	P10276	CHEMBL2055	T94085	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	34	LOW_1_TO_3
+NPT3741	3	28	9.333333333333334	6.0	21	11	GRIA1	Glutamate receptor ionotropic, AMPA 1	P42261	CHEMBL2009	T33584	0	0	1	Ion channel	Ligand-gated ion channel	Ionotropic glutamate receptor	Ionotropic glutamate receptor	Therapeutic Target	MAPPED	28	LOW_1_TO_3
+NPT2817	3	27	9.0	2.0	24	26	IMPDH2	Inosine-5'-monophosphate dehydrogenase 2	P12268	CHEMBL2002	T89360	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	27	LOW_1_TO_3
+NPT686	3	26	8.666666666666666	1.0	24	26	HDAC3	Histone deacetylase 3	O15379	CHEMBL1829	T05090	0	0	1	Epigenetic regulator	Eraser	Histone deacetylase	Histone deacetylase	Therapeutic Target	MAPPED	26	LOW_1_TO_3
+NPT973	3	21	7.0	1.0	19	17	HTR1B	Serotonin 1b (5-HT1b) receptor	P28222	CHEMBL1898	T07806	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	21	LOW_1_TO_3
+NPT4563	3	20	6.666666666666667	2.0	17	16														UNMAPPED	20	LOW_1_TO_3
+NPT3742	3	16	5.333333333333333	4.0	11	12	GRIA2	Glutamate receptor ionotropic, AMPA 2	P42262	CHEMBL4016	T42392	0	0	1	Ion channel	Ligand-gated ion channel	Ionotropic glutamate receptor	Ionotropic glutamate receptor	Therapeutic Target	MAPPED	16	LOW_1_TO_3
+NPT2575	3	15	5.0	7.0	7	15	PDGFRB	Platelet-derived growth factor receptor beta	P09619	CHEMBL1913		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	15	LOW_1_TO_3
+NPT974	3	15	5.0	2.0	11	13	HTR1D	Serotonin 1d (5-HT1d) receptor	P28221	CHEMBL1983	T11072	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	15	LOW_1_TO_3
+NPT1441	3	14	4.666666666666667	3.0	10	9	MAPKAPK2	MAP kinase-activated protein kinase 2	P49137	CHEMBL2208	T21307	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	14	LOW_1_TO_3
+NPT3111	3	14	4.666666666666667	2.0	11	12	LYN	Tyrosine-protein kinase Lyn	P07948	CHEMBL3905	T68163	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	14	LOW_1_TO_3
+NPT5259	3	14	4.666666666666667	1.0	12	4														UNMAPPED	14	LOW_1_TO_3
+NPT1259	3	13	4.333333333333333	2.0	9	12	GRM1	Metabotropic glutamate receptor 1	Q13255	CHEMBL3772	T27137	0	0	1	Membrane receptor	Family C G protein-coupled receptor	Small molecule receptor (family C GPCR)	Small molecule receptor (family C GPCR)	Therapeutic Target	MAPPED	13	LOW_1_TO_3
+NPT1426	3	13	4.333333333333333	6.0	6	13	MAPK8	c-Jun N-terminal kinase 1	P45983	CHEMBL2276	T40097	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	13	LOW_1_TO_3
+NPT3549	3	13	4.333333333333333	3.0	9	12	GRM5	Metabotropic glutamate receptor 5	P41594	CHEMBL3227	T99347	0	0	1	Membrane receptor	Family C G protein-coupled receptor	Small molecule receptor (family C GPCR)	Small molecule receptor (family C GPCR)	Therapeutic Target	MAPPED	13	LOW_1_TO_3
+NPT1185	3	11	3.6666666666666665	1.0	9	10	PSMB1	Proteasome component C5	P20618	CHEMBL4208		0	0	1	Enzyme	Protease	Threonine protease	Threonine protease	Therapeutic Target	MAPPED	11	LOW_1_TO_3
+NPT1186	3	11	3.6666666666666665	2.0	8	9														UNMAPPED	11	LOW_1_TO_3
+NPT1890	3	11	3.6666666666666665	3.0	6	8	ERN1	Serine/threonine-protein kinase/endoribonuclease IRE1	O75460	CHEMBL1163101	T01003	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	11	LOW_1_TO_3
+NPT2213	3	11	3.6666666666666665	2.0	8	11	CDK4	Cyclin-dependent kinase 4	P11802	CHEMBL331	T85799	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	11	LOW_1_TO_3
+NPT3276	3	11	3.6666666666666665	5.0	5	10	TYK2	Tyrosine-protein kinase TYK2	P29597	CHEMBL3553	T78932	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	11	LOW_1_TO_3
+NPT3442	3	11	3.6666666666666665	4.0	6	10	MAP3K7	Mitogen-activated protein kinase kinase kinase 7	O43318	CHEMBL5776	T04361	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	11	LOW_1_TO_3
+NPT3743	3	11	3.6666666666666665	3.0	7	9	GRIA4	Glutamate receptor ionotropic, AMPA 4	P48058	CHEMBL3190	T96235	0	0	1	Ion channel	Ligand-gated ion channel	Ionotropic glutamate receptor	Ionotropic glutamate receptor	Therapeutic Target	MAPPED	11	LOW_1_TO_3
+NPT1435	3	10	3.3333333333333335	3.0	6	9	ERBB4	Receptor protein-tyrosine kinase erbB-4	Q15303	CHEMBL3009		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	10	LOW_1_TO_3
+NPT1518	3	10	3.3333333333333335	2.0	6	5														UNMAPPED	10	LOW_1_TO_3
+NPT1520	3	10	3.3333333333333335	2.0	6	5														UNMAPPED	10	LOW_1_TO_3
+NPT1755	3	10	3.3333333333333335	3.0	5	6	TK1	Thymidine kinase, cytosolic	P04183	CHEMBL2883	T30081	0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	10	LOW_1_TO_3
+NPT810	3	10	3.3333333333333335	2.0	6	7														UNMAPPED	10	LOW_1_TO_3
+NPT142	3	9	3.0	3.0	4	8	FABP4	Fatty acid binding protein adipocyte	P15090	CHEMBL2083	T07217	0	0	1	Auxiliary transport protein	Fatty acid binding protein family	n.a.	Fatty acid binding protein family	Therapeutic Target	MAPPED	9	LOW_1_TO_3
+NPT237	3	9	3.0	2.0	6	3	CXCR1	Interleukin-8 receptor A	P25024	CHEMBL4029	T00884	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Peptide receptor (family A GPCR)	Peptide receptor (family A GPCR)	Therapeutic Target	MAPPED	9	LOW_1_TO_3
+NPT3347	3	9	3.0	1.0	7	9	CDK9	Cyclin-dependent kinase 9	P50750	CHEMBL3116	T44458	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	9	LOW_1_TO_3
+NPT3829	3	9	3.0	3.0	5	8	P2RY11	Purinergic receptor P2Y11	Q96G91	CHEMBL4867	T92689	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	9	LOW_1_TO_3
+NPT4358	3	9	3.0	1.0	7	9	AGTR1	Type-1 angiotensin II receptor	P30556	CHEMBL227	T74456	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Peptide receptor (family A GPCR)	Peptide receptor (family A GPCR)	Therapeutic Target	MAPPED	9	LOW_1_TO_3
+NPT5373	3	9	3.0	3.0	5	9	METAP2	Methionine aminopeptidase 2	P50579	CHEMBL3922	T75596	0	0	1	Enzyme	Protease	Metallo protease	Metallo protease	Therapeutic Target	MAPPED	9	LOW_1_TO_3
+NPT3020	3	8	2.6666666666666665	1.0	6	8	PDGFRA	Platelet-derived growth factor receptor alpha	P16234	CHEMBL2007	T53524	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	8	LOW_1_TO_3
+NPT3381	3	8	2.6666666666666665	3.0	4	8	MINK1	Misshapen-like kinase 1	Q8N4C8	CHEMBL5518		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	8	LOW_1_TO_3
+NPT592	3	8	2.6666666666666665	1.0	6	8	ROCK1	Rho-associated protein kinase 1	Q13464	CHEMBL3231	T51282	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	8	LOW_1_TO_3
+NPT808	3	8	2.6666666666666665	2.0	5	7														UNMAPPED	8	LOW_1_TO_3
+NPT1700	3	7	2.3333333333333335	1.0	5	6	PIM2	Serine/threonine-protein kinase PIM2	Q9P1W9	CHEMBL4523	T07279	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	7	LOW_1_TO_3
+NPT2824	3	7	2.3333333333333335	1.0	5	7														UNMAPPED	7	LOW_1_TO_3
+NPT3223	3	7	2.3333333333333335	2.0	4	7	PHKG2	Phosphorylase kinase gamma subunit 2	P15735	CHEMBL2349	T69208	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	7	LOW_1_TO_3
+NPT3270	3	7	2.3333333333333335	1.0	5	6	NTRK2	Neurotrophic tyrosine kinase receptor type 2	Q16620	CHEMBL4898	T84703	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	7	LOW_1_TO_3
+NPT3425	3	7	2.3333333333333335	2.0	4	7	IRAK4	Interleukin-1 receptor-associated kinase 4	Q9NWZ3	CHEMBL3778		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	7	LOW_1_TO_3
+NPT3745	3	7	2.3333333333333335	3.0	3	7	GRIK5	Glutamate receptor ionotropic kainate 5	Q16478	CHEMBL2675	T87930	0	0	1	Ion channel	Ligand-gated ion channel	Ionotropic glutamate receptor	Ionotropic glutamate receptor	Therapeutic Target	MAPPED	7	LOW_1_TO_3
+NPT1472	3	6	2.0	1.0	4	6														UNMAPPED	6	LOW_1_TO_3
+NPT1630	3	6	2.0	1.0	4	6	CAMK2B	CaM kinase II beta	Q13554	CHEMBL4121	T18299	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT1656	3	6	2.0	1.0	4	6	PKN1	Protein kinase N1	Q16512	CHEMBL3384	T60003	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT1703	3	6	2.0	1.0	4	6	PRKACA	cAMP-dependent protein kinase alpha-catalytic subunit	P17612	CHEMBL4101	T20669	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT1791	3	6	2.0	2.0	2	3	NISCH	Nischarin	Q9Y2I1	CHEMBL3923	T78943	0	0	1	Other cytosolic protein	n.a.	n.a.	Other cytosolic protein	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT2732	3	6	2.0	2.0	3	6	ALDH2	Aldehyde dehydrogenase	P05091	CHEMBL1935	T99641	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT3107	3	6	2.0	1.0	4	6	ROCK2	Rho-associated protein kinase 2	O75116	CHEMBL2973	T06093	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT322	3	6	2.0	2.0	3	6	TOP2B	DNA topoisomerase II beta	Q02880	CHEMBL3396	T96144	0	0	1	Enzyme	Isomerase	n.a.	Isomerase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT3324	3	6	2.0	1.0	4	4	CDK8	Cell division protein kinase 8	P49336	CHEMBL5719	T10822	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT3331	3	6	2.0	1.0	4	6	STK3	Serine/threonine-protein kinase MST2	Q13188	CHEMBL4708		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT4248	3	6	2.0	2.0	3	5														UNMAPPED	6	LOW_1_TO_3
+NPT4309	3	6	2.0	1.0	4	6														UNMAPPED	6	LOW_1_TO_3
+NPT4324	3	6	2.0	2.0	2	3														UNMAPPED	6	LOW_1_TO_3
+NPT912	3	6	2.0	1.0	4	6	AHCY	Adenosylhomocysteinase	P23526	CHEMBL2664	T68698	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT1612	3	5	1.6666666666666667	2.0	2	5	MAPKAPK5	MAP kinase-activated protein kinase 5	Q8IW41	CHEMBL3094	T29754	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT1675	3	5	1.6666666666666667	2.0	2	5	CAMK2D	CaM kinase II delta	Q13557	CHEMBL2801	T18299	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT1676	3	5	1.6666666666666667	2.0	2	5	CAMK2G	CaM kinase II gamma	Q13555	CHEMBL3829	T18299	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT1706	3	5	1.6666666666666667	2.0	2	5	SLK	Serine/threonine-protein kinase 2	Q9H2G2	CHEMBL4202	T57307	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT2736	3	5	1.6666666666666667	1.0	3	5	ESRRA	Estrogen-related receptor alpha	P11474	CHEMBL3429	T68066	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 3	Nuclear hormone receptor subfamily 3	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT2876	3	5	1.6666666666666667	2.0	2	3														UNMAPPED	5	LOW_1_TO_3
+NPT2877	3	5	1.6666666666666667	2.0	2	3														UNMAPPED	5	LOW_1_TO_3
+NPT2879	3	5	1.6666666666666667	2.0	2	3	SLC29A1	Equilibrative nucleoside transporter 1	Q99808	CHEMBL1997	T13491	1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	5	LOW_1_TO_3
+NPT3204	3	5	1.6666666666666667	2.0	2	5	FRK	Tyrosine-protein kinase FRK	P42685	CHEMBL4223		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3242	3	5	1.6666666666666667	2.0	2	5	LIMK1	LIM domain kinase 1	P53667	CHEMBL3836	T70840	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3277	3	5	1.6666666666666667	1.0	3	5	TYRO3	Tyrosine-protein kinase receptor TYRO3	Q06418	CHEMBL5314	T94880	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3290	3	5	1.6666666666666667	2.0	2	5	SIK2	Serine/threonine-protein kinase SIK2	Q9H0K1	CHEMBL5699	T30495	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3315	3	5	1.6666666666666667	2.0	2	5	BRSK1	BR serine/threonine-protein kinase 1	Q8TDC3	CHEMBL5650	T20053	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3320	3	5	1.6666666666666667	1.0	3	5	MERTK	Proto-oncogene tyrosine-protein kinase MER	Q12866	CHEMBL5331	T55781	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3365	3	5	1.6666666666666667	2.0	2	5	PRKD2	Serine/threonine-protein kinase D2	Q9BZL6	CHEMBL4900		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT4023	3	5	1.6666666666666667	1.0	3	3	CYP3A5	Cytochrome P450 3A5	P20815	CHEMBL3019		0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 3	Cytochrome P450 family 3	Cytochrome P450	MAPPED	5	LOW_1_TO_3
+NPT4088	3	5	1.6666666666666667	1.0	3	5	GRK6	G protein-coupled receptor kinase 6	P43250	CHEMBL6144		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT4093	3	5	1.6666666666666667	1.0	3	5	HASPIN	Serine/threonine-protein kinase haspin	Q8TF76	CHEMBL1075163		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT647	3	5	1.6666666666666667	1.0	3	4														UNMAPPED	5	LOW_1_TO_3
+NPT1447	3	4	1.3333333333333333	1.0	2	4	RIPK2	Serine/threonine-protein kinase RIPK2	O43353	CHEMBL5014	T92463	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT156	3	4	1.3333333333333333	1.0	2	4														UNMAPPED	4	LOW_1_TO_3
+NPT1667	3	4	1.3333333333333333	1.0	2	4	PYGL	Liver glycogen phosphorylase	P06737	CHEMBL2568	T19184	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT1687	3	4	1.3333333333333333	1.0	2	4	DAPK3	Death-associated protein kinase 3	O43293	CHEMBL2468	T81623	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT1702	3	4	1.3333333333333333	1.0	2	4	PLK4	Serine/threonine-protein kinase PLK4	O00444	CHEMBL3788	T71374	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT1709	3	4	1.3333333333333333	1.0	2	4	STK17A	Serine/threonine-protein kinase 17A	Q9UEE5	CHEMBL4525	T91323	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT2653	3	4	1.3333333333333333	1.0	2	4														UNMAPPED	4	LOW_1_TO_3
+NPT3159	3	4	1.3333333333333333	1.0	2	3	CYP17A1	Cytochrome P450 17A1	P05093	CHEMBL3522	T89041	0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 17	Cytochrome P450 family 17	Cytochrome P450	MAPPED	4	LOW_1_TO_3
+NPT3245	3	4	1.3333333333333333	1.0	2	4	TNK2	Tyrosine kinase non-receptor protein 2	Q07912	CHEMBL4599	T63220	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3271	3	4	1.3333333333333333	1.0	2	4	NTRK3	NT-3 growth factor receptor	Q16288	CHEMBL5608	T51076	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3280	3	4	1.3333333333333333	1.0	2	4	MARK3	Serine/threonine-protein kinase c-TAK1	P27448	CHEMBL5600	T90553	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3282	3	4	1.3333333333333333	1.0	2	4	MELK	Maternal embryonic leucine zipper kinase	Q14680	CHEMBL4578	T96892	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3283	3	4	1.3333333333333333	1.0	2	4	MKNK1	MAP kinase-interacting serine/threonine-protein kinase MNK1	Q9BUB5	CHEMBL4718	T97136	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3318	3	4	1.3333333333333333	1.0	2	4	MARK4	MAP/microtubule affinity-regulating kinase 4	Q96L34	CHEMBL5754		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3431	3	4	1.3333333333333333	1.0	2	4	TAOK1	Serine/threonine-protein kinase TAO1	Q7L7X3	CHEMBL5261	T97016	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3432	3	4	1.3333333333333333	1.0	2	4	HIPK2	Homeodomain-interacting protein kinase 2	Q9H2X6	CHEMBL4576	T53952	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3456	3	4	1.3333333333333333	1.0	2	4	SGK2	Serine/threonine-protein kinase Sgk2	Q9HBY8	CHEMBL5794	T64102	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT4884	3	4	1.3333333333333333	1.0	2	4	ATR	Serine-protein kinase ATR	Q13535	CHEMBL5024	T97155	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT4897	3	4	1.3333333333333333	1.0	2	3														UNMAPPED	4	LOW_1_TO_3
+NPT5009	3	4	1.3333333333333333	1.0	2	4	GSTP1	Glutathione S-transferase Pi	P09211	CHEMBL3902		0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT5100	3	4	1.3333333333333333	1.0	2	4														UNMAPPED	4	LOW_1_TO_3
+NPT511	3	4	1.3333333333333333	1.0	2	4														UNMAPPED	4	LOW_1_TO_3
+NPT5646	3	4	1.3333333333333333	1.0	2	3														UNMAPPED	4	LOW_1_TO_3
+NPT5802	3	4	1.3333333333333333	1.0	2	4														UNMAPPED	4	LOW_1_TO_3
+NPT644	3	4	1.3333333333333333	1.0	2	4														UNMAPPED	4	LOW_1_TO_3
+NPT102	3	3	1.0	1.0	1	3	CXCL8	Interleukin-8	P10145	CHEMBL2157	T22658	0	0	1	Secreted protein	n.a.	n.a.	Secreted protein	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT1029	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT1110	3	3	1.0	1.0	1	3	CCR6	C-C chemokine receptor type 6	P51684	CHEMBL4423		0	0	1	Membrane receptor	Family A G protein-coupled receptor	Peptide receptor (family A GPCR)	Peptide receptor (family A GPCR)	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT1569	3	3	1.0	1.0	1	3	CTRC	Chymotrypsin C	Q99895	CHEMBL2386	T10118	0	0	1	Enzyme	Protease	Serine protease	Serine protease	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT1654	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT1746	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT2217	3	3	1.0	1.0	1	3	CYP51A1	Cytochrome P450 51	Q16850	CHEMBL3849	T32972	0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 51	Cytochrome P450 family 51	Cytochrome P450	MAPPED	3	LOW_1_TO_3
+NPT2553	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT2752	3	3	1.0	1.0	1	3	DNMT1	DNA (cytosine-5)-methyltransferase 1	P26358	CHEMBL1993	T88304	0	0	1	Epigenetic regulator	Writer	DNA methyltransferase	DNA methyltransferase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3133	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT3160	3	3	1.0	1.0	1	3	CYP11B2	Cytochrome P450 11B2	P19099	CHEMBL2722	T59056	0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 11	Cytochrome P450 family 11	Cytochrome P450	MAPPED	3	LOW_1_TO_3
+NPT3161	3	3	1.0	1.0	1	3	CYP11B1	Cytochrome P450 11B1	P15538	CHEMBL1908	T84621	0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 11	Cytochrome P450 family 11	Cytochrome P450	MAPPED	3	LOW_1_TO_3
+NPT3172	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT3369	3	3	1.0	1.0	1	3	EIF2AK2	Interferon-induced, double-stranded RNA-activated protein kinase	P19525	CHEMBL5785		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3579	3	3	1.0	1.0	1	3	CAPN1	Calpain 1	P07384	CHEMBL3891	T92517	0	0	1	Enzyme	Protease	Cysteine protease	Cysteine protease	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3732	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT3812	3	3	1.0	1.0	1	3	SLCO4C1	Solute carrier organic anion transporter family member 4C1	Q6ZQN7	CHEMBL2073690	T36053	1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	3	LOW_1_TO_3
+NPT4110	3	3	1.0	1.0	1	3	EBP	3-beta-hydroxysteroid-delta(8),delta(7)-isomerase	Q15125	CHEMBL4931	T25317	0	0	1	Enzyme	Isomerase	n.a.	Isomerase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT4576	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT5270	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT532	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT5406	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT585	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT5891	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT703	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT817	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT903	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT905	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT910	3	3	1.0	1.0	1	3														UNMAPPED	3	LOW_1_TO_3
+NPT811	2	57	28.5	28.5	56	4														UNMAPPED	57	LOW_1_TO_3
+NPT5649	2	22	11.0	11.0	21	22	HDAC10	Histone deacetylase 10	Q969S8	CHEMBL5103	T94324	0	0	1	Epigenetic regulator	Eraser	Histone deacetylase	Histone deacetylase	Therapeutic Target	MAPPED	22	LOW_1_TO_3
+NPT6544	2	19	9.5	9.5	18	13	REN	Renin	P00797	CHEMBL286	T61622	0	0	1	Enzyme	Protease	Aspartic protease	Aspartic protease	Therapeutic Target	MAPPED	19	LOW_1_TO_3
+NPT2761	2	16	8.0	8.0	15	15	PDE4A	Phosphodiesterase 4A	P27815	CHEMBL254	T61744	0	0	1	Enzyme	Phosphodiesterase	Phosphodiesterase 4	Phosphodiesterase 4	Therapeutic Target	MAPPED	16	LOW_1_TO_3
+NPT1057	2	15	7.5	7.5	14	4														UNMAPPED	15	LOW_1_TO_3
+NPT5106	2	15	7.5	7.5	14	14	PDE10A	Phosphodiesterase 10A	Q9Y233	CHEMBL4409	T84133	0	0	1	Enzyme	Phosphodiesterase	Phosphodiesterase 10	Phosphodiesterase 10	Therapeutic Target	MAPPED	15	LOW_1_TO_3
+NPT5648	2	15	7.5	7.5	14	15	HDAC11	Histone deacetylase 11	Q96DB2	CHEMBL3310	T97903	0	0	1	Epigenetic regulator	Eraser	Histone deacetylase	Histone deacetylase	Therapeutic Target	MAPPED	15	LOW_1_TO_3
+NPT1689	2	14	7.0	7.0	7	12	JAK1	Tyrosine-protein kinase JAK1	P23458	CHEMBL2835	T62460	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	14	LOW_1_TO_3
+NPT1008	2	12	6.0	6.0	9	8	GABRR1	GABA receptor rho-1 subunit	P24046	CHEMBL3561	T99665	0	0	1	Ion channel	Ligand-gated ion channel	GABA-A receptor	GABA-A receptor	Therapeutic Target	MAPPED	12	LOW_1_TO_3
+NPT697	2	12	6.0	6.0	8	2														UNMAPPED	12	LOW_1_TO_3
+NPT4565	2	11	5.5	5.5	9	10														UNMAPPED	11	LOW_1_TO_3
+NPT1647	2	10	5.0	5.0	6	2														UNMAPPED	10	LOW_1_TO_3
+NPT2926	2	10	5.0	5.0	8	9														UNMAPPED	10	LOW_1_TO_3
+NPT3239	2	10	5.0	5.0	9	9	NTRK1	Nerve growth factor receptor Trk-A	P04629	CHEMBL2815	T07173	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	10	LOW_1_TO_3
+NPT3227	2	9	4.5	4.5	8	9	FGFR3	Fibroblast growth factor receptor 3	P22607	CHEMBL2742	T91331	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	9	LOW_1_TO_3
+NPT3737	2	9	4.5	4.5	5	5	GRIK2	Glutamate receptor ionotropic kainate 2	Q13002	CHEMBL3683	T58178	0	0	1	Ion channel	Ligand-gated ion channel	Ionotropic glutamate receptor	Ionotropic glutamate receptor	Therapeutic Target	MAPPED	9	LOW_1_TO_3
+NPT3744	2	9	4.5	4.5	5	5	GRIK1	Glutamate receptor ionotropic kainate 1	P39086	CHEMBL1918	T73495	0	0	1	Ion channel	Ligand-gated ion channel	Ionotropic glutamate receptor	Ionotropic glutamate receptor	Therapeutic Target	MAPPED	9	LOW_1_TO_3
+NPT4562	2	9	4.5	4.5	8	5														UNMAPPED	9	LOW_1_TO_3
+NPT707	2	9	4.5	4.5	8	5														UNMAPPED	9	LOW_1_TO_3
+NPT2546	2	8	4.0	4.0	7	8	AKT3	Serine/threonine-protein kinase AKT3	Q9Y243	CHEMBL4816		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	8	LOW_1_TO_3
+NPT3825	2	8	4.0	4.0	6	8	P2RY1	Purinergic receptor P2Y1	P47900	CHEMBL4315	T67818	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	8	LOW_1_TO_3
+NPT1430	2	7	3.5	3.5	6	7	AKT2	Serine/threonine-protein kinase AKT2	P31751	CHEMBL2431	T62753	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	7	LOW_1_TO_3
+NPT1439	2	7	3.5	3.5	6	5	ITK	Tyrosine-protein kinase ITK/TSK	Q08881	CHEMBL2959	T91761	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	7	LOW_1_TO_3
+NPT3414	2	7	3.5	3.5	6	7	PLK2	Serine/threonine-protein kinase PLK2	Q9NYY3	CHEMBL5938	T59654	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	7	LOW_1_TO_3
+NPT3758	2	7	3.5	3.5	6	4														UNMAPPED	7	LOW_1_TO_3
+NPT3838	2	7	3.5	3.5	6	6	ADA	Adenosine deaminase	P00813	CHEMBL1910	T03661	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	7	LOW_1_TO_3
+NPT1495	2	6	3.0	3.0	5	4														UNMAPPED	6	LOW_1_TO_3
+NPT2724	2	6	3.0	3.0	5	3														UNMAPPED	6	LOW_1_TO_3
+NPT2961	2	6	3.0	3.0	5	3	TDO2	Tryptophan 2,3-dioxygenase	P48775	CHEMBL2140	T44818	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT3372	2	6	3.0	3.0	5	6	FGFR4	Fibroblast growth factor receptor 4	P22455	CHEMBL3973		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT5199	2	6	3.0	3.0	3	6	TUBB3	Tubulin beta-3 chain	Q13509	CHEMBL2597		0	0	1	Structural protein	n.a.	n.a.	Structural protein	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT1611	2	5	2.5	2.5	4	5	RPS6KB1	Ribosomal protein S6 kinase 1	P23443	CHEMBL4501	T94479	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3215	2	5	2.5	2.5	4	5	PTK6	Tyrosine-protein kinase BRK	Q13882	CHEMBL4601	T73694	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3225	2	5	2.5	2.5	3	4	EPHA2	Ephrin type-A receptor 2	P29317	CHEMBL2068	T57278	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3604	2	5	2.5	2.5	4	2	NR1I3	Nuclear receptor subfamily 1 group I member 3	Q14994	CHEMBL5503	T69506	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3731	2	5	2.5	2.5	3	5														UNMAPPED	5	LOW_1_TO_3
+NPT4001	2	5	2.5	2.5	4	4														UNMAPPED	5	LOW_1_TO_3
+NPT5234	2	5	2.5	2.5	3	4														UNMAPPED	5	LOW_1_TO_3
+NPT5847	2	5	2.5	2.5	3	3														UNMAPPED	5	LOW_1_TO_3
+NPT982	2	5	2.5	2.5	4	5	CHUK	Inhibitor of nuclear factor kappa B kinase alpha subunit	O15111	CHEMBL3476		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT1437	2	4	2.0	2.0	3	4	FES	Tyrosine-protein kinase FES	P07332	CHEMBL5455	T29083	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT1443	2	4	2.0	2.0	2	4	PDK1	Pyruvate dehydrogenase kinase isoform 1	Q15118	CHEMBL4766	T15776	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT1691	2	4	2.0	2.0	3	4	MAP2K6	Dual specificity mitogen-activated protein kinase kinase 6	P52564	CHEMBL2171		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT235	2	4	2.0	2.0	3	2														UNMAPPED	4	LOW_1_TO_3
+NPT2737	2	4	2.0	2.0	3	4	ESRRB	Estrogen-related receptor beta	O95718	CHEMBL3751	T68066	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 3	Nuclear hormone receptor subfamily 3	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT2878	2	4	2.0	2.0	2	2														UNMAPPED	4	LOW_1_TO_3
+NPT2883	2	4	2.0	2.0	2	4														UNMAPPED	4	LOW_1_TO_3
+NPT3109	2	4	2.0	2.0	2	4	MAP4K5	Mitogen-activated protein kinase kinase kinase kinase 5	Q9Y4K4	CHEMBL4852		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3244	2	4	2.0	2.0	3	4	FER	Tyrosine-protein kinase FER	P16591	CHEMBL3982	T16993	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3303	2	4	2.0	2.0	2	3	DDR2	Discoidin domain-containing receptor 2	Q16832	CHEMBL5122	T11764	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3309	2	4	2.0	2.0	3	4	LTK	Leukocyte tyrosine kinase receptor	P29376	CHEMBL5627	T47657	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3319	2	4	2.0	2.0	3	4	MAP2K4	Dual specificity mitogen-activated protein kinase kinase 4	P45985	CHEMBL2897		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3327	2	4	2.0	2.0	3	4	MAP3K10	Mitogen-activated protein kinase kinase kinase 10	Q02779	CHEMBL2873	T89323	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3358	2	4	2.0	2.0	2	3	PLK3	Serine/threonine-protein kinase PLK3	Q9H4B4	CHEMBL4897		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3386	2	4	2.0	2.0	2	4	IRAK1	Interleukin-1 receptor-associated kinase 1	P51617	CHEMBL3357	T63846	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3441	2	4	2.0	2.0	2	4	MAP2K7	Dual specificity mitogen-activated protein kinase kinase 7	O14733	CHEMBL3530	T53159	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3448	2	4	2.0	2.0	3	4	LRRK2	Leucine-rich repeat serine/threonine-protein kinase 2	Q5S007	CHEMBL1075104	T08123	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3708	2	4	2.0	2.0	3	4	SCN9A	Sodium channel protein type IX alpha subunit	Q15858	CHEMBL4296	T12119	1	0	0	Ion channel	Voltage-gated ion channel	Voltage-gated sodium channel	Voltage-gated sodium channel	Drug Transporter	MAPPED	4	LOW_1_TO_3
+NPT3713	2	4	2.0	2.0	3	4	SCN4A	Sodium channel protein type IV alpha subunit	P35499	CHEMBL2072	T02546	1	0	0	Ion channel	Voltage-gated ion channel	Voltage-gated sodium channel	Voltage-gated sodium channel	Drug Transporter	MAPPED	4	LOW_1_TO_3
+NPT3746	2	4	2.0	2.0	2	4	GRIK3	Glutamate receptor ionotropic kainate 3	Q13003	CHEMBL3684	T68876	0	0	1	Ion channel	Ligand-gated ion channel	Ionotropic glutamate receptor	Ionotropic glutamate receptor	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT4169	2	4	2.0	2.0	2	2	SF3B3	Splicing factor 3B subunit 3	Q15393	CHEMBL1250378		0	0	1	Other nuclear protein	n.a.	n.a.	Other nuclear protein	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT5136	2	4	2.0	2.0	3	4														UNMAPPED	4	LOW_1_TO_3
+NPT516	2	4	2.0	2.0	3	3	TNF	TNF-alpha	P01375	CHEMBL1825		0	0	1	Secreted protein	n.a.	n.a.	Secreted protein	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT5886	2	4	2.0	2.0	3	3	ELAVL1	ELAV-like protein 1	Q15717	CHEMBL1250379	T78349	0	0	1	Unclassified protein	n.a.	n.a.	Unclassified protein	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT907	2	4	2.0	2.0	2	2														UNMAPPED	4	LOW_1_TO_3
+NPT1139	2	3	1.5	1.5	2	3														UNMAPPED	3	LOW_1_TO_3
+NPT1289	2	3	1.5	1.5	2	3														UNMAPPED	3	LOW_1_TO_3
+NPT1672	2	3	1.5	1.5	2	3	CAMK1D	CaM kinase I delta	Q8IU85	CHEMBL5073		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT1678	2	3	1.5	1.5	2	3	CAMKK2	CaM-kinase kinase beta	Q96RR4	CHEMBL5284	T82262	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT1683	2	3	1.5	1.5	2	3	CLK3	Dual specificity protein kinase CLK3	P49761	CHEMBL4226	T51468	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT1685	2	3	1.5	1.5	2	3														UNMAPPED	3	LOW_1_TO_3
+NPT1686	2	3	1.5	1.5	2	3														UNMAPPED	3	LOW_1_TO_3
+NPT1713	2	3	1.5	1.5	2	3	PBK	PDZ-binding kinase	Q96KB5	CHEMBL4896	T98642	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT1731	2	3	1.5	1.5	2	3														UNMAPPED	3	LOW_1_TO_3
+NPT2750	2	3	1.5	1.5	2	3	BMX	Tyrosine-protein kinase BMX	P51813	CHEMBL3834	T99990	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3116	2	3	1.5	1.5	2	2														UNMAPPED	3	LOW_1_TO_3
+NPT3206	2	3	1.5	1.5	2	3	AURKC	Serine/threonine-protein kinase Aurora-C	Q9UQB9	CHEMBL3935	T97592	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3236	2	3	1.5	1.5	2	3	DAPK2	Death-associated protein kinase 2	Q9UIK4	CHEMBL3123		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3262	2	3	1.5	1.5	2	3	PRKX	Serine/threonine-protein kinase PRKX	P51817	CHEMBL5818		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3263	2	3	1.5	1.5	2	3	PTK2B	Protein tyrosine kinase 2 beta	Q14289	CHEMBL5469	T07087	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3275	2	3	1.5	1.5	2	3	IKBKE	Inhibitor of nuclear factor kappa B kinase epsilon subunit	Q14164	CHEMBL3529		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3388	2	3	1.5	1.5	2	3	MATK	Tyrosine-protein kinase CTK	P42679	CHEMBL4175		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3396	2	3	1.5	1.5	2	3	NEK4	Serine/threonine-protein kinase Nek4	P51957	CHEMBL5819		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3409	2	3	1.5	1.5	2	3	HIPK3	Homeodomain-interacting protein kinase 3	Q9H422	CHEMBL4577		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3417	2	3	1.5	1.5	2	3	TBK1	Serine/threonine-protein kinase TBK1	Q9UHD2	CHEMBL5408	T63024	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3457	2	3	1.5	1.5	2	3	GRK5	G protein-coupled receptor kinase 5	P34947	CHEMBL5678	T69612	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3712	2	3	1.5	1.5	2	3	SCN8A	Sodium channel protein type VIII alpha subunit	Q9UQD0	CHEMBL5202	T58741	1	0	0	Ion channel	Voltage-gated ion channel	Voltage-gated sodium channel	Voltage-gated sodium channel	Drug Transporter	MAPPED	3	LOW_1_TO_3
+NPT3714	2	3	1.5	1.5	2	3	SCN3A	Sodium channel protein type III alpha subunit	Q9NY46	CHEMBL5163	T76937	0	0	1	Ion channel	Voltage-gated ion channel	Voltage-gated sodium channel	Voltage-gated sodium channel	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3715	2	3	1.5	1.5	2	3	SCN2A	Sodium channel protein type II alpha subunit	Q99250	CHEMBL4187	T29678	0	0	1	Ion channel	Voltage-gated ion channel	Voltage-gated sodium channel	Voltage-gated sodium channel	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3716	2	3	1.5	1.5	2	3	SCN1A	Sodium channel protein type I alpha subunit	P35498	CHEMBL1845	T58440	1	0	0	Ion channel	Voltage-gated ion channel	Voltage-gated sodium channel	Voltage-gated sodium channel	Drug Transporter	MAPPED	3	LOW_1_TO_3
+NPT4170	2	3	1.5	1.5	2	3	FKBP5	Peptidyl-prolyl cis-trans isomerase FKBP5	Q13451	CHEMBL2052031	T98337	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT424	2	3	1.5	1.5	2	3	CHRNA3	Neuronal acetylcholine receptor subunit alpha-3	P32297	CHEMBL3068	T54931	0	0	1	Ion channel	Ligand-gated ion channel	Nicotinic acetylcholine receptor	Nicotinic acetylcholine receptor	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT4407	2	3	1.5	1.5	2	2	PFKFB3	6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 3	Q16875	CHEMBL2331053	T23787	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT4418	2	3	1.5	1.5	2	2														UNMAPPED	3	LOW_1_TO_3
+NPT4506	2	3	1.5	1.5	2	3														UNMAPPED	3	LOW_1_TO_3
+NPT4582	2	3	1.5	1.5	2	2														UNMAPPED	3	LOW_1_TO_3
+NPT498	2	3	1.5	1.5	2	2														UNMAPPED	3	LOW_1_TO_3
+NPT4999	2	3	1.5	1.5	2	3	MEN1	Menin	O00255	CHEMBL1615381		0	0	1	Unclassified protein	n.a.	n.a.	Unclassified protein	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT5235	2	3	1.5	1.5	2	3	FABP5	Fatty acid binding protein epidermal	Q01469	CHEMBL3674	T21507	0	0	1	Auxiliary transport protein	Fatty acid binding protein family	n.a.	Fatty acid binding protein family	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT5403	2	3	1.5	1.5	2	2														UNMAPPED	3	LOW_1_TO_3
+NPT5463	2	3	1.5	1.5	2	2														UNMAPPED	3	LOW_1_TO_3
+NPT5645	2	3	1.5	1.5	2	2	CPA1	Carboxypeptidase A1	P15085	CHEMBL2088	T33966	0	0	1	Enzyme	Protease	Metallo protease	Metallo protease	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT5976	2	3	1.5	1.5	2	3	COX2	Cytochrome c oxidase subunit 2	P00403	CHEMBL6174		0	0	1	Transporter	Primary active transporter	Oxidoreduction-driven transporters	Oxidoreduction-driven transporters	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT832	2	3	1.5	1.5	2	3														UNMAPPED	3	LOW_1_TO_3
+NPT107	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT1111	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT1132	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT1133	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT1391	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT1394	2	2	1.0	1.0	1	2	UMPS	Uridine 5'-monophosphate synthase	P11172	CHEMBL5216	T15851	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1407	2	2	1.0	1.0	1	2	GABBR1	GABA-B receptor 1	Q9UBS5	CHEMBL2064	T42446	0	0	1	Membrane receptor	Family C G protein-coupled receptor	Small molecule receptor (family C GPCR)	Small molecule receptor (family C GPCR)	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1510	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT1517	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT1575	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT160	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT1657	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT1670	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT1728	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT1729	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT1814	2	2	1.0	1.0	1	2	GCGR	Glucagon receptor	P47871	CHEMBL1985		0	0	1	Membrane receptor	Family B G protein-coupled receptor	Peptide receptor (family B GPCR)	Peptide receptor (family B GPCR)	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1898	2	2	1.0	1.0	1	2	SHH	Sonic hedgehog protein	Q15465	CHEMBL5602	T12075	0	0	1	Unclassified protein	n.a.	n.a.	Unclassified protein	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT2215	2	2	1.0	1.0	1	2	POLA1	DNA polymerase alpha subunit	P09884	CHEMBL1828	T26463	0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT2222	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT247	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT2604	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT2652	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT2654	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT2674	2	2	1.0	1.0	1	2	P2RX1	P2X purinoceptor 1	P51575	CHEMBL2094	T69091	0	0	1	Ion channel	Ligand-gated ion channel	P2X receptor	P2X receptor	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT278	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT284	2	2	1.0	1.0	1	2	PPP3CA	Serine/threonine protein phosphatase 2B catalytic subunit, alpha isoform	Q08209	CHEMBL4445	T25464	0	0	1	Enzyme	Phosphatase	Protein Phosphatase	Protein Phosphatase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT2852	2	2	1.0	1.0	1	2	PRNP	Prion protein	P04156	CHEMBL4869	T08722	0	0	1	Surface antigen	n.a.	n.a.	Surface antigen	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT2969	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT3000	2	2	1.0	1.0	1	2	MGLL	Monoglyceride lipase	Q99685	CHEMBL4191	T18664	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3068	2	2	1.0	1.0	1	2	LTB4R	Leukotriene B4 receptor 1	Q15722	CHEMBL3911	T59626	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3166	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT3221	2	2	1.0	1.0	1	2	GAK	Serine/threonine-protein kinase GAK	O14976	CHEMBL4355		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3230	2	2	1.0	1.0	1	2	STK17B	Serine/threonine-protein kinase 17B	O94768	CHEMBL3980		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3287	2	2	1.0	1.0	1	2	ACVR1	Activin receptor type-1	Q04771	CHEMBL5903	T12091	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3444	2	2	1.0	1.0	1	2	HIPK1	Homeodomain-interacting protein kinase 1	Q86Z02	CHEMBL5427		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3720	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT3835	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT3969	2	2	1.0	1.0	1	2	ATP12A	Potassium-transporting ATPase alpha chain 2	P54707	CHEMBL2933		1	0	0	Enzyme	Hydrolase	n.a.	Hydrolase	Drug Transporter	MAPPED	2	LOW_1_TO_3
+NPT3973	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT4016	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT4161	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT4219	2	2	1.0	1.0	1	2	CHAT	Choline acetylase	P28329	CHEMBL4039		0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT4355	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT4371	2	2	1.0	1.0	1	2	FKBP4	FK506 binding protein 4	Q02790	CHEMBL4050	T87020	0	0	1	Enzyme	Isomerase	n.a.	Isomerase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT4734	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT476	2	2	1.0	1.0	1	2	ATIC	AICAR transformylase	P31939	CHEMBL2518	T04741	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT4848	2	2	1.0	1.0	1	2	HSPA1A	Heat shock 70 kDa protein 1	P0DMV8	CHEMBL5460	T49639	0	0	1	Other cytosolic protein	n.a.	n.a.	Other cytosolic protein	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT5	2	2	1.0	1.0	1	2	EHMT2	Histone-lysine N-methyltransferase, H3 lysine-9 specific 3	Q96KQ7	CHEMBL6032	T53251	0	0	1	Epigenetic regulator	Writer	Protein methyltransferase	Protein methyltransferase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT502	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT5052	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT5155	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT5236	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT5283	2	2	1.0	1.0	1	2	FUT7	Alpha-(1,3)-fucosyltransferase 7	Q11130	CHEMBL3596077		0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT5386	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT569	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT5731	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT5836	2	2	1.0	1.0	1	2	CACNA2D1	Voltage-gated calcium channel alpha2/delta subunit 1	P54289	CHEMBL1919	T84316	0	0	1	Auxiliary transport protein	Calcium channel auxiliary subunit alpha2delta family	n.a.	Calcium channel auxiliary subunit alpha2delta family	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT606	2	2	1.0	1.0	1	2	PRSS1	Trypsin I	P07477	CHEMBL209	T27602	0	0	1	Enzyme	Protease	Serine protease	Serine protease	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT620	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT6631	2	2	1.0	1.0	1	2	GANC	Neutral alpha-glucosidase C	Q8TET4	CHEMBL2520	T61339	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT702	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT754	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT888	2	2	1.0	1.0	1	2														UNMAPPED	2	LOW_1_TO_3
+NPT988	1	39	39.0	39.0	39	27	HRH4	Histamine H4 receptor	Q9H3N8	CHEMBL3759	T26500	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	39	LOW_1_TO_3
+NPT1159	1	32	32.0	32.0	32	27	RARB	Retinoic acid receptor beta	P10826	CHEMBL2008	T61657	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	32	LOW_1_TO_3
+NPT688	1	30	30.0	30.0	30	27	HDAC4	Histone deacetylase 4	P56524	CHEMBL3524	T63816	0	0	1	Epigenetic regulator	Eraser	Histone deacetylase	Histone deacetylase	Therapeutic Target	MAPPED	30	LOW_1_TO_3
+NPT5980	1	29	29.0	29.0	29	27	RARG	Retinoic acid receptor gamma	P13631	CHEMBL2003	T82146	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	29	LOW_1_TO_3
+NPT5887	1	21	21.0	21.0	21	17	PPIA	Cyclophilin A	P62937	CHEMBL1949	T47081	0	0	1	Enzyme	Isomerase	n.a.	Isomerase	Therapeutic Target	MAPPED	21	LOW_1_TO_3
+NPT689	1	13	13.0	13.0	13	13	HDAC5	Histone deacetylase 5	Q9UQL6	CHEMBL2563	T07930	0	0	1	Epigenetic regulator	Eraser	Histone deacetylase	Histone deacetylase	Therapeutic Target	MAPPED	13	LOW_1_TO_3
+NPT4762	1	12	12.0	12.0	12	12	IMPDH1	Inosine-5'-monophosphate dehydrogenase 1	P20839	CHEMBL1822	T40111	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	12	LOW_1_TO_3
+NPT690	1	12	12.0	12.0	12	12	HDAC7	Histone deacetylase 7	Q8WUI4	CHEMBL2716	T98698	0	0	1	Epigenetic regulator	Eraser	Histone deacetylase	Histone deacetylase	Therapeutic Target	MAPPED	12	LOW_1_TO_3
+NPT6510	1	10	10.0	10.0	10	5	CTSE	Cathepsin E	P14091	CHEMBL3092	T16891	0	0	1	Enzyme	Protease	Aspartic protease	Aspartic protease	Therapeutic Target	MAPPED	10	LOW_1_TO_3
+NPT691	1	10	10.0	10.0	10	10	HDAC9	Histone deacetylase 9	Q9UKV0	CHEMBL4145	T03687	0	0	1	Epigenetic regulator	Eraser	Histone deacetylase	Histone deacetylase	Therapeutic Target	MAPPED	10	LOW_1_TO_3
+NPT5301	1	9	9.0	9.0	9	6	MLNR	Motilin receptor	O43193	CHEMBL2203	T62306	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Peptide receptor (family A GPCR)	Peptide receptor (family A GPCR)	Therapeutic Target	MAPPED	9	LOW_1_TO_3
+NPT4011	1	8	8.0	8.0	8	5	HTR4	Serotonin 4 (5-HT4) receptor	Q13639	CHEMBL1875	T59679	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	8	LOW_1_TO_3
+NPT1481	1	7	7.0	7.0	7	7	FGFR2	Fibroblast growth factor receptor 2	P21802	CHEMBL4142	T58454	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	7	LOW_1_TO_3
+NPT3259	1	7	7.0	7.0	7	7	ZAP70	Tyrosine-protein kinase ZAP-70	P43403	CHEMBL2803	T64553	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	7	LOW_1_TO_3
+NPT4542	1	7	7.0	7.0	7	7														UNMAPPED	7	LOW_1_TO_3
+NPT1099	1	6	6.0	6.0	6	4	SMO	Smoothened homolog	Q99835	CHEMBL5971	T66505	0	0	1	Membrane receptor	Frizzled family G protein-coupled receptor	Smoothened receptor (frizzled family GPCR)	Smoothened receptor (frizzled family GPCR)	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT3004	1	6	6.0	6.0	6	2	ABHD6	Monoacylglycerol lipase ABHD6	Q9BV23	CHEMBL2189127	T81452	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT3106	1	6	6.0	6.0	6	6	RPS6KA1	Ribosomal protein S6 kinase alpha 1	Q15418	CHEMBL2553	T83202	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	6	LOW_1_TO_3
+NPT499	1	6	6.0	6.0	6	1														UNMAPPED	6	LOW_1_TO_3
+NPT101	1	5	5.0	5.0	5	3	GLP1R	Glucagon-like peptide 1 receptor	P43220	CHEMBL1784	T36075	0	0	1	Membrane receptor	Family B G protein-coupled receptor	Peptide receptor (family B GPCR)	Peptide receptor (family B GPCR)	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT1431	1	5	5.0	5.0	5	4	MAP3K5	Mitogen-activated protein kinase kinase kinase 5	Q99683	CHEMBL5285	T97589	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT2882	1	5	5.0	5.0	5	1														UNMAPPED	5	LOW_1_TO_3
+NPT2994	1	5	5.0	5.0	5	3	ABHD12	Monoacylglycerol lipase ABHD12	Q8N2K0	CHEMBL5516		0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3037	1	5	5.0	5.0	5	3	GPER1	G-protein coupled estrogen receptor 1	Q99527	CHEMBL5872	T65236	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3367	1	5	5.0	5.0	5	3	PRKG1	cGMP-dependent protein kinase 1 beta	Q13976	CHEMBL4273	T56035	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT3390	1	5	5.0	5.0	5	5	MST1R	Macrophage-stimulating protein receptor	Q04912	CHEMBL2689	T01973	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT4712	1	5	5.0	5.0	5	5	P2RY14	Purinergic receptor P2Y14	Q15391	CHEMBL4518	T16555	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT5104	1	5	5.0	5.0	5	5	PDE3A	Phosphodiesterase 3A	Q14432	CHEMBL241	T88975	0	0	1	Enzyme	Phosphodiesterase	Phosphodiesterase 3	Phosphodiesterase 3	Therapeutic Target	MAPPED	5	LOW_1_TO_3
+NPT1442	1	4	4.0	4.0	4	4	PAK2	Serine/threonine-protein kinase PAK 2	Q13177	CHEMBL4487	T07766	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT1616	1	4	4.0	4.0	4	4	MAPK11	MAP kinase p38 beta	Q15759	CHEMBL3961	T55729	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT1695	1	4	4.0	4.0	4	4	PAK4	Serine/threonine-protein kinase PAK 4	O96013	CHEMBL4482	T98293	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT1712	1	4	4.0	4.0	4	3	TNIK	TRAF2- and NCK-interacting kinase	Q9UKE5	CHEMBL4527	T72534	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT2581	1	4	4.0	4.0	4	1	SULT1A1	Sulfotransferase 1A1	P50225	CHEMBL1743291		0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3217	1	4	4.0	4.0	4	4	EPHA3	Ephrin type-A receptor 3	P29320	CHEMBL4954	T28413	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3357	1	4	4.0	4.0	4	4	PKN2	Protein kinase N2	Q16513	CHEMBL3032	T94197	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT3362	1	4	4.0	4.0	4	3														UNMAPPED	4	LOW_1_TO_3
+NPT3392	1	4	4.0	4.0	4	4														UNMAPPED	4	LOW_1_TO_3
+NPT3537	1	4	4.0	4.0	4	2	DNMT3B	DNA (cytosine-5)-methyltransferase 3B	Q9UBC3	CHEMBL6095	T65501	0	0	1	Epigenetic regulator	Reader	Methyl-lysine/arginine binding protein	Methyl-lysine/arginine binding protein	Therapeutic Target	MAPPED	4	LOW_1_TO_3
+NPT4566	1	4	4.0	4.0	4	3														UNMAPPED	4	LOW_1_TO_3
+NPT5825	1	4	4.0	4.0	4	4														UNMAPPED	4	LOW_1_TO_3
+NPT1448	1	3	3.0	3.0	3	3	SGK1	Serine/threonine-protein kinase Sgk1	O00141	CHEMBL2343	T64682	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT1529	1	3	3.0	3.0	3	3														UNMAPPED	3	LOW_1_TO_3
+NPT161	1	3	3.0	3.0	3	3														UNMAPPED	3	LOW_1_TO_3
+NPT1613	1	3	3.0	3.0	3	3	RPS6KA5	Ribosomal protein S6 kinase alpha 5	O75582	CHEMBL4237	T50224	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT1717	1	3	3.0	3.0	3	3	STK25	Serine/threonine-protein kinase 25	O00506	CHEMBL5552		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT2776	1	3	3.0	3.0	3	2	HTR1E	Serotonin 1e (5-HT1e) receptor	P28566	CHEMBL2182	T84117	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT2887	1	3	3.0	3.0	3	2	PHF8	Histone lysine demethylase PHF8	Q9UPP1	CHEMBL1938212	T00933	0	0	1	Epigenetic regulator	Reader	Plant homeodomain	Plant homeodomain	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT2941	1	3	3.0	3.0	3	3	EPHB2	Ephrin type-B receptor 2	P29323	CHEMBL3290	T73756	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3212	1	3	3.0	3.0	3	3	EPHB1	Ephrin type-B receptor 1	P54762	CHEMBL5072	T02446	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3214	1	3	3.0	3.0	3	3	ABL2	Tyrosine-protein kinase ABL2	P42684	CHEMBL4014	T83009	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3261	1	3	3.0	3.0	3	3	PRKACB	cAMP-dependent protein kinase beta-1 catalytic subunit	P22694	CHEMBL2918		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3268	1	3	3.0	3.0	3	3	TLK1	Serine/threonine-protein kinase tousled-like 1	Q9UKI8	CHEMBL5388		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3326	1	3	3.0	3.0	3	3	MAP3K9	Mitogen-activated protein kinase kinase kinase 9	P80192	CHEMBL2872	T19760	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3328	1	3	3.0	3.0	3	3	MAP3K11	Mitogen-activated protein kinase kinase kinase 11	Q16584	CHEMBL2708	T12126	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3332	1	3	3.0	3.0	3	3	STK24	Serine/threonine-protein kinase 24	Q9Y6E0	CHEMBL5082		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3333	1	3	3.0	3.0	3	3	MUSK	Muscle, skeletal receptor tyrosine protein kinase	O15146	CHEMBL5684	T44387	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3342	1	3	3.0	3.0	3	3	DDR1	Epithelial discoidin domain-containing receptor 1	Q08345	CHEMBL5319	T09185	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3346	1	3	3.0	3.0	3	3	CDK7	Cyclin-dependent kinase 7	P50613	CHEMBL3055	T58449	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3351	1	3	3.0	3.0	3	3	TEC	Tyrosine-protein kinase TEC	P42680	CHEMBL4246	T15848	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3354	1	3	3.0	3.0	3	3	EPHA1	Ephrin type-A receptor 1	P21709	CHEMBL5810	T28418	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3363	1	3	3.0	3.0	3	3	MAPK15	Mitogen-activated protein kinase 15	Q8TD08	CHEMBL5198		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3394	1	3	3.0	3.0	3	3	PRKCI	Protein kinase C iota	P41743	CHEMBL2598	T83174	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3423	1	3	3.0	3.0	3	3	CILK1	Serine/threonine-protein kinase ICK	Q9UPZ9	CHEMBL1163126		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3451	1	3	3.0	3.0	3	3	DSTYK	Dual serine/threonine and tyrosine protein kinase	Q6XUX3	CHEMBL1908386		0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3455	1	3	3.0	3.0	3	3	PRKCZ	Protein kinase C zeta	Q05513	CHEMBL3438		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT3459	1	3	3.0	3.0	3	3														UNMAPPED	3	LOW_1_TO_3
+NPT3896	1	3	3.0	3.0	3	2														UNMAPPED	3	LOW_1_TO_3
+NPT4119	1	3	3.0	3.0	3	2														UNMAPPED	3	LOW_1_TO_3
+NPT4519	1	3	3.0	3.0	3	3	SLC19A1	Folate transporter 1	P41440	CHEMBL4833	T35465	1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	3	LOW_1_TO_3
+NPT4698	1	3	3.0	3.0	3	1														UNMAPPED	3	LOW_1_TO_3
+NPT5446	1	3	3.0	3.0	3	1	ADCY1	Brain adenylate cyclase 1	Q08828	CHEMBL2899	T63609	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT5467	1	3	3.0	3.0	3	1														UNMAPPED	3	LOW_1_TO_3
+NPT598	1	3	3.0	3.0	3	2	RORB	Nuclear receptor ROR-beta	Q92753	CHEMBL3091268		0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	3	LOW_1_TO_3
+NPT6402	1	3	3.0	3.0	3	2														UNMAPPED	3	LOW_1_TO_3
+NPT1583	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT1614	1	2	2.0	2.0	2	2	MAPK13	MAP kinase p38 delta	O15264	CHEMBL2939		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1615	1	2	2.0	2.0	2	2	MAPK12	MAP kinase p38 gamma	P53778	CHEMBL4674	T79798	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1673	1	2	2.0	2.0	2	2	CAMK1G	CaM kinase I gamma	Q96NX5	CHEMBL5258		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1677	1	2	2.0	2.0	2	2	CAMK4	CaM kinase IV	Q16566	CHEMBL2494		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1684	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT1688	1	2	2.0	2.0	2	2	DMPK	Myotonin-protein kinase	Q09013	CHEMBL5320	T68766	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1690	1	2	2.0	2.0	2	2	MAP2K2	Dual specificity mitogen-activated protein kinase kinase 2	P36507	CHEMBL2964		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1693	1	2	2.0	2.0	2	2	STK26	Serine/threonine-protein kinase MST4	Q9P289	CHEMBL5941		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1696	1	2	2.0	2.0	2	2	PAK5	Serine/threonine-protein kinase PAK7	Q9P286	CHEMBL4524		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1697	1	2	2.0	2.0	2	2	PAK6	Serine/threonine-protein kinase PAK6	Q9NQU5	CHEMBL4311		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1707	1	2	2.0	2.0	2	2	STK10	Serine/threonine-protein kinase 10	O94804	CHEMBL3981		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1708	1	2	2.0	2.0	2	2	STK16	Serine/threonine-protein kinase 16	O75716	CHEMBL3938	T04303	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1710	1	2	2.0	2.0	2	2	STK38	Serine/threonine-protein kinase 38	Q15208	CHEMBL1075155	T03581	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1711	1	2	2.0	2.0	2	2	STK4	Serine/threonine-protein kinase MST1	Q13043	CHEMBL4598	T47164	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT234	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT236	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT239	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT2542	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT260	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT2773	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT2807	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT2927	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT2983	1	2	2.0	2.0	2	2	DAGLB	Sn1-specific diacylglycerol lipase beta	Q8NCG7	CHEMBL5521	T15509	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT2993	1	2	2.0	2.0	2	2	ABHD16A	Protein BAT5	O95870	CHEMBL6168		0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3078	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT3112	1	2	2.0	2.0	2	2	FGR	Tyrosine-protein kinase FGR	P09769	CHEMBL4454	T49925	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3113	1	2	2.0	2.0	2	2	CSK	Tyrosine-protein kinase CSK	P41240	CHEMBL2634	T08741	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3211	1	2	2.0	2.0	2	2	EPHA7	Ephrin type-A receptor 7	Q15375	CHEMBL4602	T57006	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3216	1	2	2.0	2.0	2	2	EPHA8	Ephrin type-A receptor 8	P29322	CHEMBL4134	T58266	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3218	1	2	2.0	2.0	2	2	EPHA4	Ephrin type-A receptor 4	P54764	CHEMBL3988	T70234	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3219	1	2	2.0	2.0	2	2	EPHA5	Ephrin type-A receptor 5	P54756	CHEMBL3987	T18474	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3220	1	2	2.0	2.0	2	2	EPHA6	Ephrin type-A receptor 6	Q9UF33	CHEMBL4526	T08647	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3224	1	2	2.0	2.0	2	2	PHKG1	Phosphorylase kinase gamma subunit 1	Q16816	CHEMBL4004		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3232	1	2	2.0	2.0	2	2	CAMK1	CaM kinase I alpha	Q14012	CHEMBL2493		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3233	1	2	2.0	2.0	2	2	STK38L	Serine/threonine-protein kinase 38-like	Q9Y2H1	CHEMBL4851	T37417	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3234	1	2	2.0	2.0	2	2	RPS6KA2	Ribosomal protein S6 kinase alpha 2	Q15349	CHEMBL3906	T28043	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3235	1	2	2.0	2.0	2	2	MARK2	MAP/microtubule affinity-regulating kinase 2	Q7KZI7	CHEMBL3831		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3238	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT3241	1	2	2.0	2.0	2	2	NEK9	Serine/threonine-protein kinase NEK9	Q8TD19	CHEMBL5257		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3243	1	2	2.0	2.0	2	2	MYLK2	myosin light chain kinase 2	Q9H1R3	CHEMBL2777	T98198	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3247	1	2	2.0	2.0	2	2	PAK3	Serine/threonine-protein kinase PAK 3	O75914	CHEMBL2999		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3248	1	2	2.0	2.0	2	2	CAMKK1	CaM-kinase kinase alpha	Q8N5S9	CHEMBL5256	T38134	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3254	1	2	2.0	2.0	2	2	RPS6KA6	Ribosomal protein S6 kinase alpha 6	Q9UK32	CHEMBL4924	T95878	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3255	1	2	2.0	2.0	2	2	MYLK4	Myosin light chain kinase family member 4	Q86YV6	CHEMBL5426		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3257	1	2	2.0	2.0	2	2	STK32C	Serine/threonine-protein kinase 32C	Q86UX6	CHEMBL5405		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3265	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT3269	1	2	2.0	2.0	2	2	TLK2	Serine/threonine-protein kinase tousled-like 2	Q86UE8	CHEMBL5404		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3272	1	2	2.0	2.0	2	2	TXK	Tyrosine-protein kinase TXK	P42681	CHEMBL4367	T32590	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3273	1	2	2.0	2.0	2	2	CSNK2A2	Casein kinase II alpha (prime)	P19784	CHEMBL4070	T80526	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3278	1	2	2.0	2.0	2	2	LIMK2	LIM domain kinase 2	P53671	CHEMBL5932	T09133	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3279	1	2	2.0	2.0	2	2	STK11	Serine/threonine-protein kinase 11	Q15831	CHEMBL5606		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3281	1	2	2.0	2.0	2	2	MAP2K3	Dual specificity mitogen-activated protein kinase kinase 3	P46734	CHEMBL2109		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3285	1	2	2.0	2.0	2	2	NLK	Serine/threonine protein kinase NLK	Q9UBE8	CHEMBL5364		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3286	1	2	2.0	2.0	2	2	INSRR	Insulin receptor-related protein	P14616	CHEMBL5483		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3291	1	2	2.0	2.0	2	2	SRPK1	Serine/threonine-protein kinase SRPK1	Q96SB4	CHEMBL4375	T94201	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3292	1	2	2.0	2.0	2	2	SRPK2	Serine/threonine-protein kinase SRPK2	P78362	CHEMBL5668	T58924	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3296	1	2	2.0	2.0	2	2	STK33	Serine/threonine-protein kinase 33	Q9BYT3	CHEMBL6005	T17552	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3297	1	2	2.0	2.0	2	2	TNK1	Non-receptor tyrosine-protein kinase TNK1	Q13470	CHEMBL5334	T91598	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3299	1	2	2.0	2.0	2	2	TSSK1B	Testis-specific serine/threonine-protein kinase 1	Q9BXA7	CHEMBL6003		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3300	1	2	2.0	2.0	2	2	STK32B	Serine/threonine-protein kinase 32B	Q9NY57	CHEMBL5912	T01255	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3306	1	2	2.0	2.0	2	2	CDC42BPG	Serine/threonine-protein kinase MRCK gamma	Q6DT37	CHEMBL5615		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3307	1	2	2.0	2.0	2	2	LATS1	Serine/threonine-protein kinase LATS1	O95835	CHEMBL6167		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3308	1	2	2.0	2.0	2	2	LATS2	Serine/threonine-protein kinase LATS2	Q9NRM7	CHEMBL5907	T18390	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3311	1	2	2.0	2.0	2	2	MAP4K3	Mitogen-activated protein kinase kinase kinase kinase 3	Q8IVH8	CHEMBL5432	T46000	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3314	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT3317	1	2	2.0	2.0	2	2	MARK1	Serine/threonine-protein kinase MARK1	Q9P0L2	CHEMBL5940		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3329	1	2	2.0	2.0	2	2	CDC42BPA	Serine/threonine-protein kinase MRCK-A	Q5VT25	CHEMBL4516	T00075	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3330	1	2	2.0	2.0	2	2	CDC42BPB	Serine/threonine-protein kinase MRCK beta	Q9Y5S2	CHEMBL5052		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3334	1	2	2.0	2.0	2	2	CIT	Citron Rho-interacting kinase	O14578	CHEMBL5579	T91397	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3335	1	2	2.0	2.0	2	2	DCLK1	Serine/threonine-protein kinase DCLK1	O15075	CHEMBL5683	T42447	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3336	1	2	2.0	2.0	2	2	DCLK2	Serine/threonine-protein kinase DCLK2	Q8N568	CHEMBL5519	T63298	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3338	1	2	2.0	2.0	2	2	MYO3A	Myosin IIIA	Q8NEV4	CHEMBL5546		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3339	1	2	2.0	2.0	2	2	MYO3B	Myosin-IIIB	Q8WXR4	CHEMBL5654		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3340	1	2	2.0	2.0	2	2	NEK1	Serine/threonine-protein kinase Nek1	Q96PY6	CHEMBL5855	T43031	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3341	1	2	2.0	2.0	2	2	NEK5	Serine/threonine-protein kinase Nek5	Q6P3R8	CHEMBL5044		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3344	1	2	2.0	2.0	2	2	BRSK2	BR serine/threonine-protein kinase 2	Q8IWQ3	CHEMBL4574	T10375	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3348	1	2	2.0	2.0	2	2	NUAK2	NUAK family SNF1-like kinase 2	Q9H093	CHEMBL5698	T55005	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3349	1	2	2.0	2.0	2	2	SIK1	Serine/threonine-protein kinase SIK1	P57059	CHEMBL6082	T11317	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3350	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT3352	1	2	2.0	2.0	2	2	TESK1	Dual specificity testis-specific protein kinase 1	Q15569	CHEMBL5604	T49542	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3359	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT3364	1	2	2.0	2.0	2	2	PRKD1	Protein kinase C mu	Q15139	CHEMBL3863	T47885	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3368	1	2	2.0	2.0	2	2	PRKG2	cGMP-dependent protein kinase 2	Q13237	CHEMBL2896	T23606	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3374	1	2	2.0	2.0	2	2	RPS6KA4	Ribosomal protein S6 kinase alpha 4	O75676	CHEMBL3125		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3378	1	2	2.0	2.0	2	2	SIK3	Serine/threonine-protein kinase SIK3	Q9Y2K2	CHEMBL6149	T81830	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3380	1	2	2.0	2.0	2	2	SBK1	Serine/threonine-protein kinase SBK1	Q52WX2	CHEMBL1163129		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3382	1	2	2.0	2.0	2	2	ULK3	Serine/threonine-protein kinase ULK3	Q6PHR2	CHEMBL5047	T16188	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3389	1	2	2.0	2.0	2	2	MAP3K3	Mitogen-activated protein kinase kinase kinase 3	Q99759	CHEMBL5970		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3391	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT3395	1	2	2.0	2.0	2	2	GRK1	Rhodopsin kinase	Q15835	CHEMBL5607		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3398	1	2	2.0	2.0	2	2	ULK1	Serine/threonine-protein kinase ULK1	O75385	CHEMBL6006	T79307	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3407	1	2	2.0	2.0	2	2	MAP3K6	Mitogen-activated protein kinase kinase kinase 6	O95382	CHEMBL1163123	T35283	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3410	1	2	2.0	2.0	2	2	MAK	Serine/threonine-protein kinase MAK	P20794	CHEMBL1163106		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3411	1	2	2.0	2.0	2	2	MAP3K1	Mitogen-activated protein kinase kinase kinase 1	Q13233	CHEMBL3956		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3412	1	2	2.0	2.0	2	2	MAP3K12	Mitogen-activated protein kinase kinase kinase 12	Q12852	CHEMBL1908389		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3413	1	2	2.0	2.0	2	2	MAP3K2	Mitogen-activated protein kinase kinase kinase 2	Q9Y2U5	CHEMBL5914		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3416	1	2	2.0	2.0	2	2	STK39	STE20/SPS1-related proline-alanine-rich protein kinase	Q9UEW8	CHEMBL1163108	T67837	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3418	1	2	2.0	2.0	2	2	SGK3	Serine/threonine-protein kinase Sgk3	Q96BR1	CHEMBL6186	T64102	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3419	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT3422	1	2	2.0	2.0	2	2	ULK2	Serine/threonine-protein kinase ULK2	Q8IYT8	CHEMBL5435		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3426	1	2	2.0	2.0	2	2	TAOK2	Serine/threonine-protein kinase TAO2	Q9UL54	CHEMBL1075195		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3427	1	2	2.0	2.0	2	2	TAOK3	Serine/threonine-protein kinase TAO3	Q9H2K8	CHEMBL5701	T63682	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3429	1	2	2.0	2.0	2	2	SNRK	SNF-related serine/threonine-protein kinase	Q9NRH2	CHEMBL1908384		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3434	1	2	2.0	2.0	2	2	MAP3K19	SPS1/STE20-related protein kinase YSK4	Q56UN5	CHEMBL6191	T42157	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3438	1	2	2.0	2.0	2	2	GRK7	G protein-coupled receptor kinase 7	Q8WTQ7	CHEMBL1075133		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3440	1	2	2.0	2.0	2	2	MAP2K5	Dual specificity mitogen-activated protein kinase kinase 5	Q13163	CHEMBL4948	T17143	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3443	1	2	2.0	2.0	2	2	NEK11	Serine/threonine-protein kinase Nek11	Q8NG66	CHEMBL5638		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3445	1	2	2.0	2.0	2	2	NIM1K	Serine/threonine-protein kinase NIM1	Q8IY84	CHEMBL3542		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3446	1	2	2.0	2.0	2	2	MYLK3	Myosin light chain kinase	Q32MK0	CHEMBL4627		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3447	1	2	2.0	2.0	2	2	GRK4	G protein-coupled receptor kinase 4	P32298	CHEMBL5861		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3454	1	2	2.0	2.0	2	2	PASK	PAS domain-containing serine/threonine-protein kinase	Q96RG2	CHEMBL6054	T37371	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3461	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT3462	1	2	2.0	2.0	2	2	TSSK2	Testis-specific serine/threonine-protein kinase 2	Q96PF2	CHEMBL6014	T04413	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT3583	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT3797	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT4018	1	2	2.0	2.0	2	2	SCD	Acyl-CoA desaturase	O00767	CHEMBL5555		0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT4031	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT4096	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT4181	1	2	2.0	2.0	2	1	PEPD	Xaa-Pro dipeptidase	P12955	CHEMBL4185	T94823	0	0	1	Enzyme	Protease	Metallo protease	Metallo protease	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT4274	1	2	2.0	2.0	2	2	EPHX1	Epoxide hydrolase 1	P07099	CHEMBL1968		0	0	1	Enzyme	Protease	Serine protease	Serine protease	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT443	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT4441	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT4448	1	2	2.0	2.0	2	2	GCK	Hexokinase type IV	P35557	CHEMBL3820	T87166	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT4449	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT4546	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT4559	1	2	2.0	2.0	2	1	F2RL1	Proteinase-activated receptor 2	P55085	CHEMBL5963	T62841	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Peptide receptor (family A GPCR)	Peptide receptor (family A GPCR)	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT4567	1	2	2.0	2.0	2	2	GRM8	Metabotropic glutamate receptor 8	O00222	CHEMBL3228	T77548	0	0	1	Membrane receptor	Family C G protein-coupled receptor	Small molecule receptor (family C GPCR)	Small molecule receptor (family C GPCR)	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT4684	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT4699	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT4729	1	2	2.0	2.0	2	1	CCKBR	Cholecystokinin B receptor	P32239	CHEMBL298	T05849	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Peptide receptor (family A GPCR)	Peptide receptor (family A GPCR)	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT4954	1	2	2.0	2.0	2	2	P2RX4	P2X purinoceptor 4	Q99571	CHEMBL2104	T60330	0	0	1	Ion channel	Ligand-gated ion channel	P2X receptor	P2X receptor	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT5020	1	2	2.0	2.0	2	2	GRK3	Beta-adrenergic receptor kinase 2	P35626	CHEMBL1075166	T57174	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT5033	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT5079	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT5080	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT5085	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT5105	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT5212	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT5220	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT5232	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT5318	1	2	2.0	2.0	2	1	CRHR1	Corticotropin releasing factor receptor 1	P34998	CHEMBL1800	T45262	0	0	1	Membrane receptor	Family B G protein-coupled receptor	Peptide receptor (family B GPCR)	Peptide receptor (family B GPCR)	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT5374	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT5559	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT5718	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT5859	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT6080	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT6124	1	2	2.0	2.0	2	2	CYP24A1	Cytochrome P450 24A1	Q07973	CHEMBL4521	T92458	0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 24	Cytochrome P450 family 24	Cytochrome P450	MAPPED	2	LOW_1_TO_3
+NPT6188	1	2	2.0	2.0	2	2	NOX1	NADPH oxidase 1	Q9Y5S8	CHEMBL1287628		0	0	1	Transporter	Transmembrane 1-electron transfer carriers	n.a.	Transmembrane 1-electron transfer carriers	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT6226	1	2	2.0	2.0	2	2	CHRNE	Acetylcholine receptor protein epsilon chain	Q04844	CHEMBL2484		0	0	1	Ion channel	Ligand-gated ion channel	Nicotinic acetylcholine receptor	Nicotinic acetylcholine receptor	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT6230	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT6255	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT6508	1	2	2.0	2.0	2	2	RPS6KB2	Ribosomal protein S6 kinase 2	Q9UBS0	CHEMBL3111	T42760	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT695	1	2	2.0	2.0	2	1														UNMAPPED	2	LOW_1_TO_3
+NPT868	1	2	2.0	2.0	2	2														UNMAPPED	2	LOW_1_TO_3
+NPT946	1	2	2.0	2.0	2	2	ACLY	ATP-citrate synthase	P53396	CHEMBL3720	T52189	0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	2	LOW_1_TO_3
+NPT1098	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT1109	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT1149	1	1	1.0	1.0	1	1	PLAA	Phospholipase A-2-activating protein	Q9Y263	CHEMBL6114		0	0	1	Unclassified protein	n.a.	n.a.	Unclassified protein	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT1324	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT1344	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT1375	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT1379	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT1406	1	1	1.0	1.0	1	1	GABRA1	GABA receptor alpha-1 subunit	P14867	CHEMBL1962	T51487	0	0	1	Ion channel	Ligand-gated ion channel	GABA-A receptor	GABA-A receptor	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT154	1	1	1.0	1.0	1	1	SMAD3	Mothers against decapentaplegic homolog 3	P84022	CHEMBL1293258	T35445	0	0	1	Transcription factor	n.a.	n.a.	Transcription factor	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT1599	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT1770	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT1871	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT2571	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT259	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT2662	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT2663	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT2670	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT2757	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT2777	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT28	1	1	1.0	1.0	1	1	PLA2G7	LDL-associated phospholipase A2	Q13093	CHEMBL3514	T69912	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT2871	1	1	1.0	1.0	1	1	CDA	Cytidine deaminase	P32320	CHEMBL4502	T79027	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT2886	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT2889	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT2936	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT2968	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT2970	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3012	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3017	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3018	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT303	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3033	1	1	1.0	1.0	1	1	ESRRG	Estrogen-related receptor gamma	P62508	CHEMBL4245	T68066	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 3	Nuclear hormone receptor subfamily 3	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT3047	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3066	1	1	1.0	1.0	1	1	LIPG	Endothelial lipase	Q9Y5X9	CHEMBL5080	T19368	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT3067	1	1	1.0	1.0	1	1	LPL	Lipoprotein lipase	P06858	CHEMBL2060	T28692	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT3117	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3178	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3193	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3194	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3258	1	1	1.0	1.0	1	1	MAP3K20	Mixed lineage kinase 7	Q9NYL2	CHEMBL3886	T97821	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT3284	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3293	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3304	1	1	1.0	1.0	1	1	ACVRL1	Serine/threonine-protein kinase receptor R3	P37023	CHEMBL5311	T36959	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT3313	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3323	1	1	1.0	1.0	1	1	CDK19	Cell division cycle 2-like protein kinase 6	Q9BWU1	CHEMBL6002	T98034	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT3345	1	1	1.0	1.0	1	1	CDK3	Cyclin-dependent kinase 3	Q00526	CHEMBL4442	T22956	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT3353	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3371	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3384	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3406	1	1	1.0	1.0	1	1	MAP4K2	Mitogen-activated protein kinase kinase kinase kinase 2	Q12851	CHEMBL5330	T07191	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT3458	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3568	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3580	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3585	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT37	1	1	1.0	1.0	1	1	STAT1	Signal transducer and activator of transcription 1-alpha/beta	P42224	CHEMBL6101	T64205	0	0	1	Transcription factor	n.a.	n.a.	Transcription factor	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT3711	1	1	1.0	1.0	1	1	SCN11A	Sodium channel protein type XI alpha subunit	Q9UI33	CHEMBL5167	T34123	0	0	1	Ion channel	Voltage-gated ion channel	Voltage-gated sodium channel	Voltage-gated sodium channel	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT3727	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3735	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3803	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3827	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3840	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3898	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3899	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3903	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3910	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3914	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3962	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT3970	1	1	1.0	1.0	1	1	KLF5	Kruppel-like factor 5	Q13887	CHEMBL1293249		0	0	1	Transcription factor	n.a.	n.a.	Transcription factor	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT4054	1	1	1.0	1.0	1	1	HRAS	Transforming protein p21/H-Ras-1	P01112	CHEMBL2167		0	0	1	Other cytosolic protein	n.a.	n.a.	Other cytosolic protein	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT4104	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4106	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4109	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4115	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4146	1	1	1.0	1.0	1	1	TAB1	Mitogen-activated protein kinase kinase kinase 7-interacting protein 1	Q15750	CHEMBL5605		0	0	1	Unclassified protein	n.a.	n.a.	Unclassified protein	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT4147	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4171	1	1	1.0	1.0	1	1	FKBP1B	FK506-binding protein 1B	P68106	CHEMBL2430		0	0	1	Enzyme	Isomerase	n.a.	Isomerase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT4175	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4185	1	1	1.0	1.0	1	1	SREBF2	Sterol regulatory element-binding protein 2	Q12772	CHEMBL1795166	T03385	0	0	1	Transcription factor	n.a.	n.a.	Transcription factor	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT4266	1	1	1.0	1.0	1	1	ND4	NADH-ubiquinone oxidoreductase chain 4	P03905	CHEMBL4499		0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT4342	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4380	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4409	1	1	1.0	1.0	1	1	PDCD4	Programmed cell death protein 4	Q53EL6	CHEMBL1781868		0	0	1	Unclassified protein	n.a.	n.a.	Unclassified protein	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT4445	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4447	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4505	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4545	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4627	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT477	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4786	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4787	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4886	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4904	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4918	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4920	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT4947	1	1	1.0	1.0	1	1	ATP1A1	Sodium/potassium-transporting ATPase alpha-1 chain	P05023	CHEMBL1807	T40800	0	0	1	Transporter	Primary active transporter	P-type ATPase	P-type ATPase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT4948	1	1	1.0	1.0	1	1	GSTK1	Glutathione S-transferase kappa 1	Q9Y2Q3	CHEMBL4491		0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT4961	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5011	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5013	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5015	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5047	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT505	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5051	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5071	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5075	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5086	1	1	1.0	1.0	1	1	HGFAC	Hepatocyte growth factor activator	Q04756	CHEMBL3351190	T38584	0	0	1	Enzyme	Protease	Serine protease	Serine protease	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT5087	1	1	1.0	1.0	1	1	HPN	Serine protease hepsin	P05981	CHEMBL2079849	T73471	0	0	1	Enzyme	Protease	Serine protease	Serine protease	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT510	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5108	1	1	1.0	1.0	1	1	GLI2	Zinc finger protein GLI2	P10070	CHEMBL5119	T29672	0	0	1	Transcription factor	n.a.	n.a.	Transcription factor	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT512	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5152	1	1	1.0	1.0	1	1	FUCA2	Alpha-L-fucosidase 2	Q9BTY2	CHEMBL2271		0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT5256	1	1	1.0	1.0	1	1	HTR1F	Serotonin 1f (5-HT1f) receptor	P30939	CHEMBL1805	T78656	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT5282	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5284	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5454	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5457	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5458	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5459	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5472	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5493	1	1	1.0	1.0	1	1	SLC5A4	Low affinity sodium-glucose cotransporter	Q9NY91	CHEMBL1770047	T22583	1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	1	LOW_1_TO_3
+NPT5640	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5655	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5682	1	1	1.0	1.0	1	1	THRA	Thyroid hormone receptor alpha	P10827	CHEMBL1860	T79591	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT5689	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5690	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5691	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5790	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5830	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5849	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5871	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5876	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5879	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT5968	1	1	1.0	1.0	1	1	HNMT	Histamine N-methyltransferase	P50135	CHEMBL2190	T17448	0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT599	1	1	1.0	1.0	1	1	RORA	Nuclear receptor ROR-alpha	P35398	CHEMBL5868	T43206	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT6069	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT6098	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT6105	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT6127	1	1	1.0	1.0	1	1	BDKRB1	Bradykinin B1 receptor	P46663	CHEMBL4308	T58589	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Peptide receptor (family A GPCR)	Peptide receptor (family A GPCR)	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT6140	1	1	1.0	1.0	1	1	GABRA2	GABA receptor alpha-2 subunit	P47869	CHEMBL4956	T51452	0	0	1	Ion channel	Ligand-gated ion channel	GABA-A receptor	GABA-A receptor	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT6141	1	1	1.0	1.0	1	1	GABRA3	GABA receptor alpha-3 subunit	P34903	CHEMBL3026	T62292	0	0	1	Ion channel	Ligand-gated ion channel	GABA-A receptor	GABA-A receptor	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT6142	1	1	1.0	1.0	1	1	GABRA5	GABA receptor alpha-5 subunit	P31644	CHEMBL5112	T26368	0	0	1	Ion channel	Ligand-gated ion channel	GABA-A receptor	GABA-A receptor	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT6186	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT6213	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT6245	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT63	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT6327	1	1	1.0	1.0	1	1	NCOA3	Nuclear receptor coactivator 3	Q9Y6Q9	CHEMBL1615382	T26774	0	0	1	Epigenetic regulator	Writer	Histone acetyltransferase	Histone acetyltransferase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT6363	1	1	1.0	1.0	1	1	CELA1	Elastase 1	Q9UNI1	CHEMBL3000	T22839	0	0	1	Enzyme	Protease	Serine protease	Serine protease	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT6365	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT6441	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT6507	1	1	1.0	1.0	1	1	CPB1	Carboxypeptidase B	P15086	CHEMBL2552	T36725	0	0	1	Enzyme	Protease	Metallo protease	Metallo protease	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT6513	1	1	1.0	1.0	1	1	EBPL	Emopamil-binding protein-like	Q9BY08	CHEMBL2311238		0	0	1	Unclassified protein	n.a.	n.a.	Unclassified protein	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT6515	1	1	1.0	1.0	1	1	ADAM9	ADAM9	Q13443	CHEMBL5982	T03672	0	0	1	Enzyme	Protease	Metallo protease	Metallo protease	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT6527	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT6540	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT6574	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT6588	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT6625	1	1	1.0	1.0	1	1	ATP6AP1	Vacuolar ATP synthase subunit S1	Q15904	CHEMBL4790		0	0	1	Transporter	Primary active transporter	F-type and V-type ATPases	F-type and V-type ATPases	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT8	1	1	1.0	1.0	1	1	POLI	DNA polymerase iota	Q9UNA4	CHEMBL5391		0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	1	LOW_1_TO_3
+NPT874	1	1	1.0	1.0	1	1														UNMAPPED	1	LOW_1_TO_3
+NPT9	1	1	1.0	1.0	1	1	POLH	DNA polymerase eta	Q9Y253	CHEMBL5542		0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	1	LOW_1_TO_3

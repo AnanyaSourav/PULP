@@ -1,0 +1,18 @@
+{
+  "model": "ibm-research/MoLFormer-XL-both-10pct",
+  "embedding_dimension": 768,
+  "pooling": "attention_masked_mean_pooling",
+  "input_smiles_column": "SMILES",
+  "id_column": "np_id",
+  "activity_label_column": "Activity_Label",
+  "train_input": "feature_engineering/split/train_80.tsv",
+  "test_input": "feature_engineering/split/test_20.tsv",
+  "train_input_sha256": "f4a419734989d4b6a05a430923f95d82fee9c2fbbffa8b94cfe22ba52edcb3aa",
+  "test_input_sha256": "a9e6f154aad87e270162f28d530a392df4be2896bacc1893bdd784368fd1b1b3",
+  "train_rows": 48152,
+  "test_rows": 12038,
+  "batch_size": 32,
+  "max_length": 512,
+  "device": "cpu",
+  "generated": "2026-08-27T16:03:58.408874"
+}

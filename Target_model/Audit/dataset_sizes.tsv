@@ -1,0 +1,4 @@
+dataset	rows	columns
+Ingredients_All	60222	17
+Ingredient_Target_Associations	28871	8
+Targets	758	14

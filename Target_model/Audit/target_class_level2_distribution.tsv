@@ -1,0 +1,28 @@
+Target_Class_Level2	n_targets	percent
+Kinase	310	40.89709762532981
+n.a.	87	11.477572559366754
+Family A G protein-coupled receptor	68	8.970976253298153
+Protease	40	5.277044854881266
+Oxidoreductase	31	4.089709762532982
+Nuclear receptor	27	3.562005277044855
+Hydrolase	23	3.034300791556728
+Transferase	20	2.638522427440633
+Ligand-gated ion channel	20	2.638522427440633
+Cytochrome P450	19	2.5065963060686016
+Electrochemical transporter	19	2.5065963060686016
+Voltage-gated ion channel	13	1.7150395778364116
+Eraser	13	1.7150395778364116
+Lyase	13	1.7150395778364116
+Isomerase	11	1.4511873350923483
+Phosphodiesterase	9	1.1873350923482848
+Primary active transporter	7	0.9234828496042217
+Phosphatase	6	0.79155672823219
+Family C G protein-coupled receptor	4	0.5277044854881267
+Reader	4	0.5277044854881267
+Writer	4	0.5277044854881267
+Family B G protein-coupled receptor	3	0.395778364116095
+Other ion channel	2	0.2638522427440633
+Fatty acid binding protein family	2	0.2638522427440633
+Calcium channel auxiliary subunit alpha2delta family	1	0.13192612137203166
+Frizzled family G protein-coupled receptor	1	0.13192612137203166
+Transmembrane 1-electron transfer carriers	1	0.13192612137203166

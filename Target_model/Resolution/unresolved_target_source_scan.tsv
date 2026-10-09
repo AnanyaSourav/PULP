@@ -1,0 +1,13 @@
+File	Exists	Target_IDs_Found	Total_Occurrences	Status
+CMAUPv2.0_download_Ingredients_All.txt	1	0	0	SCANNED
+CMAUPv2.0_download_Ingredient_Target_Associations_ActivityValues_References.txt	1	385	1924	SCANNED
+CMAUPv2.0_download_Targets.txt	1	0	0	SCANNED
+CMAUPv2.0_download_Ingredients_onlyActive.txt	1	0	0	SCANNED
+CMAUPv2.0_download_Human_Oral_Bioavailability_information_of_Ingredients_All.txt	1	0	0	SCANNED
+CMAUPv2.0_download_Plant_Clinical_Trials_Associations.txt	1	0	0	SCANNED
+CMAUPv2.0_download_Plant_Human_Disease_Associations.txt	1	0	0	SCANNED
+CMAUPv2.0_download_Plant_Ingredient_Associations_allIngredients.txt	1	0	0	SCANNED
+CMAUPv2.0_download_Plant_Ingredient_Associations_onlyActiveIngredients.txt	1	0	0	SCANNED
+CMAUPv2.0_download_Plant_molecular_targets_overlapping_with_DEGs.txt	1	0	0	SCANNED
+CMAUPv2.0_download_Plants.txt	1	0	0	SCANNED
+Download_Readme.txt	1	0	0	SCANNED

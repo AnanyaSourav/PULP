@@ -1,0 +1,35 @@
+{
+    "timestamp": "2026-09-08T16:04:50.366688",
+    "project_directory": "/lustre/home/sklab202/sourav/PULP",
+    "output_directory": "/lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit",
+    "source_files": {
+        "molecules": "/lustre/home/sklab202/sourav/PULP/CMAUPv2.0_download_Ingredients_All.txt",
+        "associations": "/lustre/home/sklab202/sourav/PULP/CMAUPv2.0_download_Ingredient_Target_Associations_ActivityValues_References.txt",
+        "targets": "/lustre/home/sklab202/sourav/PULP/CMAUPv2.0_download_Targets.txt"
+    },
+    "source_dataset_sizes": {
+        "molecules": 60222,
+        "associations": 28871,
+        "targets": 758
+    },
+    "clean_dataset_sizes": {
+        "molecules": 60222,
+        "associations": 28871,
+        "targets": 758
+    },
+    "association_coverage": {
+        "unique_molecules": 3496,
+        "unique_targets": 1143,
+        "unique_references": 11608
+    },
+    "mapping": {
+        "mapped_molecule_ids": 3496,
+        "unmapped_molecule_ids": 0,
+        "mapped_target_ids": 758,
+        "unmapped_target_ids": 385
+    },
+    "methodological_rule": "Absence of a CMAUP target association is not treated as negative evidence.",
+    "downstream_model": "Similarity-weighted target hypothesis generation",
+    "feature_representation": "Existing 40-feature bioactivity representation",
+    "validation_strategy": "Retrospective target recovery"
+}

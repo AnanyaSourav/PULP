@@ -1,0 +1,306 @@
+{
+  "duration_seconds": 31.427207,
+  "feature_count": 40,
+  "feature_families": {
+    "3D-QSAR": [
+      "PBF",
+      "SpherocityIndex",
+      "PMI1",
+      "InertialShapeFactor",
+      "PMI2",
+      "NPR2",
+      "RadiusOfGyration",
+      "Eccentricity",
+      "NPR1"
+    ],
+    "MoLFormer": [
+      "molformer_0279",
+      "molformer_0491",
+      "molformer_0407",
+      "molformer_0047",
+      "molformer_0230",
+      "molformer_0638",
+      "molformer_0393",
+      "molformer_0129",
+      "molformer_0659",
+      "molformer_0747",
+      "molformer_0298",
+      "molformer_0742",
+      "molformer_0177",
+      "molformer_0119",
+      "molformer_0400",
+      "molformer_0367",
+      "molformer_0485",
+      "molformer_0536",
+      "molformer_0418",
+      "molformer_0455",
+      "molformer_0312"
+    ],
+    "Molecular": [
+      "FractionCSP3",
+      "SPS",
+      "NumAtomStereoCenters",
+      "SMR_VSA5",
+      "BCUT2D_MRLOW",
+      "BCUT2D_CHGLO",
+      "VSA_EState6",
+      "NumAromaticRings",
+      "SMR_VSA7",
+      "fr_Al_OH"
+    ]
+  },
+  "feature_order": [
+    "FractionCSP3",
+    "SPS",
+    "NumAtomStereoCenters",
+    "SMR_VSA5",
+    "BCUT2D_MRLOW",
+    "BCUT2D_CHGLO",
+    "VSA_EState6",
+    "NumAromaticRings",
+    "SMR_VSA7",
+    "fr_Al_OH",
+    "PBF",
+    "SpherocityIndex",
+    "PMI1",
+    "InertialShapeFactor",
+    "PMI2",
+    "NPR2",
+    "RadiusOfGyration",
+    "Eccentricity",
+    "NPR1",
+    "molformer_0279",
+    "molformer_0491",
+    "molformer_0407",
+    "molformer_0047",
+    "molformer_0230",
+    "molformer_0638",
+    "molformer_0393",
+    "molformer_0129",
+    "molformer_0659",
+    "molformer_0747",
+    "molformer_0298",
+    "molformer_0742",
+    "molformer_0177",
+    "molformer_0119",
+    "molformer_0400",
+    "molformer_0367",
+    "molformer_0485",
+    "molformer_0536",
+    "molformer_0418",
+    "molformer_0455",
+    "molformer_0312"
+  ],
+  "feature_space_dimension": 40,
+  "final_status": "PASS",
+  "finish_time": "2026-09-10T11:53:22.876607+05:30",
+  "independent_2d_comparator": {
+    "fingerprints_file": "target_model/similarity/05_cmaup_40d_similarity/cmaup_morgan_ecfp4_2048_packed.npz",
+    "metric": "Tanimoto similarity",
+    "n_bits": 2048,
+    "radius": 2,
+    "representation": "Morgan/ECFP4"
+  },
+  "input_reference": "target_model/feature_space/04_cmaup_40d_reference/cmaup_40d_reference.tsv",
+  "input_reference_sha256": "290535ccbf3d0b775ada6a67442fc6885ad2f18621a0178eeec3371eef3937ed",
+  "model_training_performed": false,
+  "output_hashes": {
+    "cosine_neighbor_ids": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/cmaup_40d_train_top50_neighbors.tsv",
+      "sha256": "e88f3ac1373829ba879744518b839b8c6f82d22c757c761a81fc3ffb80f62546",
+      "size_bytes": 361774
+    },
+    "cosine_neighbor_index": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/cmaup_40d_cosine_neighbor_index.joblib",
+      "sha256": "7806a91777fc8b9fb5e25f92ad5bc78d94a2ec732de306d024b3f33f63544f5e",
+      "size_bytes": 17094798
+    },
+    "feature_manifest": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/validated_40_feature_manifest.tsv",
+      "sha256": "1d40e967c47f883334289bc7cbb9039f2bdb49c59785015478dc36061a673041",
+      "size_bytes": 1060
+    },
+    "input_provenance": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/input_provenance.tsv",
+      "sha256": "57288d2353f62e2bff431c2a3a03c182f92ee86fc3af79e1288e20eb37561740",
+      "size_bytes": 1618
+    },
+    "morgan_fingerprints": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/cmaup_morgan_ecfp4_2048_packed.npz",
+      "sha256": "76e17144d4ec1e99637a0a6113292276481ba68a0ae3a5bda49bb2c0f0c0bc36",
+      "size_bytes": 3791111
+    },
+    "morgan_metadata": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/cmaup_morgan_ecfp4_2048_metadata.tsv",
+      "sha256": "54f9a7b56771e2e00a78265a3e6ac623f2be024ad04c6e3a21dcb5d87c4bf95f",
+      "size_bytes": 1113626
+    },
+    "morgan_qc": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/morgan_ecfp4_qc.tsv",
+      "sha256": "c05a05d6a316f39650fc4d863cfe9651bca7d04da8ce2dafb7abead7f63e038c",
+      "size_bytes": 1667408
+    },
+    "neighbor_qc": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/neighbor_index_qc.tsv",
+      "sha256": "4c0c13031c87fb901a919fa786974296b0f14d4029d0c7dec3289df9d6038e8e",
+      "size_bytes": 145
+    },
+    "qc_text": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/05_cmaup_40d_similarity_qc.txt",
+      "sha256": "033397a6528c8a09caaf721cdf43cbd369f389dc18672c732f95415518989bcb",
+      "size_bytes": 1111
+    },
+    "reference_alignment_qc": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/reference_alignment_qc.tsv",
+      "sha256": "a5ad5b1e5a00f02e9bd8cf9bf3938fb36b0fae7d9e5727d6f1a3c6b18e686b3d",
+      "size_bytes": 223
+    },
+    "run_manifest": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/05_cmaup_40d_similarity_manifest.json",
+      "sha256": "10fca55a9389a9200aa143518e867ff4c0b480192f75fe8fec30cec23c23ac46",
+      "size_bytes": 9026
+    },
+    "similarity_qc": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/similarity_qc.tsv",
+      "sha256": "6faa33f5703be98d816b5f69b367b38e282e6b5b9f923843afd9b580f4fff02d",
+      "size_bytes": 480
+    },
+    "standardization_parameters": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/40d_standardization_parameters.tsv",
+      "sha256": "505abd883fa2cfaa1cb3d8c135d5b33bc7908bcd64586819870b542e9daae400",
+      "size_bytes": 3869
+    },
+    "standardization_qc": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/standardization_qc.tsv",
+      "sha256": "5e7e7405454203f5ff5b4096a4e43c6e76f4ae4d3cee83da3349438fc6654d8b",
+      "size_bytes": 384
+    },
+    "standardized_id_matrix": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/cmaup_40d_standardized_id_matrix.tsv",
+      "sha256": "4b44e77a01a6f6381f7fb7c8ce95270b07dced632d38f0e6374ab57a048d5068",
+      "size_bytes": 48386589
+    },
+    "standardized_matrix": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/cmaup_40d_standardized_matrix.tsv",
+      "sha256": "4b44e77a01a6f6381f7fb7c8ce95270b07dced632d38f0e6374ab57a048d5068",
+      "size_bytes": 48386589
+    },
+    "test_standardized_matrix": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/cmaup_40d_standardized_test.tsv",
+      "sha256": "bc79478e5df9f7dfef3f2a7c791bae06ea95fe2489301fbb93d34fb66eb4a8c8",
+      "size_bytes": 9607497
+    },
+    "train_standardized_matrix": {
+      "path": "target_model/similarity/05_cmaup_40d_similarity/cmaup_40d_standardized_train.tsv",
+      "sha256": "7a9f903c0eb8b5991625c7bca3e10967baacbf7cc9b0cb5c6331f869df420f7f",
+      "size_bytes": 38430515
+    }
+  },
+  "primary_similarity": {
+    "index_algorithm": "brute-force exact cosine",
+    "index_file": "target_model/similarity/05_cmaup_40d_similarity/cmaup_40d_cosine_neighbor_index.joblib",
+    "metric": "cosine similarity",
+    "neighbor_count": 50,
+    "representation": "exact Model-1 40D representation",
+    "row_normalized": true,
+    "standardized": true
+  },
+  "pulP_directory": "/lustre/home/sklab202/sourav/PULP",
+  "qc_checks": [
+    {
+      "check": "script04_reference_rows",
+      "expected": 60190,
+      "observed": 60190,
+      "status": "PASS"
+    },
+    {
+      "check": "script04_feature_count",
+      "expected": 40,
+      "observed": 40,
+      "status": "PASS"
+    },
+    {
+      "check": "train_rows",
+      "expected": 48152,
+      "observed": 48152,
+      "status": "PASS"
+    },
+    {
+      "check": "test_rows",
+      "expected": 12038,
+      "observed": 12038,
+      "status": "PASS"
+    },
+    {
+      "check": "train_test_overlap",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "final_40d_nonfinite",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "standardized_40d_nonfinite",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "zero_variance_features",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "cosine_zero_norm_rows",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "morgan_invalid_fingerprints",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "morgan_self_similarity_min",
+      "expected": 1.0,
+      "observed": 1.0,
+      "status": "PASS"
+    },
+    {
+      "check": "morgan_self_similarity_max",
+      "expected": 1.0,
+      "observed": 1.0,
+      "status": "PASS"
+    },
+    {
+      "check": "neighbor_self_retrieval_sample",
+      "expected": "PASS",
+      "observed": "PASS",
+      "status": "PASS"
+    }
+  ],
+  "reference_rows": 60190,
+  "script": "05_build_cmaup_40d_similarity_index.py",
+  "standardization": {
+    "activity_labels_used": false,
+    "ddof": 0,
+    "fit_on": "TRAIN ONLY",
+    "method": "z-score",
+    "new_features_generated": false,
+    "new_imputation": false,
+    "parameters_file": "target_model/similarity/05_cmaup_40d_similarity/40d_standardization_parameters.tsv",
+    "target_data_used": false
+  },
+  "start_time": "2026-09-10T11:52:51.449400+05:30",
+  "target_inference_performed": false,
+  "test_rows": 12038,
+  "train_rows": 48152,
+  "version": "exact_model1_40d_train_only_standardized_cosine_plus_morgan_comparator"
+}

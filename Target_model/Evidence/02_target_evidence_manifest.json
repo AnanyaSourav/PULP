@@ -1,0 +1,132 @@
+{
+  "script": "02_target_evidence_resolution.py",
+  "purpose": "Evidence resolution and target matrix construction.",
+  "identifier_mapping": "Ingredient_ID -> np_id by exact equality.",
+  "input_directory": "/lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit",
+  "output_directory": "/lustre/home/sklab202/sourav/PULP/target_model/data/02_target_evidence",
+  "counts": {
+    "molecule_rows": 60222,
+    "association_rows": 28871,
+    "target_rows": 758,
+    "unique_molecules": 60222,
+    "unique_association_ingredients": 3496,
+    "unique_association_targets": 1143,
+    "unique_annotated_targets": 758,
+    "unmapped_target_ids": 385,
+    "unique_molecule_target_pairs": 13708,
+    "exact_duplicate_extra_rows": 1230,
+    "molecules_with_target_evidence": 3496,
+    "targets_with_molecule_evidence": 1143
+  },
+  "design_decisions": [
+    "Association Ingredient_ID is mapped exactly to molecule np_id.",
+    "No fuzzy or name-based molecule mapping is used.",
+    "Exact duplicate association records are preserved.",
+    "Binary matrix represents observed association presence.",
+    "Evidence count represents raw association-record multiplicity.",
+    "Independent reference count uses unique Reference_ID values.",
+    "Activity types are preserved and not merged into one potency score.",
+    "Activity values are preserved for downstream evidence modeling.",
+    "Unmapped Target_IDs are retained and explicitly reported.",
+    "No association absence is treated as target-negative evidence.",
+    "No molecular similarity is calculated.",
+    "No target classifier is trained."
+  ],
+  "outputs": [
+    {
+      "file": "target_model/data/02_target_evidence/target_id_resolution.tsv",
+      "size_bytes": 130498,
+      "sha256": "d08b4107b78c7ad9d6d1bacccd1e8f220f3234c15e5913ad43016e4a00de5bbd"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/unmapped_target_ids.tsv",
+      "size_bytes": 6322,
+      "sha256": "87c137e1d54e462aa47344ba309410ba8697b1e7011242b2afd757fb55fe5219"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/duplicate_association_analysis.tsv",
+      "size_bytes": 62436,
+      "sha256": "c90519dcd6bb95a02994bb5f8d60e4abe56653d38bf86dcf46d24569b3292536"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/duplicate_association_examples.tsv",
+      "size_bytes": 139982,
+      "sha256": "560f1dd219b01122af15da6c4e321ede0de3eb743d4b7a156ad0b69f84cfd8e4"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/molecule_target_binary.tsv",
+      "size_bytes": 138260273,
+      "sha256": "d34ff777c50f0c7d847113fa465ff04c925fbba5b88c450af3642d621f80598f"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/molecule_target_evidence_count.tsv",
+      "size_bytes": 138260543,
+      "sha256": "bc45150255b041f57243d3941a0a8f3ca4c4640cb5ce2708930dbe99f5376889"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/molecule_target_reference_count.tsv",
+      "size_bytes": 138260486,
+      "sha256": "abfd1059785478e64ed18f092e2eec870f811694c6d4bf22aef7619b35d765aa"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/target_hierarchy_matrix.tsv",
+      "size_bytes": 136237,
+      "sha256": "068368873773d9c18df27b3db7f2cea8f01e87bb0ff8c5230ad7aa2e6386c547"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/molecule_target_summary.tsv",
+      "size_bytes": 2807325,
+      "sha256": "e74fad70288f9ae0b283502f035ec39a2b4a89700312de0e6712cd5e4c7c507f"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/target_summary.tsv",
+      "size_bytes": 174366,
+      "sha256": "ce488d464c502c99d8705280f78fd2ec9e65e6ab52369efbdb850147d1ebfe51"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/target_support_statistics.tsv",
+      "size_bytes": 174366,
+      "sha256": "ce488d464c502c99d8705280f78fd2ec9e65e6ab52369efbdb850147d1ebfe51"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/molecule_support_statistics.tsv",
+      "size_bytes": 56361,
+      "sha256": "42489acac502c0cc139f45ea327ef2283abfb4c90bd1774cd78d45bedf159eef"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/activity_evidence_summary.tsv",
+      "size_bytes": 434,
+      "sha256": "d5137f53e9e9bbb4490006167248ef777a6e321152e510dd89eefa380d1a54a7"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/molecule_target_reference_support.tsv",
+      "size_bytes": 632437,
+      "sha256": "0321ac6b631cf7b2cfe9bb384e2a7f7824ab10cc7e24b4f1ab7c44129acf2194"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/target_support_distribution.tsv",
+      "size_bytes": 2710,
+      "sha256": "33c2ceeb7fb1e4aa3c3c5d1af6ddf1cb3b536714fbe3fedce8c96d26f43206ba"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/low_support_targets.tsv",
+      "size_bytes": 93635,
+      "sha256": "5a1dad458386c9c5d9166ba0a8d70a7b70cd6aa6d6c78bfbe81b1e6de5d72c00"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/high_support_targets.tsv",
+      "size_bytes": 43452,
+      "sha256": "50d6d10a63514cbb75e8dabd31218c0b636f21724f601d6c91dea8c02bd36779"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/associated_target_annotation_completeness.tsv",
+      "size_bytes": 556,
+      "sha256": "cd7220d95bc617c30b5967152d2105951554d58461048c3d7ac01f7680b3cfd5"
+    },
+    {
+      "file": "target_model/data/02_target_evidence/02_target_evidence_qc_table.tsv",
+      "size_bytes": 791,
+      "sha256": "704eb3d7bd90f00c6dbfea6396f3f40ef8da8f1f3f2c01f897aab7a4f781c27f"
+    }
+  ]
+}

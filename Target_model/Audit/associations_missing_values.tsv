@@ -1,0 +1,9 @@
+dataset	column	total_rows	missing_n	missing_percent
+associations	Ingredient_ID	28871	0	0.0
+associations	Target_ID	28871	0	0.0
+associations	Activity_Type	28871	0	0.0
+associations	Activity_Relationship	28871	0	0.0
+associations	Activity_Value	28871	0	0.0
+associations	Activity_Unit	28871	0	0.0
+associations	Reference_ID	28871	0	0.0
+associations	Reference_ID_Type	28871	0	0.0

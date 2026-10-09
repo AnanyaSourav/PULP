@@ -1,0 +1,7 @@
+{
+  "error": "RuntimeError('TRAIN molecular: NaN/Inf detected.')",
+  "script": "04_build_cmaup_40d_reference.py",
+  "status": "FAILED",
+  "time": "2026-09-10T11:18:53.631660+05:30",
+  "traceback": "Traceback (most recent call last):\n  File \"/lustre/home/sklab202/sourav/PULP/04_build_cmaup_40d_reference.py\", line 3614, in <module>\n    exit_code = main()\n  File \"/lustre/home/sklab202/sourav/PULP/04_build_cmaup_40d_reference.py\", line 2113, in main\n    raise RuntimeError(\nRuntimeError: TRAIN molecular: NaN/Inf detected.\n"
+}

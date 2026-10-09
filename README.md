@@ -197,13 +197,6 @@ The target-inference implementation uses a standardized 40D reference representa
 
 Reference files, annotation tables, identifiers, feature order, and preprocessing statistics must remain compatible with the corresponding inference scripts.
 
-### `descriptor_summary.txt`
-
-A supporting text file describing molecular descriptor information. Consult its contents and the corresponding feature manifest to determine the exact definitions, names, units, and order of the descriptors used in a particular model version.
-
-### `test_20_molecular_descriptors.tsv`
-
-A tab-separated test or reference file associated with molecular descriptor processing. Its precise role, column definitions, and relationship to training or validation data should be documented alongside the file.
 
 **Reproducibility note:** The directory names above reflect the repository's visible top-level structure. Before publishing a release, verify this tree against the actual commit and document the exact paths of the production model, reference matrix, preprocessing artifacts, and runnable entry points.
 

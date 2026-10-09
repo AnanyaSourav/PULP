@@ -1,0 +1,219 @@
+Target_ID	Molecule_Count	Evidence_Record_Count	Mean_Evidence_Per_Molecule	Median_Evidence_Per_Molecule	Maximum_Evidence_Per_Molecule	Independent_Reference_Count	Gene_Symbol	Protein_Name	Uniprot_ID	ChEMBL_ID	TTD_ID	if_DTP	if_CYP	if_therapeutic_target	Target_Class_Level1	Target_Class_Level2	Target_Class_Level3	Target_Class_level_displayed	Target_type	Resolution_Status	Association_Record_Count	Support_Category
+NPT94	473	645	1.3636363636363635	1.0	7	645	ALDH1A1	Aldehyde dehydrogenase 1A1	P00352	CHEMBL3577	T99641	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	645	HIGH_GE_20
+NPT109	430	1113	2.588372093023256	2.0	28	566	CYP3A4	Cytochrome P450 3A4	P08684	CHEMBL340		0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 3	Cytochrome P450 family 3	Cytochrome P450	MAPPED	1113	HIGH_GE_20
+NPT51	364	915	2.5137362637362637	2.0	15	529	MAPT	Microtubule-associated protein tau	P10636	CHEMBL1293224		0	0	1	Other cytosolic protein	n.a.	n.a.	Other cytosolic protein	Therapeutic Target	MAPPED	915	HIGH_GE_20
+NPT48	356	495	1.3904494382022472	1.0	6	493	KDM4E	Lysine-specific demethylase 4D-like	B2RXH2	CHEMBL1293226	T17036	0	0	1	Epigenetic regulator	Eraser	Lysine demethylase	Lysine demethylase	Therapeutic Target	MAPPED	495	HIGH_GE_20
+NPT178	337	522	1.5489614243323442	1.0	45	474	PTPN1	Protein-tyrosine phosphatase 1B	P18031	CHEMBL335		0	0	1	Enzyme	Phosphatase	Protein Phosphatase	Protein Phosphatase	Therapeutic Target	MAPPED	522	HIGH_GE_20
+NPT483	315	392	1.2444444444444445	1.0	5	363	LMNA	Prelamin-A/C	P02545	CHEMBL1293235		0	0	1	Structural protein	n.a.	n.a.	Structural protein	Therapeutic Target	MAPPED	392	HIGH_GE_20
+NPT149	234	386	1.6495726495726495	1.0	6	315	HSD17B10	Endoplasmic reticulum-associated amyloid beta-peptide-binding protein	Q99714	CHEMBL4159		0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	386	HIGH_GE_20
+NPT151	231	326	1.4112554112554112	1.0	5	326	HPGD	15-hydroxyprostaglandin dehydrogenase [NAD+]	P15428	CHEMBL1293255		0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	326	HIGH_GE_20
+NPT50	227	287	1.2643171806167401	1.0	6	287	TDP1	Tyrosyl-DNA phosphodiesterase 1	Q9NUW8	CHEMBL1075138	T33492	0	0	1	Enzyme	Phosphodiesterase	n.a.	Phosphodiesterase	Therapeutic Target	MAPPED	287	HIGH_GE_20
+NPT210	224	454	2.0267857142857144	2.0	6	251	TSHR	Thyroid stimulating hormone receptor	P16473	CHEMBL1963	T60606	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Peptide receptor (family A GPCR)	Peptide receptor (family A GPCR)	Therapeutic Target	MAPPED	454	HIGH_GE_20
+NPT204	199	539	2.708542713567839	1.0	165	493	ACHE	Acetylcholinesterase	P22303	CHEMBL220	T30082	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	539	HIGH_GE_20
+NPT208	199	254	1.2763819095477387	1.0	5	243	CYP1A2	Cytochrome P450 1A2	P05177	CHEMBL3356		0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 1	Cytochrome P450 family 1	Cytochrome P450	MAPPED	254	HIGH_GE_20
+NPT93	189	248	1.312169312169312	1.0	7	246	SMN1	Survival motor neuron protein	Q16637	CHEMBL1293232		0	0	1	Epigenetic regulator	Reader	Methyl-lysine/arginine binding protein	Methyl-lysine/arginine binding protein	Therapeutic Target	MAPPED	248	HIGH_GE_20
+NPT282	174	238	1.367816091954023	1.0	11	220	MAPK1	MAP kinase ERK2	P28482	CHEMBL4040	T58970	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	238	HIGH_GE_20
+NPT792	159	193	1.2138364779874213	1.0	9	193	ALOX15	Arachidonate 15-lipoxygenase	P16050	CHEMBL2903	T16042	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	193	HIGH_GE_20
+NPT110	154	365	2.3701298701298703	2.0	52	260	CYP2D6	Cytochrome P450 2D6	P10635	CHEMBL289	T57392	0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 2	Cytochrome P450 family 2	Cytochrome P450	MAPPED	365	HIGH_GE_20
+NPT59	152	165	1.0855263157894737	1.0	5	162	POLB	DNA polymerase beta	P06746	CHEMBL2392	T06958	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	165	HIGH_GE_20
+NPT212	138	254	1.8405797101449275	1.0	7	191	CYP2C9	Cytochrome P450 2C9	P11712	CHEMBL3397	T19244	0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 2	Cytochrome P450 family 2	Cytochrome P450	MAPPED	254	HIGH_GE_20
+NPT539	138	235	1.7028985507246377	2.0	5	159	TP53	Cellular tumor antigen p53	P04637	CHEMBL4096		0	0	1	Transcription factor	n.a.	n.a.	Transcription factor	Therapeutic Target	MAPPED	235	HIGH_GE_20
+NPT213	135	250	1.8518518518518519	2.0	6	177	CYP2C19	Cytochrome P450 2C19	P33261	CHEMBL3622		0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 2	Cytochrome P450 family 2	Cytochrome P450	MAPPED	250	HIGH_GE_20
+NPT47	131	199	1.5190839694656488	1.0	7	177	RECQL	ATP-dependent DNA helicase Q1	P46063	CHEMBL1293236		0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	199	HIGH_GE_20
+NPT58	122	217	1.778688524590164	2.0	5	142	BLM	Bloom syndrome protein	P54132	CHEMBL1293237		0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	217	HIGH_GE_20
+NPT211	111	231	2.081081081081081	2.0	6	129	HIF1A	Hypoxia-inducible factor 1 alpha	Q16665	CHEMBL4261		0	0	1	Transcription factor	n.a.	n.a.	Transcription factor	Therapeutic Target	MAPPED	231	HIGH_GE_20
+NPT537	109	117	1.073394495412844	1.0	2	117	RAB9A	Ras-related protein Rab-9A	P51151	CHEMBL1293294	T66350	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	117	HIGH_GE_20
+NPT60	102	143	1.4019607843137254	1.0	11	114	GAA	Lysosomal alpha-glucosidase	P10253	CHEMBL2608	T31514	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	143	HIGH_GE_20
+NPT31	101	333	3.297029702970297	1.0	104	318	PTGS2	Cyclooxygenase-2	P35354	CHEMBL230	T66665	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	333	HIGH_GE_20
+NPT538	99	107	1.0808080808080809	1.0	2	107	NPC1	Niemann-Pick C1 protein	O15118	CHEMBL1293277		0	0	1	Transporter	n.a.	n.a.	Transporter	Therapeutic Target	MAPPED	107	HIGH_GE_20
+NPT30	98	229	2.336734693877551	1.0	69	220	PTGS1	Cyclooxygenase-1	P23219	CHEMBL221	T03403	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	229	HIGH_GE_20
+NPT949	98	128	1.3061224489795917	1.0	7	120	CA12	Carbonic anhydrase XII	O43570	CHEMBL3242	T16987	0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	128	HIGH_GE_20
+NPT947	92	162	1.7608695652173914	1.0	18	154	CA1	Carbonic anhydrase I	P00915	CHEMBL261	T13201	0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	162	HIGH_GE_20
+NPT233	86	164	1.9069767441860466	1.0	22	156	CA2	Carbonic anhydrase II	P00918	CHEMBL205	T20401	0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	164	HIGH_GE_20
+NPT955	86	93	1.0813953488372092	1.0	3	91	CA7	Carbonic anhydrase VII	P43166	CHEMBL2326	T37541	0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	93	HIGH_GE_20
+NPT948	85	114	1.3411764705882352	1.0	8	108	CA9	Carbonic anhydrase IX	Q16790	CHEMBL3594	T64567	0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	114	HIGH_GE_20
+NPT570	82	229	2.792682926829268	1.0	89	165	ALOX5	Arachidonate 5-lipoxygenase	P09917	CHEMBL215		0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	229	HIGH_GE_20
+NPT668	79	360	4.556962025316456	1.0	104	222	ABCB1	P-glycoprotein 1	P08183	CHEMBL4302	T25258	1	0	0	Transporter	Primary active transporter	ATP-binding cassette	ATP-binding cassette	Drug Transporter	MAPPED	360	HIGH_GE_20
+NPT261	75	358	4.773333333333333	1.0	100	344	MAOA	Monoamine oxidase A	P21397	CHEMBL1951	T83875	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	358	HIGH_GE_20
+NPT1197	74	74	1.0	1.0	1	74	HTT	Huntingtin	P42858	CHEMBL5514		0	0	1	Unclassified protein	n.a.	n.a.	Unclassified protein	Therapeutic Target	MAPPED	74	HIGH_GE_20
+NPT46	72	103	1.4305555555555556	1.0	9	84	THRB	Thyroid hormone receptor beta-1	P10828	CHEMBL1947	T98933	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	103	HIGH_GE_20
+NPT1604	71	129	1.8169014084507042	1.0	8	111	CYP1B1	Cytochrome P450 1B1	Q16678	CHEMBL4878	T92521	0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 1	Cytochrome P450 family 1	Cytochrome P450	MAPPED	129	HIGH_GE_20
+NPT439	70	271	3.8714285714285714	1.0	111	247	BCHE	Butyrylcholinesterase	P06276	CHEMBL1914	T99799	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	271	HIGH_GE_20
+NPT441	70	205	2.9285714285714284	1.0	49	175	CYP19A1	Cytochrome P450 19A1	P11511	CHEMBL1978	T13260	0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 19	Cytochrome P450 family 19	Cytochrome P450	MAPPED	205	HIGH_GE_20
+NPT740	68	102	1.5	1.0	5	78	BACE1	Beta-secretase 1	P56817	CHEMBL4822	T79031	0	0	1	Enzyme	Protease	Aspartic protease	Aspartic protease	Therapeutic Target	MAPPED	102	HIGH_GE_20
+NPT41	68	80	1.1764705882352942	1.0	5	79	AKR1B1	Aldose reductase	P15121	CHEMBL1900	T26623	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	80	HIGH_GE_20
+NPT713	65	134	2.0615384615384613	1.0	9	128	ABCB11	Bile salt export pump	O95342	CHEMBL6020	T33969	1	0	0	Transporter	Primary active transporter	ATP-binding cassette	ATP-binding cassette	Drug Transporter	MAPPED	134	HIGH_GE_20
+NPT864	64	64	1.0	1.0	1	64	L3MBTL1	Lethal(3)malignant brain tumor-like protein 1	Q9Y468	CHEMBL1287622		0	0	1	Epigenetic regulator	Reader	Methyl-lysine/arginine binding protein	Methyl-lysine/arginine binding protein	Therapeutic Target	MAPPED	64	HIGH_GE_20
+NPT582	62	368	5.935483870967742	1.0	108	351	MAOB	Monoamine oxidase B	P27338	CHEMBL2039	T83011	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	368	HIGH_GE_20
+NPT78	61	120	1.9672131147540983	1.0	23	108	APP	Beta amyloid A4 protein	P05067	CHEMBL2487		0	0	1	Membrane receptor	n.a.	n.a.	Membrane receptor	Therapeutic Target	MAPPED	120	HIGH_GE_20
+NPT163	61	115	1.8852459016393444	2.0	4	63	NFKB1	Nuclear factor NF-kappa-B p105 subunit	P19838	CHEMBL3251	T83145	0	0	1	Transcription factor	n.a.	n.a.	Transcription factor	Therapeutic Target	MAPPED	115	HIGH_GE_20
+NPT1603	60	103	1.7166666666666666	2.0	6	82	CYP1A1	Cytochrome P450 1A1	P04798	CHEMBL2231		0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 1	Cytochrome P450 family 1	Cytochrome P450	MAPPED	103	HIGH_GE_20
+NPT1038	60	62	1.0333333333333334	1.0	2	62	KMT2A	Histone-lysine N-methyltransferase MLL	Q03164	CHEMBL1293299	T25462	0	0	1	Epigenetic regulator	Writer	Protein methyltransferase	Protein methyltransferase	Therapeutic Target	MAPPED	62	HIGH_GE_20
+NPT796	60	60	1.0	1.0	1	60	PMP22	Peripheral myelin protein 22	Q01453	CHEMBL1293298		0	0	1	Unclassified protein	n.a.	n.a.	Unclassified protein	Therapeutic Target	MAPPED	60	HIGH_GE_20
+NPT45	58	64	1.103448275862069	1.0	4	63	USP2	Ubiquitin carboxyl-terminal hydrolase 2	O75604	CHEMBL1293227	T95183	0	0	1	Enzyme	Protease	Cysteine protease	Cysteine protease	Therapeutic Target	MAPPED	64	HIGH_GE_20
+NPT967	56	107	1.9107142857142858	1.0	42	100	XDH	Xanthine dehydrogenase	P47989	CHEMBL1929	T40954	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	107	HIGH_GE_20
+NPT1416	56	68	1.2142857142857142	1.0	8	60	NPSR1	Neuropeptide S receptor	Q6W5P4	CHEMBL5162	T20958	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Peptide receptor (family A GPCR)	Peptide receptor (family A GPCR)	Therapeutic Target	MAPPED	68	HIGH_GE_20
+NPT1062	55	65	1.1818181818181819	1.0	4	63	CA4	Carbonic anhydrase IV	P22748	CHEMBL3729	T53378	0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	65	HIGH_GE_20
+NPT99	53	312	5.886792452830188	1.0	198	236	PPARG	Peroxisome proliferator-activated receptor gamma	P37231	CHEMBL235		0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	312	HIGH_GE_20
+NPT1422	52	119	2.2884615384615383	2.0	25	65	ABCG2	ATP-binding cassette sub-family G member 2	Q9UNQ0	CHEMBL5393	T56556	1	0	0	Transporter	Primary active transporter	ATP-binding cassette	ATP-binding cassette	Drug Transporter	MAPPED	119	HIGH_GE_20
+NPT1119	52	72	1.3846153846153846	1.0	7	72	ALOX12	Arachidonate 12-lipoxygenase	P18054	CHEMBL3687	T35527	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	72	HIGH_GE_20
+NPT108	50	299	5.98	1.0	132	236	ESR1	Estrogen receptor alpha	P03372	CHEMBL206	T89534	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 3	Nuclear hormone receptor subfamily 3	Therapeutic Target	MAPPED	299	HIGH_GE_20
+NPT346	49	99	2.020408163265306	1.0	14	74	TRPA1	Transient receptor potential cation channel subfamily A member 1	O75762	CHEMBL6007	T84040	0	0	1	Ion channel	Voltage-gated ion channel	Transient receptor potential channel	Transient receptor potential channel	Therapeutic Target	MAPPED	99	HIGH_GE_20
+NPT96	49	98	2.0	2.0	2	49	THPO	Thrombopoietin	P40225	CHEMBL1293256	T99379	0	0	1	Secreted protein	n.a.	n.a.	Secreted protein	Therapeutic Target	MAPPED	98	HIGH_GE_20
+NPT49	49	55	1.1224489795918366	1.0	4	52	APEX1	DNA-(apurinic or apyrimidinic site) lyase	P27695	CHEMBL5619	T13348	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	55	HIGH_GE_20
+NPT954	47	58	1.2340425531914894	1.0	4	56	CA14	Carbonic anhydrase XIV	Q9ULX7	CHEMBL3510	T31992	0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	58	HIGH_GE_20
+NPT862	46	85	1.8478260869565217	1.0	27	76	EPHX2	Epoxide hydratase	P34913	CHEMBL2409	T35734	0	0	1	Enzyme	Protease	Serine protease	Serine protease	Therapeutic Target	MAPPED	85	HIGH_GE_20
+NPT741	46	81	1.7608695652173914	1.0	20	73	TYR	Tyrosinase	P14679	CHEMBL1973	T97035	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	81	HIGH_GE_20
+NPT524	46	47	1.0217391304347827	1.0	2	47	ATM	Serine-protein kinase ATM	Q13315	CHEMBL3797	T97196	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	47	HIGH_GE_20
+NPT98	44	129	2.9318181818181817	1.0	13	119	KCNH2	HERG	Q12809	CHEMBL240	T20251	1	0	0	Ion channel	Voltage-gated ion channel	Potassium channels	Potassium channels	Drug Transporter	MAPPED	129	HIGH_GE_20
+NPT277	44	62	1.4090909090909092	1.0	5	52	CASP1	Caspase-1	P29466	CHEMBL4801	T98269	0	0	1	Enzyme	Protease	Cysteine protease	Cysteine protease	Therapeutic Target	MAPPED	62	HIGH_GE_20
+NPT940	43	113	2.627906976744186	2.0	9	58	MTOR	Serine/threonine-protein kinase mTOR	P42345	CHEMBL2842	T75243	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	113	HIGH_GE_20
+NPT203	41	73	1.7804878048780488	1.0	11	57	CES2	Carboxylesterase 2	O00748	CHEMBL3180		0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	73	HIGH_GE_20
+NPT240	41	72	1.7560975609756098	2.0	5	62	CYP2A6	Cytochrome P450 2A6	P11509	CHEMBL5282	T06455	0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 2	Cytochrome P450 family 2	Cytochrome P450	MAPPED	72	HIGH_GE_20
+NPT956	41	54	1.3170731707317074	1.0	4	52	PTGES	Prostaglandin E synthase	O14684	CHEMBL5658	T02562	0	0	1	Enzyme	Isomerase	n.a.	Isomerase	Therapeutic Target	MAPPED	54	HIGH_GE_20
+NPT1287	40	87	2.175	1.0	25	78	CNR2	Cannabinoid CB2 receptor	P34972	CHEMBL253	T37693	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	87	HIGH_GE_20
+NPT38	40	45	1.125	1.0	4	44	STAT3	Signal transducer and activator of transcription 3	P40763	CHEMBL4026		0	0	1	Transcription factor	n.a.	n.a.	Transcription factor	Therapeutic Target	MAPPED	45	HIGH_GE_20
+NPT1226	39	48	1.2307692307692308	1.0	3	46	CASP7	Caspase-7	P55210	CHEMBL3468	T72252	0	0	1	Enzyme	Protease	Cysteine protease	Cysteine protease	Therapeutic Target	MAPPED	48	HIGH_GE_20
+NPT1063	38	49	1.2894736842105263	1.0	4	47	CA6	Carbonic anhydrase VI	P23280	CHEMBL3025	T06569	0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	49	HIGH_GE_20
+NPT501	37	51	1.3783783783783783	1.0	6	49														UNMAPPED	51	HIGH_GE_20
+NPT92	36	107	2.9722222222222223	1.0	63	82	HTR1A	Serotonin 1a (5-HT1a) receptor	P08908	CHEMBL214	T78709	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	107	HIGH_GE_20
+NPT232	36	90	2.5	1.0	21	79	CNR1	Cannabinoid CB1 receptor	P21554	CHEMBL218	T76685	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	90	HIGH_GE_20
+NPT540	36	45	1.25	1.0	7	44	NR1H4	Bile acid receptor FXR	Q96RI1	CHEMBL2047	T51426	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	45	HIGH_GE_20
+NPT920	36	41	1.1388888888888888	1.0	2	36	SNCA	Alpha-synuclein	P37840	CHEMBL6152		0	0	1	Unclassified protein	n.a.	n.a.	Unclassified protein	Therapeutic Target	MAPPED	41	HIGH_GE_20
+NPT271	35	188	5.371428571428571	1.0	52	168	OPRD1	Delta opioid receptor	P41143	CHEMBL236	T58992	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Peptide receptor (family A GPCR)	Peptide receptor (family A GPCR)	Therapeutic Target	MAPPED	188	HIGH_GE_20
+NPT166	35	61	1.7428571428571429	1.0	12	57	CES1	Acyl coenzyme A:cholesterol acyltransferase	P23141	CHEMBL2265	T76369	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	61	HIGH_GE_20
+NPT57	34	70	2.0588235294117645	1.5	21	50	MCL1	Induced myeloid leukemia cell differentiation protein Mcl-1	Q07820	CHEMBL4361		0	0	1	Other cytosolic protein	n.a.	n.a.	Other cytosolic protein	Therapeutic Target	MAPPED	70	HIGH_GE_20
+NPT106	34	34	1.0	1.0	1	34	PPARD	Peroxisome proliferator-activated receptor delta	Q03181	CHEMBL3979	T85042	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	34	HIGH_GE_20
+NPT1464	33	105	3.1818181818181817	1.0	68	78	PDE4D	Phosphodiesterase 4D	Q08499	CHEMBL288	T02001	0	0	1	Enzyme	Phosphodiesterase	Phosphodiesterase 4	Phosphodiesterase 4	Therapeutic Target	MAPPED	105	HIGH_GE_20
+NPT248	32	240	7.5	1.0	111	184	ESR2	Estrogen receptor beta	Q92731	CHEMBL242	T80896	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 3	Nuclear hormone receptor subfamily 3	Therapeutic Target	MAPPED	240	HIGH_GE_20
+NPT73	32	63	1.96875	2.0	9	36	SLCO1B1	Solute carrier organic anion transporter family member 1B1	Q9Y6L6	CHEMBL1697668	T46814	1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	63	HIGH_GE_20
+NPT72	32	59	1.84375	2.0	4	33	SLCO1B3	Solute carrier organic anion transporter family member 1B3	Q9NPD5	CHEMBL1743121	T02565	1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	59	HIGH_GE_20
+NPT1592	32	35	1.09375	1.0	3	35	DPP4	Dipeptidyl peptidase IV	P27487	CHEMBL284	T31391	0	0	1	Enzyme	Protease	Serine protease	Serine protease	Therapeutic Target	MAPPED	35	HIGH_GE_20
+NPT52	31	66	2.129032258064516	2.0	6	33	PKM	Pyruvate kinase isozymes M1/M2	P14618	CHEMBL1075189	T65889	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	66	HIGH_GE_20
+NPT866	31	64	2.064516129032258	1.0	17	61	PPARA	Peroxisome proliferator-activated receptor alpha	Q07869	CHEMBL239	T86591	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	64	HIGH_GE_20
+NPT1143	30	38	1.2666666666666666	1.0	4	36	CA5A	Carbonic anhydrase VA	P35218	CHEMBL4789		0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	38	HIGH_GE_20
+NPT145	29	262	9.03448275862069	2.0	102	196	OPRM1	Mu opioid receptor	P35372	CHEMBL233	T47768	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Peptide receptor (family A GPCR)	Peptide receptor (family A GPCR)	Therapeutic Target	MAPPED	262	HIGH_GE_20
+NPT279	29	44	1.5172413793103448	2.0	2	29														UNMAPPED	44	HIGH_GE_20
+NPT1144	29	35	1.206896551724138	1.0	3	33	CA5B	Carbonic anhydrase VB	Q9Y2D0	CHEMBL3969		0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	35	HIGH_GE_20
+NPT568	29	30	1.0344827586206897	1.0	2	30	MMP2	Matrix metalloproteinase-2	P08253	CHEMBL333		0	0	1	Enzyme	Protease	Metallo protease	Metallo protease	Therapeutic Target	MAPPED	30	HIGH_GE_20
+NPT1006	29	29	1.0	1.0	1	29														UNMAPPED	29	HIGH_GE_20
+NPT218	28	72	2.5714285714285716	2.0	19	62	ADORA3	Adenosine A3 receptor	P0DMS8	CHEMBL256	T36059	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	72	HIGH_GE_20
+NPT143	28	56	2.0	1.0	24	47	TOP1	DNA topoisomerase I	P11387	CHEMBL1781	T09826	0	0	1	Enzyme	Isomerase	n.a.	Isomerase	Therapeutic Target	MAPPED	56	HIGH_GE_20
+NPT292	27	87	3.2222222222222223	2.0	44	55	HTR2C	Serotonin 2c (5-HT2c) receptor	P28335	CHEMBL225	T83813	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	87	HIGH_GE_20
+NPT472	27	70	2.5925925925925926	1.0	21	52	TRPV1	Vanilloid receptor	Q8NER1	CHEMBL4794		0	0	1	Ion channel	Voltage-gated ion channel	Transient receptor potential channel	Transient receptor potential channel	Therapeutic Target	MAPPED	70	HIGH_GE_20
+NPT1214	27	32	1.1851851851851851	1.0	2	29														UNMAPPED	32	HIGH_GE_20
+NPT1146	26	33	1.2692307692307692	1.0	4	31	CA3	Carbonic anhydrase III	P07451	CHEMBL2885		0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	33	HIGH_GE_20
+NPT3101	26	29	1.1153846153846154	1.0	2	27	CA13	Carbonic anhydrase XIII	Q8N1Q1	CHEMBL3912		0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	29	HIGH_GE_20
+NPT10	26	26	1.0	1.0	1	26	GMNN	Geminin	O75496	CHEMBL1293278	T57387	0	0	1	Unclassified protein	n.a.	n.a.	Unclassified protein	Therapeutic Target	MAPPED	26	HIGH_GE_20
+NPT285	25	258	10.32	1.0	185	167	EGFR	Epidermal growth factor receptor erbB1	P00533	CHEMBL203		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	258	HIGH_GE_20
+NPT243	25	114	4.56	1.0	72	79	DRD2	Dopamine D2 receptor	P14416	CHEMBL217	T67162	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	114	HIGH_GE_20
+NPT153	25	88	3.52	2.0	27	68	AR	Androgen Receptor	P10275	CHEMBL1871		0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 3	Nuclear hormone receptor subfamily 3	Therapeutic Target	MAPPED	88	HIGH_GE_20
+NPT2584	25	28	1.12	1.0	2	26														UNMAPPED	28	HIGH_GE_20
+NPT865	25	27	1.08	1.0	3	27														UNMAPPED	27	HIGH_GE_20
+NPT272	24	131	5.458333333333333	1.0	44	111	OPRK1	Kappa opioid receptor	P41145	CHEMBL237	T60693	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Peptide receptor (family A GPCR)	Peptide receptor (family A GPCR)	Therapeutic Target	MAPPED	131	HIGH_GE_20
+NPT1078	24	45	1.875	1.0	7	36	IDO1	Indoleamine 2,3-dioxygenase	P14902	CHEMBL4685	T89697	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	45	HIGH_GE_20
+NPT1270	24	41	1.7083333333333333	1.0	7	25	AKR1B10	Aldo-keto reductase family 1 member B10	O60218	CHEMBL5983		0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	41	HIGH_GE_20
+NPT280	24	25	1.0416666666666667	1.0	2	24	MMP9	Matrix metalloproteinase 9	P14780	CHEMBL321		0	0	1	Enzyme	Protease	Metallo protease	Metallo protease	Therapeutic Target	MAPPED	25	HIGH_GE_20
+NPT591	23	61	2.652173913043478	1.0	34	58	GSK3B	Glycogen synthase kinase-3 beta	P49841	CHEMBL262	T70977	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	61	HIGH_GE_20
+NPT242	23	54	2.347826086956522	1.0	16	45	DRD1	Dopamine D1 receptor	P21728	CHEMBL2056	T22118	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	54	HIGH_GE_20
+NPT222	23	51	2.217391304347826	1.0	10	41	ADRA2A	Alpha-2a adrenergic receptor	P08913	CHEMBL1867	T11448	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	51	HIGH_GE_20
+NPT543	23	40	1.7391304347826086	1.0	4	25	NR1I2	Pregnane X receptor	O75469	CHEMBL3401	T82702	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 1	Nuclear hormone receptor subfamily 1	Therapeutic Target	MAPPED	40	HIGH_GE_20
+NPT1210	23	39	1.6956521739130435	1.0	14	38	PTPN2	T-cell protein-tyrosine phosphatase	P17706	CHEMBL3807	T49156	0	0	1	Enzyme	Phosphatase	Protein Phosphatase	Protein Phosphatase	Therapeutic Target	MAPPED	39	HIGH_GE_20
+NPT613	23	30	1.3043478260869565	1.0	3	30	SLC22A1	Solute carrier family 22 member 1	O15245	CHEMBL5685		1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	30	HIGH_GE_20
+NPT1028	23	23	1.0	1.0	1	23														UNMAPPED	23	HIGH_GE_20
+NPT1044	22	44	2.0	1.0	18	43	TOP2A	DNA topoisomerase II alpha	P11388	CHEMBL1806	T96144	0	0	1	Enzyme	Isomerase	n.a.	Isomerase	Therapeutic Target	MAPPED	44	HIGH_GE_20
+NPT13	22	41	1.8636363636363635	1.0	12	39	LCK	Tyrosine-protein kinase LCK	P06239	CHEMBL258	T12499	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	41	HIGH_GE_20
+NPT249	21	298	14.19047619047619	2.0	103	144	NR3C1	Glucocorticoid receptor	P04150	CHEMBL2034		0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 3	Nuclear hormone receptor subfamily 3	Therapeutic Target	MAPPED	298	HIGH_GE_20
+NPT296	21	69	3.2857142857142856	1.0	29	52	SIGMAR1	Sigma opioid receptor	Q99720	CHEMBL287	T46360	0	0	1	Membrane receptor	n.a.	n.a.	Membrane receptor	Therapeutic Target	MAPPED	69	HIGH_GE_20
+NPT1187	21	43	2.0476190476190474	2.0	11	30	PSMB5	Proteasome Macropain subunit MB1	P28074	CHEMBL4662	T49031	0	0	1	Enzyme	Protease	Threonine protease	Threonine protease	Therapeutic Target	MAPPED	43	HIGH_GE_20
+NPT144	21	43	2.0476190476190474	1.0	13	36	TERT	Telomerase reverse transcriptase	O14746	CHEMBL2916		0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	43	HIGH_GE_20
+NPT224	21	40	1.9047619047619047	2.0	7	32	ADRA2C	Alpha-2c adrenergic receptor	P18825	CHEMBL1916	T01777	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	40	HIGH_GE_20
+NPT1566	21	28	1.3333333333333333	1.0	3	27	GLO1	Glyoxalase I	Q04760	CHEMBL2424	T88285	0	0	1	Enzyme	Lyase	n.a.	Lyase	Therapeutic Target	MAPPED	28	HIGH_GE_20
+NPT670	21	28	1.3333333333333333	1.0	5	22	F2	Thrombin	P00734	CHEMBL204	T94033	0	0	1	Enzyme	Protease	Serine protease	Serine protease	Therapeutic Target	MAPPED	28	HIGH_GE_20
+NPT721	21	27	1.2857142857142858	1.0	6	27	RELA	Nuclear factor NF-kappa-B p65 subunit	Q04206	CHEMBL5533	T83145	0	0	1	Transcription factor	n.a.	n.a.	Transcription factor	Therapeutic Target	MAPPED	27	HIGH_GE_20
+NPT295	20	134	6.7	2.0	54	93	SLC6A4	Serotonin transporter	P31645	CHEMBL228	T27812	1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	134	HIGH_GE_20
+NPT228	20	96	4.8	2.0	50	61	SLC6A2	Norepinephrine transporter	P23975	CHEMBL222	T21945	1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	96	HIGH_GE_20
+NPT244	20	68	3.4	1.0	43	47	DRD3	Dopamine D3 receptor	P35462	CHEMBL234	T02551	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	68	HIGH_GE_20
+NPT410	20	65	3.25	1.0	27	53	CHRNA7	Neuronal acetylcholine receptor protein alpha-7 subunit	P36544	CHEMBL2492	T34429	0	0	1	Ion channel	Ligand-gated ion channel	Nicotinic acetylcholine receptor	Nicotinic acetylcholine receptor	Therapeutic Target	MAPPED	65	HIGH_GE_20
+NPT291	20	57	2.85	2.0	24	38	HTR2B	Serotonin 2b (5-HT2b) receptor	P41595	CHEMBL1833	T31204	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	57	HIGH_GE_20
+NPT1274	20	33	1.65	1.0	5	23	RAD52	DNA repair protein RAD52 homolog	P43351	CHEMBL2362978		0	0	1	Other nuclear protein	n.a.	n.a.	Other nuclear protein	Therapeutic Target	MAPPED	33	HIGH_GE_20
+NPT290	19	74	3.8947368421052633	2.0	43	50	HTR2A	Serotonin 2a (5-HT2a) receptor	P28223	CHEMBL224	T32060	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	74	GOOD_10_TO_19
+NPT1594	19	51	2.6842105263157894	2.0	11	44	ABCC1	Multidrug resistance-associated protein 1	P33527	CHEMBL3004	T11288	1	0	0	Transporter	Primary active transporter	ATP-binding cassette	ATP-binding cassette	Drug Transporter	MAPPED	51	GOOD_10_TO_19
+NPT2930	19	27	1.4210526315789473	1.0	3	21	HBB	Hemoglobin beta chain	P68871	CHEMBL4331	T31825	0	0	1	Secreted protein	n.a.	n.a.	Secreted protein	Therapeutic Target	MAPPED	27	GOOD_10_TO_19
+NPT182	18	37	2.0555555555555554	1.0	15	36	PRKCA	Protein kinase C alpha	P17252	CHEMBL299		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	37	GOOD_10_TO_19
+NPT677	18	24	1.3333333333333333	1.0	6	19	F3	Coagulation factor III	P13726	CHEMBL4081	T72702	0	0	1	Surface antigen	n.a.	n.a.	Surface antigen	Therapeutic Target	MAPPED	24	GOOD_10_TO_19
+NPT669	18	22	1.2222222222222223	1.0	5	22														UNMAPPED	22	GOOD_10_TO_19
+NPT1283	18	21	1.1666666666666667	1.0	2	18	PAX8	Paired box protein Pax-8	Q06710	CHEMBL2362980		0	0	1	Transcription factor	n.a.	n.a.	Transcription factor	Therapeutic Target	MAPPED	21	GOOD_10_TO_19
+NPT918	18	19	1.0555555555555556	1.0	2	19	HSP90AA1	Heat shock protein HSP 90-alpha	P07900	CHEMBL3880	T18477	0	0	1	Other cytosolic protein	n.a.	n.a.	Other cytosolic protein	Therapeutic Target	MAPPED	19	GOOD_10_TO_19
+NPT246	17	105	6.176470588235294	2.0	65	61	SLC6A3	Dopamine transporter	Q01959	CHEMBL238	T55959	1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	105	GOOD_10_TO_19
+NPT1785	17	47	2.764705882352941	1.0	31	39	HTR7	Serotonin 7 (5-HT7) receptor	P34969	CHEMBL3155	T79062	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	47	GOOD_10_TO_19
+NPT223	17	33	1.9411764705882353	2.0	8	25	ADRA2B	Alpha-2b adrenergic receptor	P18089	CHEMBL1942	T41580	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	33	GOOD_10_TO_19
+NPT1371	17	32	1.8823529411764706	1.0	10	31	CDK2	Cyclin-dependent kinase 2	P24941	CHEMBL301	T70176	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	32	GOOD_10_TO_19
+NPT901	17	28	1.6470588235294117	2.0	2	17	UGT1A1	UDP-glucuronosyltransferase 1-1	P22309	CHEMBL1287617	T93480	0	0	1	Enzyme	Transferase	n.a.	Transferase	Therapeutic Target	MAPPED	28	GOOD_10_TO_19
+NPT665	17	25	1.4705882352941178	1.0	8	24	SLC22A6	Solute carrier family 22 member 6	Q4U2R8	CHEMBL1641347		1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	25	GOOD_10_TO_19
+NPT1224	17	24	1.411764705882353	1.0	8	20														UNMAPPED	24	GOOD_10_TO_19
+NPT77	17	24	1.411764705882353	1.0	3	21	TTR	Transthyretin	P02766	CHEMBL3194		0	0	1	Secreted protein	n.a.	n.a.	Secreted protein	Therapeutic Target	MAPPED	24	GOOD_10_TO_19
+NPT1157	17	23	1.3529411764705883	1.0	2	23														UNMAPPED	23	GOOD_10_TO_19
+NPT273	17	20	1.1764705882352942	1.0	2	20	PDE5A	Phosphodiesterase 5A	O76074	CHEMBL1827	T07663	0	0	1	Enzyme	Phosphodiesterase	Phosphodiesterase 5	Phosphodiesterase 5	Therapeutic Target	MAPPED	20	GOOD_10_TO_19
+NPT226	16	76	4.75	3.0	28	49	ADRB2	Beta-2 adrenergic receptor	P07550	CHEMBL210		0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	76	GOOD_10_TO_19
+NPT3504	16	52	3.25	2.0	19	32	AKR1C3	Aldo-keto-reductase family 1 member C3	P42330	CHEMBL4681	T60857	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	52	GOOD_10_TO_19
+NPT36	16	44	2.75	1.0	26	44	SRC	Tyrosine-protein kinase SRC	P12931	CHEMBL267	T85943	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	44	GOOD_10_TO_19
+NPT1265	16	40	2.5	1.0	14	38	PIM1	Serine/threonine-protein kinase PIM1	P11309	CHEMBL2147	T50594	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	40	GOOD_10_TO_19
+NPT2691	16	28	1.75	1.0	5	19	CACNA1C	Voltage-gated L-type calcium channel alpha-1C subunit	Q13936	CHEMBL1940	T51115	1	0	0	Ion channel	Voltage-gated ion channel	Voltage-gated calcium channel	Voltage-gated calcium channel	Drug Transporter	MAPPED	28	GOOD_10_TO_19
+NPT1591	16	25	1.5625	1.0	6	21	PREP	Prolyl endopeptidase	P48147	CHEMBL3202	T86161	0	0	1	Enzyme	Protease	Serine protease	Serine protease	Therapeutic Target	MAPPED	25	GOOD_10_TO_19
+NPT628	16	25	1.5625	1.0	5	22	CYP2C8	Cytochrome P450 2C8	P10632	CHEMBL3721		0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 2	Cytochrome P450 family 2	Cytochrome P450	MAPPED	25	GOOD_10_TO_19
+NPT1338	16	16	1.0	1.0	1	16														UNMAPPED	16	GOOD_10_TO_19
+NPT1137	15	31	2.066666666666667	1.0	9	28	HSD11B1	11-beta-hydroxysteroid dehydrogenase 1	P28845	CHEMBL4235	T65200	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	31	GOOD_10_TO_19
+NPT1588	15	20	1.3333333333333333	1.0	2	20	HSD17B2	Estradiol 17-beta-dehydrogenase 2	P37059	CHEMBL2789		0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	20	GOOD_10_TO_19
+NPT294	14	48	3.4285714285714284	2.0	23	39	HTR6	Serotonin 6 (5-HT6) receptor	P50406	CHEMBL3371	T16691	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	48	GOOD_10_TO_19
+NPT262	14	47	3.357142857142857	2.0	18	30	CHRM1	Muscarinic acetylcholine receptor M1	P11229	CHEMBL216	T28893	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	47	GOOD_10_TO_19
+NPT1721	14	20	1.4285714285714286	1.0	6	19	DAPK1	Death-associated protein kinase 1	P53355	CHEMBL2558		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	20	GOOD_10_TO_19
+NPT745	14	19	1.3571428571428572	1.0	5	19	GPBAR1	G-protein coupled bile acid receptor 1	Q8TDU6	CHEMBL5409	T86273	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	19	GOOD_10_TO_19
+NPT1166	13	58	4.461538461538462	2.0	33	51	ACE	Angiotensin-converting enzyme	P12821	CHEMBL1808	T82577	0	0	1	Enzyme	Protease	Metallo protease	Metallo protease	Therapeutic Target	MAPPED	58	GOOD_10_TO_19
+NPT1788	13	35	2.6923076923076925	1.0	14	32	ADRA1A	Alpha-1a adrenergic receptor	P35348	CHEMBL229	T92609	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	35	GOOD_10_TO_19
+NPT497	13	17	1.3076923076923077	1.0	3	15	MGAM	Maltase-glucoamylase	O43451	CHEMBL2074	T92777	0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	17	GOOD_10_TO_19
+NPT3114	12	41	3.4166666666666665	1.0	25	34	DYRK1A	Dual-specificity tyrosine-phosphorylation regulated kinase 1A	Q13627	CHEMBL2292	T92803	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	41	GOOD_10_TO_19
+NPT728	12	39	3.25	1.0	24	34	AKT1	Serine/threonine-protein kinase AKT	P31749	CHEMBL4282		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	39	GOOD_10_TO_19
+NPT14	12	28	2.3333333333333335	1.0	10	16	FYN	Tyrosine-protein kinase FYN	P06241	CHEMBL1841	T17980	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	28	GOOD_10_TO_19
+NPT366	12	28	2.3333333333333335	1.0	10	25	NQO2	Quinone reductase 2	P16083	CHEMBL3959	T75498	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	28	GOOD_10_TO_19
+NPT627	12	20	1.6666666666666667	1.0	4	13	CYP2B6	Cytochrome P450 2B6	P20813	CHEMBL4729	T11793	0	1	0	Enzyme	Cytochrome P450	Cytochrome P450 family 2	Cytochrome P450 family 2	Cytochrome P450	MAPPED	20	GOOD_10_TO_19
+NPT1587	12	18	1.5	1.0	7	16	HSD17B1	Estradiol 17-beta-dehydrogenase 1	P14061	CHEMBL3181	T44011	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	18	GOOD_10_TO_19
+NPT157	12	14	1.1666666666666667	1.0	2	14	BRCA1	Breast cancer type 1 susceptibility protein	P38398	CHEMBL5990		0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	14	GOOD_10_TO_19
+NPT911	12	14	1.1666666666666667	1.0	3	14	CDC25B	Dual specificity phosphatase Cdc25B	P30305	CHEMBL4804	T46365	0	0	1	Enzyme	Phosphatase	Protein Phosphatase	Protein Phosphatase	Therapeutic Target	MAPPED	14	GOOD_10_TO_19
+NPT2680	12	12	1.0	1.0	1	12														UNMAPPED	12	GOOD_10_TO_19
+NPT1627	11	39	3.5454545454545454	3.0	8	16	GPR35	G-protein coupled receptor 35	Q9HC97	CHEMBL1293267	T56143	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	39	GOOD_10_TO_19
+NPT980	11	36	3.272727272727273	1.0	21	34	BCL2	Apoptosis regulator Bcl-2	P10415	CHEMBL4860		0	0	1	Ion channel	Other ion channel	Miscellaneous ion channel	Miscellaneous ion channel	Therapeutic Target	MAPPED	36	GOOD_10_TO_19
+NPT221	11	32	2.909090909090909	2.0	12	26	ADRA1D	Alpha-1d adrenergic receptor	P25100	CHEMBL223	T53381	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	32	GOOD_10_TO_19
+NPT641	11	32	2.909090909090909	1.0	22	30	SLC5A2	Sodium/glucose cotransporter 2	P31639	CHEMBL3884		1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	32	GOOD_10_TO_19
+NPT1449	11	30	2.727272727272727	2.0	11	24	SYK	Tyrosine-protein kinase SYK	P43405	CHEMBL2599		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	30	GOOD_10_TO_19
+NPT640	11	30	2.727272727272727	1.0	19	30	SLC5A1	Sodium/glucose cotransporter 1	P13866	CHEMBL4979	T54771	1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	30	GOOD_10_TO_19
+NPT1079	11	29	2.6363636363636362	2.0	5	25														UNMAPPED	29	GOOD_10_TO_19
+NPT1337	11	28	2.5454545454545454	1.0	17	27	MET	Hepatocyte growth factor receptor	P08581	CHEMBL3717	T40474	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	28	GOOD_10_TO_19
+NPT491	11	24	2.1818181818181817	1.0	12	24	MAP2K1	Dual specificity mitogen-activated protein kinase kinase 1	Q02750	CHEMBL3587	T35940	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	24	GOOD_10_TO_19
+NPT546	11	22	2.0	1.0	12	20	RXRA	Retinoid X receptor alpha	P19793	CHEMBL2061	T13726	0	0	1	Transcription factor	Nuclear receptor	Nuclear hormone receptor subfamily 2	Nuclear hormone receptor subfamily 2	Therapeutic Target	MAPPED	22	GOOD_10_TO_19
+NPT612	11	18	1.6363636363636365	1.0	7	17														UNMAPPED	18	GOOD_10_TO_19
+NPT206	11	14	1.2727272727272727	1.0	3	12														UNMAPPED	14	GOOD_10_TO_19
+NPT1540	11	11	1.0	1.0	1	11	SLC22A2	Solute carrier family 22 member 2	O15244	CHEMBL1743122		1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	11	GOOD_10_TO_19
+NPT2230	11	11	1.0	1.0	1	11														UNMAPPED	11	GOOD_10_TO_19
+NPT2892	11	11	1.0	1.0	1	11	XBP1	X-box-binding protein 1	P17861	CHEMBL1741176		0	0	1	Unclassified protein	n.a.	n.a.	Unclassified protein	Therapeutic Target	MAPPED	11	GOOD_10_TO_19
+NPT567	11	11	1.0	1.0	1	11	MMP3	Matrix metalloproteinase 3	P08254	CHEMBL283	T86702	0	0	1	Enzyme	Protease	Metallo protease	Metallo protease	Therapeutic Target	MAPPED	11	GOOD_10_TO_19
+NPT802	11	11	1.0	1.0	1	11	ALPL	Alkaline phosphatase, tissue-nonspecific isozyme	P05186	CHEMBL5979	T09538	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	11	GOOD_10_TO_19
+NPT870	11	11	1.0	1.0	1	11														UNMAPPED	11	GOOD_10_TO_19
+NPT894	11	11	1.0	1.0	1	11	SERPINA6	Corticosteroid binding globulin	P08185	CHEMBL2421	T88452	0	0	1	Secreted protein	n.a.	n.a.	Secreted protein	Therapeutic Target	MAPPED	11	GOOD_10_TO_19
+NPT1478	10	114	11.4	1.0	72	100	KDR	Vascular endothelial growth factor receptor 2	P35968	CHEMBL279		0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	114	GOOD_10_TO_19
+NPT2818	10	97	9.7	1.0	87	87	DHFR	Dihydrofolate reductase	P00374	CHEMBL202	T17345	0	0	1	Enzyme	Oxidoreductase	n.a.	Oxidoreductase	Therapeutic Target	MAPPED	97	GOOD_10_TO_19
+NPT217	10	69	6.9	2.5	25	53	ADORA2A	Adenosine A2a receptor	P29274	CHEMBL251	T77365	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	69	GOOD_10_TO_19
+NPT263	10	54	5.4	2.0	19	25	CHRM2	Muscarinic acetylcholine receptor M2	P08172	CHEMBL211	T46185	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	54	GOOD_10_TO_19
+NPT3517	10	43	4.3	1.5	13	38	NOS2	Nitric oxide synthase, inducible	P35228	CHEMBL4481	T02703	0	0	1	Enzyme	n.a.	n.a.	Enzyme	Therapeutic Target	MAPPED	43	GOOD_10_TO_19
+NPT283	10	30	3.0	1.0	13	28	MAPK14	MAP kinase p38 alpha	Q16539	CHEMBL260	T65864	0	0	1	Enzyme	Kinase	Protein Kinase	Protein Kinase	Therapeutic Target	MAPPED	30	GOOD_10_TO_19
+NPT264	10	29	2.9	2.0	11	18	CHRM3	Muscarinic acetylcholine receptor M3	P20309	CHEMBL245	T67684	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	29	GOOD_10_TO_19
+NPT1789	10	28	2.8	1.5	12	25	ADRA1B	Alpha-1b adrenergic receptor	P35368	CHEMBL232	T29500	0	0	1	Membrane receptor	Family A G protein-coupled receptor	Small molecule receptor (family A GPCR)	Small molecule receptor (family A GPCR)	Therapeutic Target	MAPPED	28	GOOD_10_TO_19
+NPT503	10	21	2.1	1.0	9	20	FUCA1	Alpha-L-fucosidase I	P04066	CHEMBL4176		0	0	1	Enzyme	Hydrolase	n.a.	Hydrolase	Therapeutic Target	MAPPED	21	GOOD_10_TO_19
+NPT3507	10	19	1.9	2.0	4	19														UNMAPPED	19	GOOD_10_TO_19
+NPT214	10	16	1.6	1.0	6	16	CTSB	Cathepsin B	P07858	CHEMBL4072	T61746	0	0	1	Enzyme	Protease	Cysteine protease	Cysteine protease	Therapeutic Target	MAPPED	16	GOOD_10_TO_19
+NPT801	10	15	1.5	1.5	2	11														UNMAPPED	15	GOOD_10_TO_19
+NPT152	10	14	1.4	1.0	4	14	NFE2L2	Nuclear factor erythroid 2-related factor 2	Q16236	CHEMBL1075094	T88505	0	0	1	Transcription factor	n.a.	n.a.	Transcription factor	Therapeutic Target	MAPPED	14	GOOD_10_TO_19
+NPT4037	10	14	1.4	1.0	3	10	SLC47A1	Multidrug and toxin extrusion protein 1	Q96FL8	CHEMBL1743126	T39676	1	0	0	Transporter	Electrochemical transporter	SLC superfamily of solute carriers	SLC superfamily of solute carriers	Drug Transporter	MAPPED	14	GOOD_10_TO_19
+NPT1090	10	10	1.0	1.0	1	10														UNMAPPED	10	GOOD_10_TO_19
+NPT1356	10	10	1.0	1.0	1	10	P4HB	Protein disulfide-isomerase	P07237	CHEMBL5422		0	0	1	Enzyme	Isomerase	n.a.	Isomerase	Therapeutic Target	MAPPED	10	GOOD_10_TO_19
+NPT4581	10	10	1.0	1.0	1	10														UNMAPPED	10	GOOD_10_TO_19

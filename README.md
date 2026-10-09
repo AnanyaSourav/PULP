@@ -160,9 +160,7 @@ PULP/
 │   └── Target-inference resources and associated model artifacts
 │
 ├── LICENSE
-├── README.md
-├── descriptor_summary.txt
-└── test_20_molecular_descriptors.tsv
+└── README.md
 ```
 
 The descriptions above summarize the intended role of each directory. For exact file-level provenance, refer to the committed contents, script documentation, manifests, and data documentation within each directory.

@@ -2,10 +2,12 @@
 
 **A reproducible computational framework for phytochemical bioactivity prediction and similarity-supported target inference.**
 
-[![Repository](https://img.shields.io/badge/GitHub-PULP-blue?logo=github)](https://github.com/AnanyaSourav/PULP)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Python%20%7C%20Web%20Application-blueviolet)]()
-
+License: MIT (image)
+Python 3.10+ (image)
+Status: Research Pipeline (image)
+Phytochemistry (image)
+Machine Learning (image)
+Reproducibility (image)
 ## Overview
 
 **PULP (Phytochemical Uncertainty Lookup Portal)** is a computational platform for analyzing phytochemicals using molecular descriptors, three-dimensional quantitative structure–activity relationship (3D-QSAR) features, learned molecular representations, calibrated bioactivity prediction, and similarity-based target/off-target inference.

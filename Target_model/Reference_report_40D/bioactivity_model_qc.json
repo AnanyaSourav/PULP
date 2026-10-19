@@ -1,0 +1,6 @@
+{
+  "model_exists": false,
+  "model_loaded": false,
+  "model_path": "models/final_calibrated_bioactivity_model.joblib",
+  "prediction_status": "MODEL_FILE_NOT_FOUND"
+}

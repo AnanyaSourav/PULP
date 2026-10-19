@@ -1,0 +1,127 @@
+{
+  "script": "03_resolve_unmapped_targets.py",
+  "script_version": "2.0",
+  "created": "2026-09-09 18:02:49",
+  "pulp_directory": "/lustre/home/sklab202/sourav/PULP",
+  "input_files": {
+    "molecules": "/lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/cmaup_molecules_clean.tsv",
+    "associations": "/lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/cmaup_molecule_target_associations_clean.tsv",
+    "targets": "/lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/cmaup_targets_clean.tsv",
+    "script02_resolution": "/lustre/home/sklab202/sourav/PULP/target_model/data/02_target_evidence/target_id_resolution.tsv",
+    "script02_molecule_target": "/lustre/home/sklab202/sourav/PULP/target_model/data/02_target_evidence/molecule_target_summary.tsv"
+  },
+  "statistics": {
+    "association_target_ids": 1143,
+    "target_table_ids": 758,
+    "exact_mapped_target_ids": 758,
+    "exact_unmapped_target_ids": 385,
+    "normalization_only_candidates": 0,
+    "ambiguous_normalization_candidates": 0,
+    "unresolved_target_ids": 385,
+    "total_raw_association_records": 28871,
+    "total_unique_molecule_target_pairs": 13708,
+    "unresolved_raw_association_records": 1924,
+    "unresolved_unique_molecule_target_pairs": 1213,
+    "unresolved_molecules": 714,
+    "annotated_target_ids": 758,
+    "annotated_association_records": 26947
+  },
+  "status": "PASS WITH UNRESOLVED TARGETS RETAINED",
+  "output_files": [
+    {
+      "File": "03_target_resolution_qc_table.tsv",
+      "Size_Bytes": 579,
+      "SHA256": "812240be34eb0de3a6c9d4c1416a3fe1c0252ec2e1d9b22ff31cf110394d07de"
+    },
+    {
+      "File": "cmaup_associations_with_target_resolution.tsv",
+      "Size_Bytes": 6812477,
+      "SHA256": "7103f41d6e2993b915518505cf80ba2520bf0e3889d85c149caafbafbcf371a1"
+    },
+    {
+      "File": "cmaup_targets_conservative_resolution.tsv",
+      "Size_Bytes": 205141,
+      "SHA256": "a7b10c2833111f07d8bfc3474af3b27688d73cecec6aedb7556cb7abc00d12f7"
+    },
+    {
+      "File": "molecule_target_pair_resolution.tsv",
+      "Size_Bytes": 1655130,
+      "SHA256": "7b50df0e6ba90eb6fda7699d525b15ed2f4d4e038528410024af1860eb63bc9e"
+    },
+    {
+      "File": "molecule_target_pair_resolution_distribution.tsv",
+      "Size_Bytes": 113,
+      "SHA256": "367b93f3fef6756803390af610f2b12782a4052e6eb9a6dbf9af8984cd35e637"
+    },
+    {
+      "File": "molecule_target_usability.tsv",
+      "Size_Bytes": 182654,
+      "SHA256": "01ecc826f7d89e5e15b7c2c795b459b5a4fb61cce0c873029b40d89a7281a8fe"
+    },
+    {
+      "File": "molecule_target_usability_distribution.tsv",
+      "Size_Bytes": 163,
+      "SHA256": "9d986670b618a606157a85c7d86390eab01213b32229008792bef68252d9b32f"
+    },
+    {
+      "File": "normalization_match_candidates.tsv",
+      "Size_Bytes": 89,
+      "SHA256": "06cd427162abf4b3f6013a186fd52f9a7f5e4a82aa63fd851a052b33717e13b1"
+    },
+    {
+      "File": "target_annotation_resolution_completeness.tsv",
+      "Size_Bytes": 423,
+      "SHA256": "25a10cb73d1c00522ce8a115e8a3f640c9f36a216599165bd525c86e466aa147"
+    },
+    {
+      "File": "target_id_resolution_final.tsv",
+      "Size_Bytes": 83151,
+      "SHA256": "e344a156fc4e4dd5e90c7a010d62bbcc4dc505b89e3a9604f5597f8659e28605"
+    },
+    {
+      "File": "target_id_resolution_provisional.tsv",
+      "Size_Bytes": 54281,
+      "SHA256": "f34c612670b3eff3e15c22cb9691ea4672bd416e171d4fee7ebee8223ee728df"
+    },
+    {
+      "File": "target_inference_associations_annotated.tsv",
+      "Size_Bytes": 4840147,
+      "SHA256": "e7c0f173e3bddf0e356f4007abaa5afdca61cdbfc161d27805badc8916457d6d"
+    },
+    {
+      "File": "target_inference_reference_annotations.tsv",
+      "Size_Bytes": 112088,
+      "SHA256": "de13091db27fecc70676c40df787a1940b63a906b60217044661b132c550aafc"
+    },
+    {
+      "File": "target_resolution_status_distribution.tsv",
+      "Size_Bytes": 99,
+      "SHA256": "0d3a5eba0ed9d06e2b003d0f1643acd896ce492b1651594cee97491ca25fcad3"
+    },
+    {
+      "File": "unresolved_target_burden.tsv",
+      "Size_Bytes": 366,
+      "SHA256": "d37e231f4fef68ba08f63984c7d2adef4a8d1e08e64ed7400bd569bad8f85e31"
+    },
+    {
+      "File": "unresolved_target_identifier_pattern_distribution.tsv",
+      "Size_Bytes": 52,
+      "SHA256": "c9b9046b09ff70b1421295c346887a52670999046e2f145ef9ec6bc5c8ee806f"
+    },
+    {
+      "File": "unresolved_target_identifier_patterns.tsv",
+      "Size_Bytes": 11158,
+      "SHA256": "5ca490ed45c104d4012bd32e7787e4960aaef21fbf573eee363bb58bfa217188"
+    },
+    {
+      "File": "unresolved_target_source_evidence.tsv",
+      "Size_Bytes": 34665,
+      "SHA256": "2bf7bb03840b4525d305019807cbf7167db14458b4e24adc7c8a047ca30f1daf"
+    },
+    {
+      "File": "unresolved_target_source_scan.tsv",
+      "Size_Bytes": 880,
+      "SHA256": "e6f36bffc9643b212a051cb93756dbd60386a7399674b970af3d39fd573e6584"
+    }
+  ]
+}

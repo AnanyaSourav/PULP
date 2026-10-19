@@ -1,0 +1,4 @@
+representation,features_compared,median_abs_auc_difference,mean_abs_auc_difference,direction_consistent_features,direction_consistency_percent
+Molecular descriptors,218,0.004512495244554132,0.007731207536661727,195,89.44954128440367
+3D-QSAR descriptors,15,0.005900879037240958,0.009260719482640274,14,93.33333333333333
+MoLFormer embeddings,768,0.009186902819993459,0.011134262629433221,696,90.625

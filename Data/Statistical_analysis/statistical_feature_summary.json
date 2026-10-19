@@ -1,0 +1,153 @@
+{
+  "script": "07_statistical_feature_analysis_v1.py",
+  "status": "PASS",
+  "generated": "2026-08-27T17:41:14.455516",
+  "statistical_framework": {
+    "primary_test": "Mann-Whitney U",
+    "secondary_discrimination_metric": "ROC-AUC",
+    "distributional_test": "Kolmogorov-Smirnov",
+    "effect_size": "Cliffs delta = 2*AUC - 1",
+    "multiple_testing": "Benjamini-Hochberg FDR",
+    "fdr_alpha": 0.05,
+    "train_used_for_feature_selection": true,
+    "test_used_for_feature_selection": false,
+    "deterministic": true
+  },
+  "inputs": {
+    "train_split": {
+      "file": "feature_engineering/split/train_80.tsv",
+      "sha256": "f4a419734989d4b6a05a430923f95d82fee9c2fbbffa8b94cfe22ba52edcb3aa",
+      "rows": 48152
+    },
+    "test_split": {
+      "file": "feature_engineering/split/test_20.tsv",
+      "sha256": "a9e6f154aad87e270162f28d530a392df4be2896bacc1893bdd784368fd1b1b3",
+      "rows": 12038
+    },
+    "molecular_train": {
+      "file": "feature_engineering/molecular_descriptors/train_80_molecular_descriptors.tsv",
+      "sha256": "5f057384523098dc07c01f2d8ebb9f3690d6bcce6cc6ed4bdd9c1c0852cd2875"
+    },
+    "molecular_test": {
+      "file": "feature_engineering/molecular_descriptors/test_20_molecular_descriptors.tsv",
+      "sha256": "de814036d5e9c1caf09122ba04b94fc5a5552f2540143958cfff5d495eeea80d"
+    },
+    "3d_train": {
+      "file": "feature_engineering/3d_qsar_descriptors/train_80_3d_qsar_descriptors.tsv",
+      "sha256": "12da0fafcbd07619d12020517f59a81b73277a77b4ed9948ebd877d0f380f039"
+    },
+    "3d_test": {
+      "file": "feature_engineering/3d_qsar_descriptors/test_20_3d_qsar_descriptors.tsv",
+      "sha256": "cdf26c58000f29d50a6a42bbe62ca6a15a2473629eec7e6945452adb5c73e679"
+    },
+    "molformer_train": {
+      "file": "feature_engineering/molformer_embeddings/train_80_molformer_embeddings.npy",
+      "sha256": "3edfeee6338083522453c96b1010307aa3433708cf9f080ead2e35a81a764bb3"
+    },
+    "molformer_test": {
+      "file": "feature_engineering/molformer_embeddings/test_20_molformer_embeddings.npy",
+      "sha256": "293c9abe090c5b05831f432fd24faf8c9bcd6f7b4bc674d5983fe09053145781"
+    }
+  },
+  "class_distribution": {
+    "train": {
+      "active": 2383,
+      "inactive": 45769
+    },
+    "test": {
+      "active": 596,
+      "inactive": 11442
+    }
+  },
+  "representations": {
+    "molecular_train": {
+      "total_features": 218,
+      "testable_features": 213,
+      "fdr_significant": 161,
+      "meaningful_auc": 6,
+      "meaningful_effect": 6,
+      "statistically_and_practically_relevant": 6,
+      "median_auc": 0.4999804066337728,
+      "median_abs_auc_effect": 0.02037134297543941,
+      "maximum_abs_auc_effect": 0.5,
+      "maximum_abs_cliffs_delta": 1.0,
+      "best_feature": "Activity_Status"
+    },
+    "molecular_test": {
+      "total_features": 218,
+      "testable_features": 211,
+      "fdr_significant": 125,
+      "meaningful_auc": 3,
+      "meaningful_effect": 3,
+      "statistically_and_practically_relevant": 3,
+      "median_auc": 0.49991260269183707,
+      "median_abs_auc_effect": 0.020254912725869212,
+      "maximum_abs_auc_effect": 0.5,
+      "maximum_abs_cliffs_delta": 1.0,
+      "best_feature": "Activity_Status"
+    },
+    "3d_train": {
+      "total_features": 15,
+      "testable_features": 15,
+      "fdr_significant": 14,
+      "meaningful_auc": 1,
+      "meaningful_effect": 1,
+      "statistically_and_practically_relevant": 1,
+      "median_auc": 0.46576142112846336,
+      "median_abs_auc_effect": 0.038281942456415474,
+      "maximum_abs_auc_effect": 0.5,
+      "maximum_abs_cliffs_delta": 1.0,
+      "best_feature": "Activity_Status"
+    },
+    "3d_test": {
+      "total_features": 15,
+      "testable_features": 15,
+      "fdr_significant": 12,
+      "meaningful_auc": 1,
+      "meaningful_effect": 1,
+      "statistically_and_practically_relevant": 1,
+      "median_auc": 0.4668998800059997,
+      "median_abs_auc_effect": 0.038586845657717195,
+      "maximum_abs_auc_effect": 0.5,
+      "maximum_abs_cliffs_delta": 1.0,
+      "best_feature": "Activity_Status"
+    },
+    "molformer_train": {
+      "total_features": 768,
+      "testable_features": 768,
+      "fdr_significant": 620,
+      "meaningful_auc": 21,
+      "meaningful_effect": 21,
+      "statistically_and_practically_relevant": 21,
+      "median_auc": 0.5002401379284964,
+      "median_abs_auc_effect": 0.03376804811940043,
+      "maximum_abs_auc_effect": 0.129075865999969,
+      "maximum_abs_cliffs_delta": 0.258151731999938,
+      "best_feature": "molformer_0279"
+    },
+    "molformer_test": {
+      "total_features": 768,
+      "testable_features": 768,
+      "fdr_significant": 418,
+      "meaningful_auc": 5,
+      "meaningful_effect": 5,
+      "statistically_and_practically_relevant": 5,
+      "median_auc": 0.5010095048971821,
+      "median_abs_auc_effect": 0.029396289896284622,
+      "maximum_abs_auc_effect": 0.1100545470649168,
+      "maximum_abs_cliffs_delta": 0.2201090941298336,
+      "best_feature": "molformer_0047"
+    }
+  },
+  "outputs": {
+    "train_molecular": "train_molecular_statistics.tsv",
+    "test_molecular": "test_molecular_replication.tsv",
+    "train_3d": "train_3d_statistics.tsv",
+    "test_3d": "test_3d_replication.tsv",
+    "train_molformer": "train_molformer_statistics.tsv",
+    "test_molformer": "test_molformer_replication.tsv",
+    "representation_summary": "representation_statistical_summary.tsv",
+    "json": "statistical_feature_summary.json",
+    "report": "statistical_feature_analysis_report.txt"
+  }
+}

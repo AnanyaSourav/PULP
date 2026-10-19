@@ -1,0 +1,9 @@
+Metric	Value
+Total raw association records	28871.0
+Total unique molecule-target pairs	13708.0
+Unresolved raw association records	1924.0
+Unresolved unique molecule-target pairs	1213.0
+Unresolved Target_ID values	385.0
+Molecules involving unresolved targets	714.0
+Unresolved unique-pair percentage	8.848847388386345
+Unresolved raw-record percentage	6.6641266322607455

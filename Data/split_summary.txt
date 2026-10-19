@@ -1,0 +1,19 @@
+CMAUP PHYTOCHEMICAL 80:20 TRAIN-TEST SPLIT
+======================================================================
+
+Input dataset: feature_engineering/cleaned_phytochemicals_activity.tsv
+Random state: 42
+Test size: 0.2
+Original molecules: 60,190
+Training molecules: 48,152
+Testing molecules: 12,038
+
+TRAINING SET
+Active: 2,383
+Inactive: 45,769
+Active percentage: 4.949%
+
+TESTING SET
+Active: 596
+Inactive: 11,442
+Active percentage: 4.951%

@@ -1,0 +1,15 @@
+dataset	column	total_rows	missing_n	missing_percent
+targets	Target_ID	758	0	0.0
+targets	Gene_Symbol	758	0	0.0
+targets	Protein_Name	758	0	0.0
+targets	Uniprot_ID	758	0	0.0
+targets	ChEMBL_ID	758	0	0.0
+targets	TTD_ID	758	206	27.176781002638524
+targets	if_DTP	758	0	0.0
+targets	if_CYP	758	0	0.0
+targets	if_therapeutic_target	758	0	0.0
+targets	Target_Class_Level1	758	0	0.0
+targets	Target_Class_Level2	758	0	0.0
+targets	Target_Class_Level3	758	0	0.0
+targets	Target_Class_level_displayed	758	0	0.0
+targets	Target_type	758	0	0.0

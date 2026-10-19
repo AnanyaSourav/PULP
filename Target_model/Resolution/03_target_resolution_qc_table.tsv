@@ -1,0 +1,11 @@
+QC_Test	Status	Observed	Expected
+Association row count preserved	PASS	28871	28871
+All association Target_IDs have resolution rows	PASS	0	0
+No fabricated annotation for unresolved targets	PASS	0	0
+Target annotation lookup has unique resolved IDs	PASS	758	758
+Annotated target reference contains unique Target_IDs	PASS	758	758
+No target-negative labels generated	PASS	NONE	NONE
+Unresolved evidence retained	PASS	1924	>0
+Unique pair count preserved	PASS	13708	13708
+Annotated + unannotated pair counts equal total pairs	PASS	13708	13708
+No association records lost	PASS	28871	28871

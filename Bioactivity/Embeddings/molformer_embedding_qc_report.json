@@ -1,0 +1,78 @@
+{
+  "script": "06_generate_molformer_embeddings_v3.py",
+  "status": "PASS",
+  "generated": "2026-08-27T16:03:58.408874",
+  "model": {
+    "name": "ibm-research/MoLFormer-XL-both-10pct",
+    "embedding_dimension": 768,
+    "pooling": "attention_masked_mean_pooling",
+    "max_length": 512
+  },
+  "environment": {
+    "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+    "pytorch": "2.13.0+cu130",
+    "transformers": "5.14.1",
+    "device": "cpu",
+    "cuda_available": false,
+    "cpu_count": 112
+  },
+  "inputs": {
+    "train": {
+      "file": "feature_engineering/split/train_80.tsv",
+      "rows": 48152,
+      "sha256": "f4a419734989d4b6a05a430923f95d82fee9c2fbbffa8b94cfe22ba52edcb3aa"
+    },
+    "test": {
+      "file": "feature_engineering/split/test_20.tsv",
+      "rows": 12038,
+      "sha256": "a9e6f154aad87e270162f28d530a392df4be2896bacc1893bdd784368fd1b1b3"
+    }
+  },
+  "columns": {
+    "id": "np_id",
+    "smiles": "SMILES",
+    "activity_label": "Activity_Label"
+  },
+  "id_qc": {
+    "train_duplicate_ids": 0,
+    "test_duplicate_ids": 0,
+    "train_test_overlap": 0
+  },
+  "smiles_qc": {
+    "train_missing": 0,
+    "test_missing": 0
+  },
+  "embeddings": {
+    "train_shape": [
+      48152,
+      768
+    ],
+    "test_shape": [
+      12038,
+      768
+    ],
+    "train_dtype": "float32",
+    "test_dtype": "float32",
+    "train_nan": 0,
+    "test_nan": 0,
+    "train_inf": 0,
+    "test_inf": 0
+  },
+  "outputs": {
+    "train_npy": "feature_engineering/molformer_embeddings/train_80_molformer_embeddings.npy",
+    "test_npy": "feature_engineering/molformer_embeddings/test_20_molformer_embeddings.npy",
+    "train_tsv": "feature_engineering/molformer_embeddings/train_80_molformer_embeddings.tsv",
+    "test_tsv": "feature_engineering/molformer_embeddings/test_20_molformer_embeddings.tsv",
+    "sha256": {
+      "train_npy": "3edfeee6338083522453c96b1010307aa3433708cf9f080ead2e35a81a764bb3",
+      "test_npy": "293c9abe090c5b05831f432fd24faf8c9bcd6f7b4bc674d5983fe09053145781",
+      "train_tsv": "8cf65b6341b9dc1905fe745a328c25ab918dfacb3c9598dea588a2edf8f3533b",
+      "test_tsv": "c1503fefb4da78082694de76f8a1035966b82821241b3469a362e474a89ed594"
+    }
+  },
+  "runtime": {
+    "train_minutes": 6.537,
+    "test_minutes": 1.607,
+    "total_minutes": 8.576
+  }
+}

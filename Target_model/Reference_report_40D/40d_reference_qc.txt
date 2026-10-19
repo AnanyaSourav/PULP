@@ -1,0 +1,46 @@
+SCRIPT 04 — CMAUP 40D REFERENCE REPRESENTATION — CORRECTED
+==============================================================================
+PULP directory : /lustre/home/sklab202/sourav/PULP
+Output directory : /lustre/home/sklab202/sourav/PULP/target_model/feature_space/04_cmaup_40d_reference
+Start time : 2026-09-10T11:31:35.391010+05:30
+Finish time : 2026-09-10T11:31:48.633350+05:30
+
+CORE COUNTS
+  CMAUP records                  : 60,222
+  Model-1 TRAIN                  : 48,152
+  Model-1 TEST                   : 12,038
+  Model-1 reference              : 60,190
+  Excluded CMAUP records         : 32
+
+FEATURE COMPOSITION
+  Molecular                      : 10
+  3D-QSAR                        : 9
+  MoLFormer                      : 21
+  TOTAL                          : 40
+
+CRITICAL CORRECTION
+  Raw molecular/3D descriptor NaNs are NOT fatal.
+  Exact Model-1 post-preprocessing feature tables are reused.
+  Model-1 preprocessing used TRAIN-ONLY MEDIAN IMPUTATION.
+  Script 04 performs NO new imputation.
+  Script 04 performs NO new descriptor generation.
+
+EXCLUSION POLICY
+  32 records outside the authoritative Model-1 universe
+  receive NO 40D feature vector.
+  They are retained only in the exclusion/QC table.
+
+FINAL QC
+  Reference IDs = split union    : PASS
+  Train/test separation           : PASS
+  40 feature identities           : PASS
+  40 feature order                : PASS
+  Final 40D NaN/Inf QC            : PASS
+  Excluded records feature-made   : NO
+  New imputation                  : NO
+  New model training              : NO
+
+BIOACTIVITY PROBABILITY
+  Status : MODEL_FILE_NOT_FOUND
+
+FINAL STATUS: PASS

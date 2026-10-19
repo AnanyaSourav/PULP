@@ -1,0 +1,25 @@
+section	metric	value	dataset
+Model	Selected model	extra_trees	development
+Model	Number of predictors	40	development
+Model	Molecular predictors	10	development
+Model	3D-QSAR predictors	9	development
+Model	MoLFormer predictors	21	development
+Threshold	Locked threshold	0.046126477738876355	training OOF
+Discrimination	ROC-AUC	0.7998716022096856	independent test
+Discrimination	PR-AUC	0.23752819854361504	independent test
+Calibration	Brier score	0.04250471979120277	independent test
+Calibration	Log loss	0.16714612600997555	independent test
+Calibration	ECE	0.0035132391129627898	independent test
+Calibration	MCE	0.27181720638325074	independent test
+Classification	Sensitivity	0.6963087248322147	independent test
+Classification	Specificity	0.7690963118335955	independent test
+Classification	Precision	0.13575400719659797	independent test
+Classification	NPV	0.9798463422781427	independent test
+Classification	F1	0.2272105119080208	independent test
+Classification	MCC	0.23195039315739946	independent test
+Classification	Balanced accuracy	0.7327025183329051	independent test
+Confusion matrix	TP	415	independent test
+Confusion matrix	FP	2642	independent test
+Confusion matrix	TN	8800	independent test
+Confusion matrix	FN	181	independent test
+Screening utility	Screening NNT	7.366265060240964	independent test

@@ -1,0 +1,3 @@
+split	n_molecules	n_molecules_with_known_target_association	target_association_coverage_percent
+train	48152	2796	5.806612394085396
+test	12038	697	5.789998338594451

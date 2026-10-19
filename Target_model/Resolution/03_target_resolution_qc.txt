@@ -1,0 +1,200 @@
+================================================================================
+SCRIPT 03 — TARGET ID RESOLUTION & EVIDENCE CLEANING
+================================================================================
+PULP directory : /lustre/home/sklab202/sourav/PULP
+Script 01 dir  : /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit
+Script 02 dir  : /lustre/home/sklab202/sourav/PULP/target_model/data/02_target_evidence
+Output dir     : /lustre/home/sklab202/sourav/PULP/target_model/data/03_target_resolution
+Start time     : 2026-09-09 15:35:48
+
+================================================================================
+1. INPUT FILE CHECK
+================================================================================
+FOUND      | /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/cmaup_molecules_clean.tsv
+FOUND      | /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/cmaup_molecule_target_associations_clean.tsv
+FOUND      | /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/cmaup_targets_clean.tsv
+FOUND      | /lustre/home/sklab202/sourav/PULP/target_model/data/02_target_evidence/target_id_resolution.tsv
+FOUND      | /lustre/home/sklab202/sourav/PULP/target_model/data/02_target_evidence/molecule_target_summary.tsv
+
+================================================================================
+2. LOADING SCRIPT 01/02 TABLES
+================================================================================
+Molecules loaded              : 60,222
+Associations loaded           : 28,871
+Targets loaded                : 758
+Script 02 target resolution   : 1,143
+Script 02 molecule-target     : 13,708
+
+================================================================================
+3. SCHEMA VALIDATION
+================================================================================
+Association schema : PASS
+Target schema       : PASS
+Script 02 resolution: PASS
+
+================================================================================
+4. TARGET TABLE UNIQUENESS QC
+================================================================================
+Target rows                      : 758
+Unique Target_ID values          : 758
+Duplicate Target_ID rows         : 0
+Duplicate Target_ID values      : 0
+Target_ID uniqueness             : PASS
+
+================================================================================
+5. TARGET ID INVENTORY
+================================================================================
+Unique Target_IDs in associations : 1,143
+Unique Target_IDs in Targets.txt   : 758
+Exact mapped IDs                  : 758
+Exact unresolved IDs              : 385
+
+================================================================================
+6. CONSERVATIVE NORMALIZATION MATCH
+================================================================================
+Normalization-only candidates    : 0
+Ambiguous normalization matches  : 0
+Normalization matching is descriptive and conservative only.
+
+================================================================================
+7. PROVISIONAL TARGET RESOLUTION MAP
+================================================================================
+Provisional resolution rows       : 1,143
+
+================================================================================
+8. SEARCHING OTHER CMAUP FILES
+================================================================================
+Unresolved Target_IDs to investigate : 385
+
+CMAUPv2.0_download_Ingredients_All.txt                                      | IDs found =    0 | occurrences = 0
+CMAUPv2.0_download_Ingredient_Target_Associations_ActivityValues_References.txt | IDs found =  385 | occurrences = 1,924
+CMAUPv2.0_download_Targets.txt                                              | IDs found =    0 | occurrences = 0
+CMAUPv2.0_download_Ingredients_onlyActive.txt                               | IDs found =    0 | occurrences = 0
+CMAUPv2.0_download_Human_Oral_Bioavailability_information_of_Ingredients_All.txt | IDs found =    0 | occurrences = 0
+CMAUPv2.0_download_Plant_Clinical_Trials_Associations.txt                   | IDs found =    0 | occurrences = 0
+CMAUPv2.0_download_Plant_Human_Disease_Associations.txt                     | IDs found =    0 | occurrences = 0
+CMAUPv2.0_download_Plant_Ingredient_Associations_allIngredients.txt         | IDs found =    0 | occurrences = 0
+CMAUPv2.0_download_Plant_Ingredient_Associations_onlyActiveIngredients.txt  | IDs found =    0 | occurrences = 0
+CMAUPv2.0_download_Plant_molecular_targets_overlapping_with_DEGs.txt        | IDs found =    0 | occurrences = 0
+CMAUPv2.0_download_Plants.txt                                               | IDs found =    0 | occurrences = 0
+Download_Readme.txt                                                         | IDs found =    0 | occurrences = 0
+
+================================================================================
+9. BUILDING TARGET-ID SOURCE EVIDENCE TABLE
+================================================================================
+Target-ID/source evidence rows     : 385
+
+================================================================================
+10. FINAL CONSERVATIVE STATUS CLASSIFICATION
+================================================================================
+MAPPED_IN_TARGET_TABLE                             : 758
+UNMAPPED_BUT_FOUND_IN_OTHER_CMAUP_FILE             : 385
+
+================================================================================
+11. BUILDING TARGET ANNOTATION LOOKUP
+================================================================================
+Unique target annotation records : 758
+Target annotation lookup         : MANY-TO-ONE SAFE
+
+================================================================================
+12. BUILDING CONSERVATIVE TARGET ANNOTATION TABLE
+================================================================================
+Target annotation table rows       : 1,143
+Targets with annotations            : 758
+Targets without annotations         : 385
+
+================================================================================
+13. BUILDING ASSOCIATION-LEVEL RESOLUTION TABLE
+================================================================================
+Association records retained       : 28,871
+Original association records       : 28,871
+Annotated association records      : 26,947
+Unannotated association records    : 1,924
+
+================================================================================
+14. MOLECULE-TARGET PAIR RESOLUTION
+================================================================================
+MAPPED_IN_TARGET_TABLE                             : 12,495
+UNMAPPED_BUT_FOUND_IN_OTHER_CMAUP_FILE             : 1,213
+
+================================================================================
+15. MOLECULE-LEVEL TARGET EVIDENCE USABILITY
+================================================================================
+ANNOTATED_TARGET_EVIDENCE_AVAILABLE                     : 2,782
+MIXED_ANNOTATED_AND_UNANNOTATED_TARGETS                 : 474
+UNANNOTATED_TARGET_EVIDENCE_ONLY                        : 240
+
+================================================================================
+16. TARGET HIERARCHY / ANNOTATION COMPLETENESS
+================================================================================
+Target_Class_Level1            | available = 758 | missing = 385 | complete = 66.317%
+Target_Class_Level2            | available = 758 | missing = 385 | complete = 66.317%
+Target_Class_Level3            | available = 758 | missing = 385 | complete = 66.317%
+Protein_Name                   | available = 758 | missing = 385 | complete = 66.317%
+Gene_Symbol                    | available = 758 | missing = 385 | complete = 66.317%
+Uniprot_ID                     | available = 758 | missing = 385 | complete = 66.317%
+ChEMBL_ID                      | available = 758 | missing = 385 | complete = 66.317%
+TTD_ID                         | available = 552 | missing = 591 | complete = 48.294%
+Target_type                    | available = 758 | missing = 385 | complete = 66.317%
+
+================================================================================
+17. UNRESOLVED TARGET IDENTIFIER PATTERN ANALYSIS
+================================================================================
+Identifier pattern classification is descriptive only.
+Recognizable ID syntax is NOT treated as evidence of target identity.
+
+================================================================================
+18. UNRESOLVED TARGET BURDEN
+================================================================================
+Total raw associations            : 28,871
+Total unique molecule-target pairs: 13,708
+Unresolved raw association records : 1,924
+Unresolved unique pairs            : 1,213
+Unresolved Target_IDs              : 385
+Molecules involved                : 714
+Unresolved pair percentage         : 8.8488%
+Unresolved record percentage       : 6.6641%
+
+================================================================================
+19. BUILDING TARGET-INFERENCE REFERENCE TABLE
+================================================================================
+Target IDs available for annotated inference : 758
+
+================================================================================
+20. BUILDING ANNOTATED TARGET-INFERENCE ASSOCIATIONS
+================================================================================
+Annotated association records available : 26,947
+
+================================================================================
+21. FINAL QC
+================================================================================
+PASS  | Association row count preserved | observed = 28871 | expected = 28871
+PASS  | All association Target_IDs have resolution rows | observed = 0 | expected = 0
+PASS  | No fabricated annotation for unresolved targets | observed = 0 | expected = 0
+PASS  | Target annotation lookup has unique resolved IDs | observed = 758 | expected = 758
+PASS  | Annotated target reference contains unique Target_IDs | observed = 758 | expected = 758
+PASS  | No target-negative labels generated | observed = NONE | expected = NONE
+PASS  | Unresolved evidence retained | observed = 1924 | expected = >0
+PASS  | Unique pair count preserved | observed = 13708 | expected = 13708
+PASS  | Annotated + unannotated pair counts equal total pairs | observed = 13708 | expected = 13708
+PASS  | No association records lost | observed = 28871 | expected = 28871
+
+================================================================================
+22. FINAL STATUS
+================================================================================
+STATUS: PASS WITH UNRESOLVED TARGETS RETAINED
+
+Resolution interpretation:
+1. Exact matches to Targets.txt are fully annotated.
+2. Normalization-only matches are reported separately.
+3. IDs merely found in another CMAUP file are NOT automatically considered biologically resolved.
+4. Unresolved Target_IDs remain in the association evidence.
+5. No protein names, gene symbols, or target classes were fabricated.
+6. No target-negative labels were generated.
+7. The target-inference reference contains only targets with actual CMAUP annotation.
+8. Association row counts are preserved.
+
+================================================================================
+23. MANIFEST
+================================================================================
+Manifest written: /lustre/home/sklab202/sourav/PULP/target_model/data/03_target_resolution/03_target_resolution_manifest.json

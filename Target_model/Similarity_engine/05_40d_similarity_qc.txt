@@ -1,0 +1,38 @@
+==============================================================================
+SCRIPT 05 — CMAUP 40D SIMILARITY REFERENCE / INDEX QC
+==============================================================================
+Start time : 2026-09-10T11:52:51.449400+05:30
+Finish time: 2026-09-10T11:53:22.876607+05:30
+Duration   : 31.427 seconds
+
+Reference rows : 60,190
+TRAIN rows    : 48,152
+TEST rows     : 12,038
+Feature count : 40
+
+Primary representation:
+  Exact Script-04 40D Model-1 feature space
+  TRAIN-ONLY z-standardization
+  Cosine similarity
+
+Independent comparator:
+  Morgan/ECFP4 radius=2, 2048 bits
+  Tanimoto similarity
+
+40D non-finite values : 0
+Standardized non-finite values : 0
+Zero-variance features : 0
+Zero-norm rows : 0
+Morgan invalid fingerprints : 0
+Morgan self similarity min : 1.000000000000
+Morgan self similarity max : 1.000000000000
+Cosine self-retrieval sample : PASS
+
+Important:
+  No target annotations were used.
+  No activity labels were used.
+  No target model was trained.
+  No new imputation was performed.
+  No new 40D descriptors or embeddings were generated.
+
+FINAL STATUS : PASS

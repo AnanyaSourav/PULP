@@ -1,0 +1,69 @@
+{
+  "script": "08_publication_statistical_validation_v1.py",
+  "status": "PASS",
+  "started": "2026-08-29T11:34:48.141722",
+  "finished": "2026-08-29T12:13:34.696785",
+  "methodological_policy": {
+    "train_drives_screening": true,
+    "test_used_for_feature_selection": false,
+    "test_orientation_fixed_from_train": true,
+    "models_trained": false,
+    "features_removed": false,
+    "target_leakage_exclusion": true
+  },
+  "randomness": {
+    "seed": 42,
+    "bootstrap_replicates": 1000,
+    "permutation_replicates": 1000,
+    "bootstrap_confidence": 0.95
+  },
+  "statistical_framework": {
+    "group_test": "Mann-Whitney U, two-sided",
+    "multiple_testing": "Benjamini-Hochberg FDR",
+    "fdr_alpha": 0.05,
+    "distribution_test": "Kolmogorov-Smirnov",
+    "effect_size": "Cliff's delta derived from raw ROC-AUC",
+    "discrimination": "ROC-AUC",
+    "imbalance_sensitive_metric": "Average Precision / PR-AUC",
+    "train_shortlist_condition": "FDR <= 0.05 AND (|delta| >= 0.2 OR oriented AUC >= 0.6)",
+    "confidence_intervals": "stratified percentile bootstrap",
+    "empirical_validation": "label permutation on TRAIN shortlist"
+  },
+  "class_distribution": {
+    "train": {
+      "active": 2383,
+      "inactive": 45769,
+      "active_fraction": 0.049489117793653434
+    },
+    "test": {
+      "active": 596,
+      "inactive": 11442,
+      "active_fraction": 0.04950988536301711
+    }
+  },
+  "predictor_inventory": {
+    "final_handcrafted_total": 182,
+    "molecular": 173,
+    "3d": 9,
+    "molformer": 768,
+    "excluded_columns": 2
+  },
+  "input_sha256": {
+    "feature_engineering/split/train_80.tsv": "f4a419734989d4b6a05a430923f95d82fee9c2fbbffa8b94cfe22ba52edcb3aa",
+    "feature_engineering/split/test_20.tsv": "a9e6f154aad87e270162f28d530a392df4be2896bacc1893bdd784368fd1b1b3",
+    "feature_engineering/final_228_features/train_80_final_228_features.tsv": "fe501c1f84ab92e360f9067ffe1b1bfbd92ca778b609dc6c2fb5e065f0f5295e",
+    "feature_engineering/final_228_features/test_20_final_228_features.tsv": "6d3adf128f3f69c10714dc7aba1661184a6dfc340a4fafebb9c34862eddd6cd3",
+    "feature_engineering/molformer_embeddings/train_80_molformer_embeddings.npy": "3edfeee6338083522453c96b1010307aa3433708cf9f080ead2e35a81a764bb3",
+    "feature_engineering/molformer_embeddings/test_20_molformer_embeddings.npy": "293c9abe090c5b05831f432fd24faf8c9bcd6f7b4bc674d5983fe09053145781"
+  },
+  "outputs": {
+    "excluded_columns": "excluded_columns.tsv",
+    "all_train": "all_train_statistics.tsv",
+    "all_test": "all_test_replication.tsv",
+    "replicated": "replicated_feature_statistics.tsv",
+    "shortlist": "shortlisted_features.tsv",
+    "bootstrap_permutation": "shortlisted_bootstrap_permutation.tsv",
+    "representation_summary": "representation_summary.tsv",
+    "effect_stability": "effect_stability_summary.tsv"
+  }
+}

@@ -1,0 +1,51 @@
+name: phyto
+
+channels:
+
+* conda-forge
+* pytorch
+* defaults
+
+dependencies:
+
+# Python runtime
+
+* python=3.10
+* pip
+
+# Scientific computing
+
+* numpy=1.26.4
+* pandas=2.2.3
+* scipy=1.14.1
+
+# Cheminformatics and molecular feature generation
+
+* rdkit=2024.09.6
+
+# Machine learning and model serialization
+
+* scikit-learn=1.5.2
+* joblib=1.4.2
+
+# Utilities
+
+* tqdm
+* requests
+* pyyaml
+
+# PyTorch: CPU-compatible baseline
+
+* pytorch=2.5.1
+* cpuonly
+
+# Hugging Face / MoLFormer dependencies
+
+* pip:
+
+  * transformers==4.46.3
+  * tokenizers==0.20.3
+  * huggingface-hub==0.26.2
+  * safetensors==0.4.5
+  * sentencepiece
+

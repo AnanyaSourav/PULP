@@ -1,0 +1,10 @@
+field	total_targets	nonmissing	missing	nonmissing_percent
+Gene_Symbol	758	758	0	100.0
+Protein_Name	758	758	0	100.0
+Uniprot_ID	758	758	0	100.0
+ChEMBL_ID	758	758	0	100.0
+TTD_ID	758	552	206	72.82321899736148
+Target_Class_Level1	758	758	0	100.0
+Target_Class_Level2	758	758	0	100.0
+Target_Class_Level3	758	758	0	100.0
+Target_type	758	758	0	100.0

@@ -1,0 +1,185 @@
+================================================================================
+SCRIPT 02 — TARGET EVIDENCE RESOLUTION
+================================================================================
+PULP directory : /lustre/home/sklab202/sourav/PULP
+Script 01 dir  : /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit
+Output dir     : /lustre/home/sklab202/sourav/PULP/target_model/data/02_target_evidence
+
+Checking Script 01 output files...
+All required files found.
+
+Loading Script 01 cleaned tables...
+Molecules loaded    : 60,222
+Associations loaded : 28,871
+Targets loaded      : 758
+
+Exact Script 01 schema validation: PASS
+
+================================================================================
+9. BASIC ID QC
+================================================================================
+Unique molecule np_id values          : 60,222
+Unique association Ingredient_IDs     : 3,496
+Unique association Target_IDs         : 1,143
+Unique target annotation Target_IDs   : 758
+
+================================================================================
+10. INGREDIENT_ID -> np_id MAPPING
+================================================================================
+Association Ingredient_IDs mapped: 3,496
+Unmapped association Ingredient_IDs: 0
+Ingredient_ID -> np_id mapping: PASS
+
+================================================================================
+11. TARGET ID RESOLUTION
+================================================================================
+Mapped target IDs   : 758
+Unmapped target IDs : 385
+
+================================================================================
+12. UNMAPPED TARGET ANALYSIS
+================================================================================
+Association records involving unmapped targets: 1,924
+Unmapped target IDs investigated: 385
+
+================================================================================
+13. EXACT DUPLICATE ASSOCIATION ANALYSIS
+================================================================================
+Raw association records          : 28,871
+Exact duplicate extra rows       : 1,230
+Exact duplicate groups           : 1,198
+
+================================================================================
+14. UNIQUE MOLECULE-TARGET PAIRS
+================================================================================
+Unique molecule-target pairs: 13,708
+
+================================================================================
+15. BINARY MOLECULE × TARGET MATRIX
+================================================================================
+Matrix rows    : 60,222
+Matrix targets : 1,143
+
+================================================================================
+16. EVIDENCE COUNT MATRIX
+================================================================================
+Evidence matrix rows    : 60,222
+Evidence matrix targets : 1,143
+
+================================================================================
+17. INDEPENDENT REFERENCE COUNT MATRIX
+================================================================================
+Reference matrix rows    : 60,222
+Reference matrix targets : 1,143
+
+================================================================================
+18. TARGET HIERARCHY TABLE
+================================================================================
+Target hierarchy rows: 1,143
+
+================================================================================
+19. MOLECULE-TARGET SUMMARY
+================================================================================
+Molecule-target summary rows: 13,708
+
+================================================================================
+20. TARGET SUPPORT STATISTICS
+================================================================================
+Targets with molecule evidence: 1,143
+
+================================================================================
+21. MOLECULE SUPPORT STATISTICS
+================================================================================
+Molecules with target evidence: 3,496
+
+================================================================================
+22. ACTIVITY EVIDENCE SUMMARY
+================================================================================
+
+================================================================================
+23. MOLECULE-TARGET REFERENCE SUPPORT
+================================================================================
+
+================================================================================
+24. TARGET SUPPORT DISTRIBUTION
+================================================================================
+
+Targets supported by <=3 molecules: 687
+Targets supported by >=10 molecules: 218
+
+================================================================================
+26. TARGET ANNOTATION COMPLETENESS
+================================================================================
+
+================================================================================
+27. CONSISTENCY QC
+================================================================================
+PASS   | Molecule np_id unique | duplicates = 0
+PASS   | Target_ID unique | duplicates = 0
+PASS   | All association Ingredient_IDs mapped | unmapped = 0
+PASS   | Unique pair count consistent | expected = 13,708; summary = 13,708
+PASS   | Evidence count conserves raw records | evidence total = 28,871; raw records = 28,871
+PASS   | Binary matrix contains only 0 and 1 | values = [0, 1]
+PASS   | Binary positive count consistent | binary positives = 13,708; unique pairs = 13,708
+PASS   | Evidence matrix non-negative | All evidence counts >= 0
+PASS   | Unmapped target investigation complete | investigated = 385; unmapped target IDs = 385
+PASS   | Duplicate analysis completed | duplicate groups = 1,198; extra rows = 1,230
+PASS   | No target-negative assumption introduced | Only observed molecule-target associations are represented
+
+================================================================================
+28. GLOBAL SUMMARY
+================================================================================
+Raw association records        : 28,871
+Exact duplicate extra rows     : 1,230
+Unique molecule-target pairs   : 13,708
+Mapped molecule-target pairs   : 12,495
+Unmapped molecule-target pairs : 1,213
+Molecules with target evidence : 3,496
+Targets with molecule evidence : 1,143
+Mean targets / molecule        : 3.9211
+Median targets / molecule      : 2.0000
+Maximum targets / molecule     : 328
+Mean molecules / target        : 11.9930
+Median molecules / target      : 3.0000
+Maximum molecules / target     : 473
+
+================================================================================
+29. UNMAPPED TARGET BURDEN
+================================================================================
+Unmapped target IDs              : 385
+Unmapped-target evidence records : 1,924
+Unmapped molecule-target pairs   : 1,213
+Molecules involving them        : 714
+Fraction of raw associations     : 6.6641%
+
+================================================================================
+30. DUPLICATE BURDEN
+================================================================================
+Exact duplicate extra rows       : 1,230
+Exact duplicate fraction         : 0.042603
+Exact duplicate percentage       : 4.2603%
+Duplicates were NOT silently removed.
+Binary matrix collapses repeated records to association presence.
+Evidence-count matrix preserves record multiplicity.
+Reference-count matrix counts unique Reference_ID values.
+
+================================================================================
+31. FILE MANIFEST
+================================================================================
+Manifest written: /lustre/home/sklab202/sourav/PULP/target_model/data/02_target_evidence/02_target_evidence_manifest.json
+
+================================================================================
+32. FINAL STATUS
+================================================================================
+STATUS: PASS WITH WARNINGS
+Reason: 385 Target_ID values remain unresolved against Targets.txt.
+
+Important:
+Unmapped targets have NOT been discarded.
+Duplicate evidence has NOT been silently discarded.
+No target-negative labels were generated.
+No similarity or target prediction was performed.
+
+================================================================================
+SCRIPT 02 COMPLETE
+================================================================================

@@ -1,0 +1,4 @@
+representation	total_features	testable_features	fdr_significant	meaningful_auc	meaningful_effect	statistically_and_practically_relevant	median_auc	median_abs_auc_effect	maximum_abs_auc_effect	maximum_abs_cliffs_delta	best_feature
+molecular	218	213	161	6	6	6	0.4999804066337728	0.02037134297543941	0.5	1.0	Activity_Status
+3d	15	15	14	1	1	1	0.46576142112846336	0.038281942456415474	0.5	1.0	Activity_Status
+molformer	768	768	620	21	21	21	0.5002401379284964	0.03376804811940043	0.129075865999969	0.258151731999938	molformer_0279

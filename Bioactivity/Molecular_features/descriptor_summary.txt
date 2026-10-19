@@ -1,0 +1,26 @@
+RDKit MOLECULAR DESCRIPTOR GENERATION SUMMARY
+======================================================================
+
+Training input: feature_engineering/split/train_80.tsv
+Testing input: feature_engineering/split/test_20.tsv
+
+Training molecules: 48,152
+Testing molecules: 12,038
+
+Initial RDKit descriptors: 217
+Usable descriptors: 217
+Completely invalid descriptors removed: 0
+
+Descriptors with missing values:
+MaxPartialCharge	train=17	test=10
+MinPartialCharge	train=17	test=10
+MaxAbsPartialCharge	train=17	test=10
+MinAbsPartialCharge	train=17	test=10
+BCUT2D_MWHI	train=123	test=37
+BCUT2D_MWLOW	train=123	test=37
+BCUT2D_CHGHI	train=123	test=37
+BCUT2D_CHGLO	train=123	test=37
+BCUT2D_LOGPHI	train=123	test=37
+BCUT2D_LOGPLOW	train=123	test=37
+BCUT2D_MRHI	train=123	test=37
+BCUT2D_MRLOW	train=123	test=37

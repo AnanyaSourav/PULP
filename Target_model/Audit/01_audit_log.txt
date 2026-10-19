@@ -1,0 +1,241 @@
+================================================================================
+CMAUP TARGET / OFF-TARGET DATA AUDIT
+================================================================================
+Timestamp: 2026-09-08T16:04:47.638731
+PULP directory: /lustre/home/sklab202/sourav/PULP
+Output directory: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit
+
+================================================================================
+FILE AVAILABILITY
+================================================================================
+Ingredients_All                     FOUND
+Ingredient_Target_Associations      FOUND
+Targets                             FOUND
+Ingredients_onlyActive              FOUND
+Human_Oral_Bioavailability          FOUND
+Model1_train                        FOUND
+Model1_test                         FOUND
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/file_availability.tsv
+
+================================================================================
+READ MAIN CMAUP DATASETS
+================================================================================
+
+Reading:
+  /lustre/home/sklab202/sourav/PULP/CMAUPv2.0_download_Ingredients_All.txt
+  Rows    : 60,222
+  Columns : 17
+  Headers : ['np_id', 'pref_name', 'iupac_name', 'chembl_id', 'pubchem_cid', 'MW', 'LogS', 'LogD', 'LogP', 'nHA', 'nHD', 'TPSA', 'nRot', 'nRing', 'InChI', 'InChIKey', 'SMILES']
+
+Reading:
+  /lustre/home/sklab202/sourav/PULP/CMAUPv2.0_download_Ingredient_Target_Associations_ActivityValues_References.txt
+  Rows    : 28,871
+  Columns : 8
+  Headers : ['Ingredient_ID', 'Target_ID', 'Activity_Type', 'Activity_Relationship', 'Activity_Value', 'Activity_Unit', 'Reference_ID', 'Reference_ID_Type']
+
+Reading:
+  /lustre/home/sklab202/sourav/PULP/CMAUPv2.0_download_Targets.txt
+  Rows    : 758
+  Columns : 14
+  Headers : ['Target_ID', 'Gene_Symbol', 'Protein_Name', 'Uniprot_ID', 'ChEMBL_ID', 'TTD_ID', 'if_DTP', 'if_CYP', 'if_therapeutic_target', 'Target_Class_Level1', 'Target_Class_Level2', 'Target_Class_Level3', 'Target_Class_level_displayed', 'Target_type']
+
+Required-column validation: PASS
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/dataset_sizes.tsv
+
+================================================================================
+MISSING VALUE ANALYSIS
+================================================================================
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/molecules_missing_values.tsv
+
+molecules
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/associations_missing_values.tsv
+
+associations
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/targets_missing_values.tsv
+
+targets
+  TTD_ID                                    206 (27.177%)
+
+================================================================================
+MOLECULE ID QC
+================================================================================
+Total rows             : 60,222
+Unique np_id            : 60,222
+Missing np_id           : 0
+Duplicated np_id rows   : 0
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/molecule_id_qc.tsv
+
+================================================================================
+SMILES QC
+================================================================================
+Missing SMILES          : 0
+Empty SMILES            : 0
+Unique SMILES strings   : 60,034
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/smiles_qc.tsv
+
+================================================================================
+ASSOCIATION QC
+================================================================================
+Association records          : 28,871
+Exact duplicate rows         : 2,428
+Duplicate evidence-key rows  : 2,428
+Unique associated molecules  : 3,496
+Unique associated targets    : 1,143
+Unique references            : 11,608
+
+================================================================================
+TARGET ID QC
+================================================================================
+Target rows             : 758
+Unique Target_ID        : 758
+Missing Target_ID       : 0
+Duplicated Target_ID    : 0
+
+================================================================================
+ASSOCIATION → MOLECULE MAPPING
+================================================================================
+Association molecule IDs : 3,496
+Mapped molecules          : 3,496
+Unmapped molecules        : 0
+
+================================================================================
+ASSOCIATION → TARGET MAPPING
+================================================================================
+Association Target IDs : 1,143
+Mapped targets          : 758
+Unmapped targets        : 385
+
+================================================================================
+ACTIVITY TYPE DISTRIBUTION
+================================================================================
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/activity_type_distribution.tsv
+IC50                                     12,874   44.591%
+Potency                                   8,387   29.050%
+Ki                                        4,812   16.667%
+EC50                                      2,182    7.558%
+AC50                                        582    2.016%
+ED50                                         25    0.087%
+GI50                                          9    0.031%
+
+================================================================================
+ACTIVITY RELATIONSHIP DISTRIBUTION
+================================================================================
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/activity_relationship_distribution.tsv
+=                                        28,714   99.456%
+<                                           154    0.533%
+<=                                            3    0.010%
+
+================================================================================
+ACTIVITY UNIT DISTRIBUTION
+================================================================================
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/activity_unit_distribution.tsv
+nM                                       28,871  100.000%
+
+================================================================================
+TARGET ANNOTATION COMPLETENESS
+================================================================================
+Gene_Symbol                    complete=       758 missing=         0
+Protein_Name                   complete=       758 missing=         0
+Uniprot_ID                     complete=       758 missing=         0
+ChEMBL_ID                      complete=       758 missing=         0
+TTD_ID                         complete=       552 missing=       206
+Target_Class_Level1            complete=       758 missing=         0
+Target_Class_Level2            complete=       758 missing=         0
+Target_Class_Level3            complete=       758 missing=         0
+Target_type                    complete=       758 missing=         0
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/target_annotation_completeness.tsv
+
+================================================================================
+TARGET HIERARCHY CARDINALITY
+================================================================================
+Target_Class_Level1           : 13
+Target_Class_Level2           : 27
+Target_Class_Level3           : 53
+Target_type                   : 3
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/target_hierarchy_cardinality.tsv
+
+================================================================================
+BUILD CLEAN MOLECULE TABLE
+================================================================================
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/cmaup_molecules_clean.tsv
+Clean molecules: 60,222
+
+================================================================================
+BUILD CLEAN MOLECULE-TARGET ASSOCIATION TABLE
+================================================================================
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/cmaup_molecule_target_associations_clean.tsv
+Clean association records: 28,871
+
+================================================================================
+BUILD CLEAN TARGET TABLE
+================================================================================
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/cmaup_targets_clean.tsv
+Clean targets: 758
+
+================================================================================
+BUILD MASTER MOLECULE-TARGET EVIDENCE TABLE
+================================================================================
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/cmaup_molecule_target_master_evidence.tsv
+Master evidence records: 28,871
+
+================================================================================
+MASTER MAPPING QC
+================================================================================
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/master_mapping_qc.tsv
+
+================================================================================
+TARGETS PER MOLECULE
+================================================================================
+Molecules with ≥1 target: 3,496
+Mean targets/molecule: 3.921
+Median targets/molecule: 2.000
+Maximum targets/molecule: 328
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/targets_per_molecule.tsv
+
+================================================================================
+MOLECULES PER TARGET
+================================================================================
+Targets with ≥1 molecule: 1,143
+Mean molecules/target: 11.993
+Median molecules/target: 3.000
+Maximum molecules/target: 473
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/molecules_per_target.tsv
+
+================================================================================
+REFERENCE SUPPORT PER MOLECULE-TARGET PAIR
+================================================================================
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/molecule_target_reference_support.tsv
+
+================================================================================
+BIOACTIVITY TRAIN/TEST TARGET COVERAGE
+================================================================================
+train      molecules=48,152 target_annotated=2,796 coverage=5.807%
+test       molecules=12,038 target_annotated=697 coverage=5.790%
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/bioactivity_split_target_coverage.tsv
+
+================================================================================
+ASSOCIATED TARGET CLASS DISTRIBUTIONS
+================================================================================
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/target_class_level1_distribution.tsv
+Target_Class_Level1: 13 categories
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/target_class_level2_distribution.tsv
+Target_Class_Level2: 27 categories
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/target_class_level3_distribution.tsv
+Target_Class_Level3: 53 categories
+
+================================================================================
+TARGET SUPPORT DISTRIBUTION
+================================================================================
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/target_support_distribution.tsv
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/low_support_targets_n_le_3.tsv
+Wrote: /lustre/home/sklab202/sourav/PULP/target_model/data/01_cmaup_audit/high_support_targets_n_ge_10.tsv
+
+================================================================================
+DATASET MANIFEST
+================================================================================
+
+================================================================================
+FINAL QC
+================================================================================
+OVERALL QC STATUS: PASS WITH WARNINGS
+WARNING: Unmapped association target IDs: 385
